@@ -43,6 +43,10 @@ footer {
     margin: 30px;
 }
 
+#work2 {
+    margin: 30px;
+}
+
 .logo {
     float: right;
     border-radius: 50%;
@@ -72,6 +76,10 @@ ul {
 a {
     text-decoration: none;
     list-style-type: none;
+}
+
+.social-media {
+    font-size: 55px;
 }
 
 .second-row {
