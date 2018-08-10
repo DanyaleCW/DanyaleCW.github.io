@@ -1,50 +1,22 @@
-/* Headers:
-font-family: 'Playfair Display',
-serif;
-font-family: 'News Cycle',
-sans-serif;
-font-family: 'Rubik',
-sans-serif; */
-
-/* Body:
-font-family: 'Lato',
-sans-serif;
-font-family: 'Merriweather',
-serif;
-font-family: 'Merriweather Sans',
-sans-serif;
-font-family: 'Source Sans Pro',
-sans-serif;
-font-family: 'Libre Baskerville',
-serif; */
-
-/* Multipurpose:
-font-family: 'Roboto',
-sans-serif;
-font-family: 'Titillium Web',
-sans-serif;
-font-family: 'Libre Franklin',
-sans-serif;
-font-family: 'Work Sans',
-sans-serif; */
-
 
 .w3-container.top {
     padding-left: 5px;
     margin: 30px 30px 0px 30px;
 }
 
-footer {
-     margin: 30px;
-     padding-bottom: 30px;
+.work {
+    margin: 30px;
+    text-align: center;
 }
 
-#work {
-    margin: 30px;
-}
-
-#work2 {
-    margin: 30px;
+.img {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 .logo {
@@ -56,8 +28,7 @@ footer {
     color: rgba(85, 14, 117, 0.863);
     font-family: 'Merriweather',
     serif;
-    font-size: 60px;
-    /* text-align: center; */
+    font-size: 59px;
     padding: 55px;
 }
 
@@ -87,7 +58,51 @@ a {
     /* padding-right: 500px; */
 }
 
+footer {
+    margin: 30px;
+    padding-bottom: 30px;
+}
+
 footer,
 div.w3-container.top {
     background-color: #9B8FA2;
 }
+
+
+/* Image Overlay Title  */
+
+* {
+    box-sizing: border-box
+} 
+
+/* Container needed to position the overlay. Adjust the width as needed */
+
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+} 
+
+/* Dropdown */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+} 
+
+
