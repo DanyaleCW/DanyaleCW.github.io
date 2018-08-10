@@ -44,9 +44,10 @@ ul {
     list-style-type: none;
 }
 
-a {
+a:link {
     text-decoration: none;
     list-style-type: none;
+    color: black;
 }
 
 .social-media {
