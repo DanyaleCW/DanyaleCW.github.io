@@ -84,6 +84,7 @@ span.love {
   border-radius: 50%;
 }
 
+
 /* Footer */
 .footer {
   margin: 30px;
@@ -184,7 +185,7 @@ h3, h4, h5, h6 {
   color: white;
 }
 
-.office {
+.office, .wanda {
   font-size: 12px;
 }
 
@@ -194,6 +195,9 @@ h3, h4, h5, h6 {
   height: 275px;
   perspective: 1000px;
   transform: rotateX(0deg)
+  -webkit-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
 }
 
 .flip-card-inner {
@@ -202,6 +206,9 @@ h3, h4, h5, h6 {
   height: 100%;
   text-align: center;
   transition: transform 0.6s;
+  -webkit-transition: transform 0.6s;
+  -ms-transition: transform 0.6s;
+  -moz-transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -211,7 +218,6 @@ h3, h4, h5, h6 {
   -webkit-transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
-  transform: rotateY(180deg);
 }
 
 .flip-card-front, .flip-card-back {
@@ -225,16 +231,18 @@ h3, h4, h5, h6 {
   background-color: #bbb;
   color: black;
   z-index: 2;
-  transform: rotateX(0deg)
+  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
 }
 
 .flip-card-back {
   background-color: #000099;
   color: white;
-  transform: rotateY(180deg);
   z-index: 1;
-  -webkit-transform: rotateY(180deg);
-  -ms-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
 }
