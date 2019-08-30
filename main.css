@@ -54,6 +54,7 @@ i {
   text-decoration: none;
   list-style-type: none;
   color: black;
+  padding-right: 8px;
 }
 
 .signin {
@@ -72,7 +73,7 @@ i {
   margin-right: -490px;
 }
 
-span.love {
+.love {
   font-size: 17px;
   margin-left: 212px;
 }
