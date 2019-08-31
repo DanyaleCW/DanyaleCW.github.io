@@ -4,7 +4,7 @@
 }
 
 .name {
-  color: rgb(85, 14, 117);
+  color: rgb(85,14,117);
   font-family: 'Merriweather',
     serif;
   font-size: 59px;
@@ -53,7 +53,7 @@ a:link,
 i {
   text-decoration: none;
   list-style-type: none;
-  color: black;
+  color: rgb(0,0,0);
   padding-right: 8px;
 }
 
@@ -95,11 +95,11 @@ i {
 
 footer,
 div.w3-container.top {
-  background-color: #9B8FA2;
+  background-color: rgb(155,143,162);
 }
 
 .heart {
-  color: rgb(85, 14, 117);
+  color: rgb(85,14,117);
   /* font-size: 20px; */
 }
 
@@ -124,9 +124,9 @@ div.w3-container.top {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: rgb(249,249,249);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
   opacity: 0.9;
@@ -138,11 +138,11 @@ div.w3-container.top {
 
 /* Coming Soon */
 #home {
-  color: white;
+  color: rgb(255,255,255);
 }
 
 .btn {
-  background-color: gold;
+  background-color: rgb(255,215,0);
 }
 
 .skills {
@@ -155,7 +155,7 @@ div.w3-container.top {
   background-position: center;
   background-size: cover;
   position: relative;
-  color: white;
+  color: rgb(255,255,255);
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
   height: 100%
@@ -183,7 +183,7 @@ hr {
 
 /* Flip Card */
 h3, h4, h5, h6 {
-  color: white;
+  color: rgb(255,255,255);
 }
 
 .office, .wanda {
@@ -211,7 +211,7 @@ h3, h4, h5, h6 {
   -ms-transition: transform 0.6s;
   -moz-transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .flip-card:hover .flip-card-inner {
@@ -229,8 +229,8 @@ h3, h4, h5, h6 {
 }
 
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
+  background-color: rgb(187,187,187);
+  color: rgb(0,0,0);
   z-index: 2;
   transform: rotateX(0deg);
   -webkit-transform: rotateX(0deg);
@@ -239,11 +239,65 @@ h3, h4, h5, h6 {
 }
 
 .flip-card-back {
-  background-color: #000099;
-  color: white;
+  background-color: rgb(0,0,153);
+  color: rgb(255,255,255);
   z-index: 1;
   transform: rotateY(-180deg);
   -webkit-transform: rotateY(-180deg);
   -ms-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
+}
+
+.btn-info {
+    color: rgb(255,255,255);
+    background-color: rgb(85,14,117);
+    border-color: rgb(85,14,117);
+
+/* Smartphones (portrait) ---------- */
+@media screen and (max-width: 320px) {
+  body {
+    background: ;
+  }
+}
+
+/* Smartphones (landscape) ---------- */
+@media screen and (min-width: 321px) {
+  body {
+    background: ;
+  }
+}
+
+/* tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background: ;
+  }
+}
+
+/* tablets, iPads (portrait) ---------- */
+@media screen and (min-width: 768px) {
+  body {
+    background: ;
+  }
+}
+
+/* tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px) {
+  body {
+    background: ;
+  }
+}
+
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px) {
+  body {
+    background: ;
+  }
+}
+
+/* Large screens ---------- */
+@media screen and (min-width: 1824px) {
+  body {
+    background: ;
+  }
 }
