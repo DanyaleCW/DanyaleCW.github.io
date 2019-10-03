@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <!-- MISC DATA -------------------->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="description" content="Portfolio site for Danyale C. Walker Freelance Web Developer and Designer">
-  <meta name="keywords" content="Freelance, Web Developer, Designer, Project Manager, Consultant, HTML, CSS, JavaScript, Ruby, Rails, Sinatra, Git, SEO, Boostrap, WAI-ARIA">
+  <meta name="keywords" content="Freelance, Web Developer, Designer, Project Manager, Consultant, HTML, CSS, JavaScript, Ruby, Rails, Sinatra, Git, Bootstrap, SEO, WAI-ARIA, ">
   <meta name="author" content="Danyale C. Walker Web Developer, Designer and Project Manager.">
   <meta name="copyright" content="(c) 2019 Danyale C. Walker Web Developer, Designer and Project Manager.">
 
@@ -26,293 +27,256 @@
   <meta name="twitter:creator" content="@DanyaleCWalker" />
   <meta name="twitter:image" content="https://twitter.com/DanyaleCWalker/photo" />
 
-  <!--- FAVICONS & ICONS------------------->
-  <link rel="icon" type="image/png" href="./Images/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="/Images/favicon-32x32.png" sizes="16x16" />
+  <!--- FAVICONS & ICONS-------------------> 
+  <link rel="icon" type="image/png" href="./images/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="./images/favicon-32x32.png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="apple-touch-icon-.png" sizes="57x57" />
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <!-- Fonts -------------------->
+  <link href="https://fonts.googleapis.com/css?family=Karla|Rubik&display=swap" rel="stylesheet">
+
+  <!-- FONTAWESOME ICONS--------------->
+  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=News+Cycle|Playfair+Display|Rubik" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Libre+Baskerville|Merriweather|Merriweather+Sans|Source+Sans+Pro"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Roboto|Titillium+Web|Work+Sans" rel="stylesheet">
+
   <link rel="stylesheet" href="main.css">
-  <title>Danyale C. Walker - Web Developer, Designer & Project Manager | So Many Other Things</title>
+  <link rel="stylesheet" href="media-query.css">
+
+  <title>Danyale C. Walker | Web Developer | Designer | Project Manager | So Many Other Things | Freelancer | Consultant | Websites | Web Sites | HTML | HTML5 | CSS | CSS3 | JavaScript | Ruby | Rails | Sinatra </title>
 </head>
 
 <body>
 
-  <div class="w3-container top">
-    <div class="w3-half w3-container first-cont">
-      <h1 class="name">Danyale C. Walker</h1>
+  <div class="main-container">
+    <div class="top-left">
+      <div class="creator"><img src="./images/cameras-sign-that-says-creator-notepad-pens-glasses.jpg" alt=""></div>
     </div>
 
-    <div class="w3-half w3-container">
-      <img src="./Images/logo2.png" alt="danyale walker logo" alt="site logo" class="logo">
+    <div class="bottom-left">
+      <div class="books"><img src="./images/black-coding-books-with-small-cactus-in-orange-pot.jpg" alt=""></div>
     </div>
+
+    <div class="top-right">
+      <header>
+        <h3>Danyale C.<br><span>Walker</span></h3>
+      </header>
+    </div>
+
+    <div class="bottom-right">
+      <div class="top-right-bottom">
+        <h1 class="color title">Web Developer &amp; Designer</h1>
+      </div>
+
+      <nav class="bottom-navbar">
+        <a id="about-nav" class="about-nav" href="javascript:about();">About</a>
+        <a id="project-nav" class="project-nav" href="javascript:project();">Projects</a>
+        <a id="more-nav" class="more-nav" href="javascript:more();">More</a>
+      </nav>
+    </div>
+    <!--<div class="square-nav-one"></div>
+     <div class="square-nav-two"></div>
+    <div class="square-nav-three"></div>
+    <div class="square-nav-four"></div>-->
   </div>
 
-  <div class="w3-row-padding w3-padding-64 w3-dark-grey work">
-    <p><q>When action grows unprofitable, gather information; when information grows unprofitable, sleep.</q></p>
-    <p> ~ Ursula K. LeGuin, The Left Hand of Darkness</p>
-  </div>
-
-    <div class="w3-container bio w3-padding-64 w3-light-grey work">
-        <p class="skills">Full Stack JavaScript, Ruby, Rails and Sinatra Developer with knowledge of jQuery, PostgreSQL, API's, JSON, AJAX, HTML, CSS, Bootstrap, and Sass.</p>
-        <p class="skills">New skills coming soon - React.js, Node.js, MongDB, Express, and Socket.io</p>
+    <div class="about" id="about">
+      <h1>About</h1>
     </div>
-
-<!--First Card Row-->
-    <div class="w3-row-padding w3-padding-64 w3-dark-grey work">
-    <div class="w3-quarter">
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="./Images/women.jpg" alt="cloud with sun" alt="herstorical women logo"class="img" width=100%>
-          </div>
-          <div class="flip-card-back">
-            <div class="middle">
-              <h3>Herstorical Women</h3>
-                <h6>Skills Used:</h6>
-                  <p>JavaScript / HTML / CSS / Bootstrap / W3school</p>
-                  <a target="_blank" href="https://danyalecw.github.io/Herstorical-Women/main.html">
-                    <div class="btn-group-info">
-                    <button type="button" class="btn-info btn-sm btn-outline-muted">View</button>
-                    </div></a>
-            </div>
-          </div>
-          </div>
-        </div>
-      </div>
-
-
-    <div class="w3-quarter">
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="./Images/gavel.jpg" alt="boyce redesign logo" class="img" width=100%>
-          </div>
-          <div class="flip-card-back">
-            <div class="middle">
-              <h3>Boyce Site Redesign</h3>
-                <h6>Skills Used:</h6>
-                  <p>JavaScript / HTML / CSS / Bootstrap</p>
-                  <a target="_blank" href="https://danyalecw.github.io/Boyce-Redesign/home.html">
-                    <div class="btn-group">
-                      <button type="button" class="btn-info btn-sm btn-outline-muted">View</button>
-                    </div></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-quarter">
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="./Images/image.jpg" alt="cloud with sun out of office logo" class="img" width=100%>
-          </div>
-          <div class="flip-card-back">
-            <div class="middle">
-              <h6>out of office</h6>
-                <h7>Skills Used:</h7>
-                  <p class="office">Ruby / Rails / JavaScript / PostgreSQL / JSON / Google Maps API / Foursquare API/ OpenWeatherMap API / Sass / Bootstrap / HTML / CSS</p>
-                  <a target="_blank" href="https://out-of-office-nyc.herokuapp.com/">
-                    <div class="btn-group">
-                    <button type="button" class="btn-info btn-sm btn-outline-muted">View</button>
-                  </div></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="w3-quarter">
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="./Images/panel.png" alt="wandas surfing school logo" class="img" width=100%>
-          </div>
-          <div class="flip-card-back">
-            <div class="middle">
-              <h3>Wanda's Panel</h3>
-                <h6>Skills Used:</h6>
-                  <p class="wanda">Ruby / Rails / PostgreSQL / jQuery / AJAX / HTML / CSS</p>
-                  <a target="_blank" href="https://wandas-panel.herokuapp.com/">
-                    <div class="btn-group">
-                    <button type="button" class="btn-info btn-sm btn-outline-muted">View</button>
-                  </div></a>
-                    <div class="signin">User Name: mira@pamelaspanel.com <br> Password: 123456</div>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-  </div>
-
-<!--Second Card Row-->
-    <div class="w3-row-padding w3-padding-64 w3-light-grey work">
-      <div class="w3-quarter">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="./Images/surfboards.jpg" alt="surfboards" class="img" width=100%>
-            </div>
-            <div class="flip-card-back">
-              <div class="middle">
-                <h3>Surf Blog</h3>
-                  <h6>Skills Used:</h6>
-                    <p>Ruby / Sinatra / PostgreSQL / HTML / CSS </p>
-                    <a target="_blank" href="https://walker-rumblr.herokuapp.com/">
-                      <div class="btn-group">
-                      <button type="button" class="btn-info btn-sm btn-outline-muted">View</button>
-                    </div></a> <br>
-                      <div class="signin">User Name: scully@gmail.com Password: 8675309</div>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="w3-quarter">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-                <img src="./Images/bug.jpg" alt="bug van first portfolio logo" class="img" width=100%>
-            </div>
-            <div class="flip-card-back">
-              <div class="middle">
-                <h3>First Portfolio Site</h3>
-                  <h5>Skills Used:</h5>
-                    <p>HTML / CSS</p>
-                    <a target="_blank" href="https://danyalecw.github.io/First-Portfolio/">
-                      <div class="btn-group">
-                      <button type="button" class="btn-info btn-sm btn-outline-muted">View</button>
-                      </div></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="w3-quarter">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="./Images/icecream1.jpg" alt="pictures of ice cream" class="img" width=100%>
-            </div>
-            <div class="flip-card-back">
-              <div class="middle">
-                <h3>Ice-Cream Code</h3>
-                <h5>Skills Used:</h5>
-                  <p>HTML / CSS</p>
-                  <a target="_blank" href="https://s.codepen.io/danyalecw/full/ZPEraK">
-                    <div class="btn-group">
-                    <button type="button" class="btn-info btn-sm btn-outline-muted">View</button>
-                    </div></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="w3-quarter">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-          <img src="./Images/dots.png" alt="picture of whiskey and beer" class="img" width=100%>
-        </div>
-        <div class="flip-card-back">
-          <div class="middle">
-            <h1>Dots in Motion</h1>
-            <h5>Skills Used:</h5>
-            <p>SVG / HTML / CSS</p>
-            <a target="_blank" href="https://s.codepen.io/danyalecw/full/VRmBjv">
-              <div class="btn-group">
-              <button type="button" class="btn-info btn-sm btn-outline-muted">View</button>
-              </div></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-    <!-- </div> -->
-    </div>
-
-
-  <!-- Footer -->
-  <footer class="w3-container w3-padding-30 footer">
-    <div class="w3-row-padding">
-      <div class="w3-third">
-        <h3>Contact Information</h3>
-        <h3>&#9993;</h3>
-        <a target="_blank" href="mailto:danyalecw@gmail.com">danyalecw@gmail.com</a>&nbsp; &nbsp; &nbsp;
-        <h3>&#9743;</h3>
-          <p>347-566-0530</p>
-      </div>
-
-  <div class="w3-third">
-  <h3>Links</h3>
-  <br>
-  <br>
-    <!-- <ul class="w3-ul w3-margin-bottom"> -->
-        <a target="_blank" href="https://github.com/DanyaleCW">
-        <i class="fa fa-github w3-hover-opacity social-media"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/danyalecwalker">
-        <i class="fa fa-linkedin w3-hover-opacity social-media"></i></a>
-        <a target="_blank" href="https://codepen.io/dashboard/">
-        <i class="fa fa-codepen w3-hover-opacity social-media"></i></a>
-        <a target="_blank" href="https://twitter.com/DanyaleCWalker">
-        <i class="fa fa-twitter w3-hover-opacity social-media"></i></a>
-        <br>
-        <br>
-        <br>
-        <br>
-        <!-- <span class="love">Made with <i class="heart">&#10084;</i> in Brooklyn</span> -->
-    <!-- </ul>  -->
-  </div>
-
-      <div class="w3-third">
-      <h3>Things I <span class="heart">&#10084;</span></h3>
-        <p>
-          <span class="w3-tag w3-black w3-margin-bottom">Family</span>
-          <span class="w3-tag w3-black w3-margin-bottom">Friends</span>
-          <span class="w3-tag w3-black w3-margin-bottom">Travel</span>
-          <span class="w3-tag w3-black w3-margin-bottom">Web Development</span>
-          <span class="w3-tag w3-black w3-margin-bottom">Web Design</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">California</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicago</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Atlanta</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Virginia</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Portugal</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Spain</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Italy</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Surfing</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Bass Guitar</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Jewelry Making</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Art</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">DIY</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Beer</span>
-          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Whiskey</span>
-        </p>
-      </div>
-    </div>
-    <div class="container back">
-      <p class="float-right">
-        <a href="#">Back to top</a>
+  <div class="main-about">
+    <div class="one"></div>
+    <div class="me">
+      <h2>About Me</h2>
+        <p>I have a wide variety of experience in different industries from restaurants to non- profits. I have been a chef, manager, bartender, and legal specialist, to name a few, so I am no stranger to creating new things and solving a plethora of problems. It is not a traditional tech background, but I promise you will not be disappointed. I want to make interesting things and solve interesting problems with interesting people. I love designing and building websites and I am looking forward to working within a team.
       </p>
     </div>
-    <div class="love">Made with <span class="heart">&#10084;</span> in Brooklyn</div>
-  </footer>
+    <div class="three"></div>
+    <div class="mission">
+      <h2>Mission</h2>
+        <p>To assist small businesses in designing and developing sites that clearly communicate the company's purpose, and ensure all social media sites, marketing material, and websites complement each other and seamlessly work together to reflect the brand.
+        </p>
+    </div>
 
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script type="text/javascript" src="main.js"></script> -->
+    <div class="five"></div>
+    <div class="vision">
+      <h2>Vision</h2>
+        <p>To provide simple and clean websites to everyone. Designing and building a website does not have to be complicated.
+      </p>
+    </div>
+    <!-- <div class="square-three"></div> -->
+    <div class="skills">
+      <div class="skill">
+        <h2>Skills</h2>
+          <h4>Languages</h4>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3 (SASS)</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>Ruby</li>
+              <li>Rails</li>
+              <li>Sinatra</li>
+            </ul>
+      </div>
+      <div class="skill2">
+        <h4>Frameworks & Tools</h4>
+        <ul>
+          <li>Bootstrap</li>
+          <li>Git</li>
+          <li>w3School</li>
+        </ul>
+      </div>
+      <div class="service">
+        <h4>Services:</h4>
+        <ul>
+          <li>SEO</li>
+          <li>WAI-ARIA</li>
+          <li>BeFunky Photo Editing</li>
+        </ul>
+      </div>
+    </div>
+    <!-- <div class="square-four"></div> -->
+    <!-- <div class="hobbies">
+      <div class="hobby">
+        <h2>Hobbies</h2>
+            <ul>
+              <li>Traveling</li>
+              <li>Surfing</li>
+            </ul>
+      </div>
+        <div class="hobbies2">
+          <ul>
+            <li>Bass Guitar</li>
+            <li>Jewelry Design</li>
+          </ul>
+        </div>
+        <div class="hobbies3">
+          <ul>
+            <li>Cooking</li>
+            <li>Whiskey</li>
+          </ul>
+        </div>
+    </div> -->
+  </div>
+  <div class="square-five"></div>
+
+  <div class="project">
+    <h1 id="project">Projects</h1>
+  </div>
+  <div class="main-projects">
+    <div class="card one">
+      <div class="container">
+        <img src="./images/herstorical-women-logo.png" alt="herstorical-women-logo" class="image">
+        <div class="overlay"><a id="women" class="text" target="_blank">View Project</a>
+        </div>
+      </div>
+      <h3>Herstorical Women</h3>
+      <p>JavaScript | W3School | HTML | CSS</p>
+    </div>
+
+    <div class="card colors">
+      <div class="container colors">
+        <img src="./images/danyale-walker-logo.png" alt="danyale-walker-logo" class="image">
+        <div class="overlay"><a class="text" href="https://danyalecw.github.io/Portfolio-V2/" target="_blank">View Project</a>
+        </div>
+      </div>
+      <h3>Portfolio V2</h3>
+      <p>CSS | HTML</p>
+    </div>
+
+    <div class="card">
+      <div class="container">
+        <div class="portfolio"><img src="./images/volkswagon-bus-with-surfboards.jpg" alt="volkswagon-bus-with-surfboards" class="image"></div>
+        <div class="overlay"><a class="text" href="https://danyalecw.github.io/First-Portfolio/" target="_blank">View Project</a>
+        </div>
+      </div>
+      <h3>Portfolio V1</h3>
+      <p> HTML | CSS</p>
+      <br><br>
+    </div>
+
+    <div class="card">
+      <div class="container">
+        <div class="ice-cream"><img src="./images/purple-ice-cream-scoop-and-scooper.jpg" alt="purple-ice-cream-scoop-and-scooper" class="image"></div>
+        <div class="overlay"><a class="text" href="https://codepen.io/danyalecw/full/ZPEraK" target="_blank">View Project</a>
+        </div>
+      </div>
+      <h3>Ice-Cream Code</h3>
+      <p>SVG | CSS | HTML</p>
+    </div>
+
+    <div class="card">
+      <div class="container">
+        <div class="bubbles"><img src="./images/purple-green-and-blue-bubbles.jpg" alt="purple-green-and-blue-bubbles" class="image"></div>
+        <div class="overlay"><a class="text" href="https://codepen.io/danyalecw/full/VRmBjv" target="_blank">View Project</a>
+        </div>
+      </div>
+      <h3>Dots in Motion</h3>
+      <p>SVG | HTML | CSS</p>
+    </div>
+
+    <div class="card">
+      <div class="container">
+        <img src="./images/palm-trees-pool-surfboard.jpg" alt="palm-trees-pool-surfboard" class="image">
+        <div class="overlay"><a class="text" href="https://walker-rumblr.herokuapp.com/" target="_blank">View Project</a>
+        </div>
+      </div>
+      <h3>Surf Blog</h3>
+      <p>Ruby | Sinatra | PostgreSQL | HTML</p>
+      <p>User Name: scully@gmail.com</p>
+      <p>Password: 8675309</p>
+    </div>
+
+    <div class="card">
+      <div class="container">
+        <img src="./images/surfboards-wanda's-surfing-school-text.png" alt="surfboards-wanda's-surfing-school-text" class="image">
+        <div class="overlay"><a class="text" href="https://wandas-panel.herokuapp.com/admins/sign_in" target="_blank">View Project</a>
+        </div>
+      </div>
+      <h3>Wanda's Surfing School</h3>
+      <p>Ruby | Rails | PostgreSQL | jQuery | AJAX |<br> HTML | CSS</p>
+      <p>User Name: mira@pamelaspanel.com</p>
+      <p>Password: 123456</p>
+    </div>
+
+    <div class="card">
+      <div class="container">
+        <img src="./images/map-of-brooklyn-ny.png" alt="map-of-brooklyn-ny" class="image">
+        <div class="overlay"><a class="text" href="https://out-of-office-nyc.herokuapp.com/" target="_blank">View Project</a>
+        </div>
+      </div>
+      <h3>Out Of Office</h3>
+      <p>Ruby | Rails | PostgreSQL | JSON | Google <br>Maps API | Foursquare API | Sass |<br> OpenWeatherMap API | HTML | CSS</p>
+    </div>
+  </div>
+
+      <div class="more">
+        <h1 id="more">Find Out More</h1>
+          <div class="more-grid">
+          <a target="_blank" href="https://github.com/DanyaleCW">
+            <i class="fa fa-github w3-hover-opacity social-media"></i>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/danyalecwalker">
+            <i class="fa fa-linkedin w3-hover-opacity social-media"></i>
+          </a>
+          <a target="_blank" href="https://codepen.io/danyalecw">
+            <i class="fa fa-codepen w3-hover-opacity social-media"></i>
+          </a>
+          <a target="_blank" href="https://twitter.com/DanyaleCWalker">
+            <i class="fa fa-twitter w3-hover-opacity social-media"></i>
+          </a>
+          <a href="mailto:danyalecw@gmail.com"><i class="fa fa-envelope"></i>
+          </a>
+      </div>
+
+    </div>
+<hr>
+  <footer>
+    <div class="love">Made with <span class="heart">&hearts;</span> in Brooklyn</div>
+    <p class="footer-bottom">© 2019 Code. Design. Surf., Inc. Brooklyn, N.Y. All rights reserved.</p>
+
+  <script src="main.js"></script>
 </body>
 
 </html>
