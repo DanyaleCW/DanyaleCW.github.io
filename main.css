@@ -90,10 +90,15 @@ When an element has a hidden attribute, they should be hidden from view. Normali
 --main-padding: 20px;
 }
 
-/* #69abd7
+/*
+#69abd7
 #5c5374
 #607bae
-#75487C */
+#75487C
+#121643
+#efeff2
+*/
+
 body {
   background-color: var(--main-background-color);
 }
@@ -177,7 +182,6 @@ span {
 /* .top-right-bottom {
   margin-top: 305px;
 }
-
 .color:after {
     position:absolute;
     z-index: -1;
@@ -226,14 +230,12 @@ span {
 /* .more-nav, #more {
   padding: 0.75em;
 }
-
 .more-nav {
   background-color: transparent;
   border-style: solid;
   border-color: var(--main-text-color);
   border-width: 2px;
 }
-
 .more-nav:after {
   content: '';
 	position: absolute;
@@ -242,7 +244,6 @@ span {
 	border-top: 2px solid #fff;
   bottom: -16px;
 }
-
 .more-nav:after {
   content: '';
 	position: absolute;
@@ -270,7 +271,6 @@ a.about-nav, a.project-nav, a.more-nav {
   height: 21px;
   z-index: -1;
 }
-
 .square-nav-two {
   background-color: #5c5374;
   position: absolute;
@@ -280,7 +280,6 @@ a.about-nav, a.project-nav, a.more-nav {
   height: 21px;
   z-index: -1;
 }
-
 .square-nav-three {
   background-color: #607bae;
   position: absolute;
@@ -290,7 +289,6 @@ a.about-nav, a.project-nav, a.more-nav {
   height: 21px;
   z-index: -1;
 }
-
 .square-nav-four {
   background-color: #40222B;
   position: absolute;
@@ -407,7 +405,6 @@ a.about-nav, a.project-nav, a.more-nav {
   height: 204px;
   z-index: -1;
 }
-
 .square-two {
   background-color: #69AEBD;
   position: absolute;
@@ -417,7 +414,6 @@ a.about-nav, a.project-nav, a.more-nav {
   height: 140px;
   z-index: -1;
 }
-
 .square-three {
   background-color: #92D6A5;
   position: absolute;
@@ -427,7 +423,6 @@ a.about-nav, a.project-nav, a.more-nav {
   height: 155px;
   z-index: -1;
 }
-
 .square-four {
   background-color: #8D93A5;
   position: absolute;
@@ -437,7 +432,6 @@ a.about-nav, a.project-nav, a.more-nav {
   height: 185px;
   z-index: -1;
 }
-
 .square-five {
   background-color: #789FBC;
   position: absolute;
@@ -530,7 +524,6 @@ a.about-nav, a.project-nav, a.more-nav {
   /* background-image: linear-gradient(top,#607bae, #607bae 70%, transparent 70%,transparent 100%);
   background-image: -webkit-linear-gradient(top,#607bae, #607bae 70%, transparent 70%,transparent 100%)
 }
-
 .card {
   background-color: #607bae;
 } */

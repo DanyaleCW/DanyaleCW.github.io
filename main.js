@@ -1,3 +1,5 @@
+// var intViewportHeight = window.innerHeight;
+
 let about = document.getElementById("about-nav");
 let project = document.getElementById("project-nav");
 let more = document.getElementById("more-nav");
@@ -55,60 +57,3 @@ out.addEventListener("click", function() {
 });
 
 //More
-
-
-
-
-
-
-//does not open in new tab?????
-// women.addEventListener("click", function NewTab(url) {
-//   let win = window.open("https://danyalecw.github.io/Herstorical-Women/main.html", "_blank");
-//     win.focus();
-// }
-
-// portfolio2.addEventListener("click", function NewTab(url) {
-//   let win = window.open("https://danyalecw.github.io/Portfolio-V2/", "_blank");
-//     win.focus();
-// }
-//
-// portfolio1.addEventListener("click", function NewTab(url) {
-//   let win = window.open("https://danyalecw.github.io/First-Portfolio/", "_blank");
-//     win.focus();
-// }
-//
-// icecream.addEventListener("click", function NewTab(url) {
-//   let win = window.open("https://codepen.io/danyalecw/full/ZPEraK", "_blank");
-//     win.focus();
-// }
-//
-// bubbles.addEventListener("click", function NewTab(url) {
-//   let win = window.open("https://codepen.io/danyalecw/full/VRmBjv", "_blank");
-//     win.focus();
-// }
-//
-// surf.addEventListener("click", function NewTab(url) {
-//   let win = window.open("https://walker-rumblr.herokuapp.com/" , "_blank");
-//     win.focus();
-// }
-//
-// wanda.addEventListener("click", function NewTab(url) {
-//   let win = window.open("https://wandas-panel.herokuapp.com/admins/sign_in" , "_blank");
-//     win.focus();
-// }
-//
-// out.addEventListener("click", function NewTab(url) {
-//   let win = window.open("https://out-of-office-nyc.herokuapp.com/", "_blank");
-//     win.focus();
-// }
-//
-
-
-
-
-// MORE
-
-
-
-
-// MORE
