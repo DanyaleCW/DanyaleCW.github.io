@@ -1,11 +1,19 @@
 // var intViewportHeight = window.innerHeight;
 
 let about = document.getElementById("about-nav");
+let design = document.getElementById("design-nav");
+let logo = document.getElementById("logo-nav");
 let project = document.getElementById("project-nav");
 let more = document.getElementById("more-nav");
 
 about.addEventListener("click", function() {
   window.location.href = "#about";
+});
+design.addEventListener("click", function() {
+  window.location.href = "design.html";
+});
+logo.addEventListener("click", function() {
+  window.location.href = "logo.html";
 });
 project.addEventListener("click", function() {
   window.location.href = "#project";

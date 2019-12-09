@@ -112,9 +112,14 @@ h6, {
   color: var(--main-text-color);
 }
 
+h4 {
+  font-weight: 600;
+
+}
+
 h3 {
   font-weight: 900;
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 
 p, div {
@@ -143,10 +148,11 @@ span {
   padding-left: 2.8em;
 }
 
-/* MAIN CONTAINER -------------------------------*/
+/* MAIN CONTAINER TOP WITH PICTURES-------------------------------*/
 .main-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(478px, 1fr));
+  /* min-height: 100vh; */
 }
 
 .top-left {
@@ -154,7 +160,7 @@ span {
   grid-row: 1;
 }
 
-.top-left > img, .bottom-left > img {
+.top-left > img, .bottom-left > img, .logo-pic > img {
   width: 100%;
   /* height: 50%; */
   object-fit: cover;
@@ -219,7 +225,7 @@ span {
   text-decoration: none;
 }
 
-.about-nav, .project-nav, .more-nav {
+.about-nav, .project-nav, .more-nav, .design-nav, .logo-nav {
   padding: 0.75em;
   background-color: transparent;
   border-style: solid;
@@ -258,7 +264,7 @@ a {
   color: var(--main-text-color);
 }
 
-a.about-nav, a.project-nav, a.more-nav {
+a.about-nav, a.project-nav, a.more-nav, a.design-nav, a.logo-nav {
   color: #550e75;
 }
 
@@ -375,7 +381,7 @@ a.about-nav, a.project-nav, a.more-nav {
   grid-row: 5;
 }
 
-.me, .mission, .vision, .skills, .hobbies {
+.me, .mission, .vision, .skills {
   padding: var(--main-padding);
   margin-right: 20px;
   -webkit-border-radius: 9px;
@@ -383,21 +389,18 @@ a.about-nav, a.project-nav, a.more-nav {
   border-radius: 9px;
 }
 
-.skills, .hobbies {
+.skills {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: auto; */
 }
 
-.skill2, .service, .hobbies2, .hobbies3 {
+.skill2, .service {
   padding-top: 30px;
 }
 
 .service {
   padding-left: 63px;
-}
-
-.hobbies2, .hobbies3 {
-  padding-left: 25px;
 }
 
 /* .square-one {
