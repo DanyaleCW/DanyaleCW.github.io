@@ -389,7 +389,7 @@
   }
 } */
 
-@media (max-width: 1440) and (min-width: 1280px) {
+@media (max-width: 1441) and (min-width: 1280px) {
   .main-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(636px, 1fr));
@@ -450,7 +450,7 @@
     padding: 18px 0 18px 0;
   } */
 }
-@media (min-width: 1920px) {
+@media (min-width: 1440px) {
   .bottom-navbar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -460,4 +460,11 @@
     text-align: center;
     text-decoration: none;
   }
+
+  .main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(636px, 1fr));
+    /* min-height: 100vh; */
+  }
+
 }
