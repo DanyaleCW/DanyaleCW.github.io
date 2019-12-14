@@ -9,17 +9,18 @@ let more = document.getElementById("more-nav");
 about.addEventListener("click", function() {
   window.location.href = "#about";
 });
-design.addEventListener("click", function() {
-  window.location.href = "design.html";
-});
-logo.addEventListener("click", function() {
-  window.location.href = "logo.html";
-});
+
 project.addEventListener("click", function() {
   window.location.href = "#project";
 });
 more.addEventListener("click", function() {
   window.location.href = "#more"
+});
+design.addEventListener("click", function() {
+  window.location.href = "design.html";
+});
+logo.addEventListener("click", function() {
+  window.location.href = "logo.html";
 });
 
 //PROJECTS
