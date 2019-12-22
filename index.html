@@ -7,14 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description" content="Portfolio site for Danyale C. Walker Freelance, Designer, Web Developer, Brand Specialist, and Consultant">
+  <meta name="description" content="Welcome I am Danyale, a designer, developer and artist.">
   <meta name="keywords" content="Freelance, Designer, Web Developer, Brand Specialist, Consultant, HTML, CSS, JavaScript, Ruby, Rails, Sinatra, Git, Bootstrap, SEO, WAI-ARIA, ">
-  <meta name="author" content="Danyale C. Walker Freelance, Designer, Web Developer, Brand Specialist, and Consultant.">
+  <meta name="author" content="Danyale C. Walker">
   <meta name="copyright" content="(c) 2019 Danyale C. Walker Freelance, Designer, Web Developer, Brand Specialist, and Consultant.">
 
   <!-- OPEN GRAPH DATA INFORMATION ABOUT THE SITE BUILDING ---------------->
   <meta property="og:title" content="Portfolio site for Danyale C. Walker">
-  <meta property="og:description" content="Portfolio site for Danyale C. Walker">
+  <meta property="og:description" content="Welcome I am Danyale, a designer, developer and artist.">
   <meta property="og:image" content="https://danyalecw.github.io/Images/cameras-sign-that-says-creator-notepad-pens-glasses.jpg">
   <meta property="og:url" content="https://danyalecw.github.io/">
   <meta property="og:type" content="website" />
@@ -23,7 +23,7 @@
   <!-- TWITTER DATA ----------------->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Danyale C. Walker">
-  <meta name="twitter:description" content="Danyale C. Walker Freelance, Designer, Web Developer, Brand Specialist, and Consultant.">
+  <meta name="twitter:description" content="Welcome I am Danyale, a designer, developer and artist.">
   <meta name="twitter:creator" content="@DanyaleCWalker" />
   <meta name="twitter:image" content="https://twitter.com/DanyaleCWalker/photo" />
 
@@ -44,18 +44,24 @@
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="media-query.css">
 
-  <title>Danyale C. Walker | Designer | Web Developer | Brand Specialist | So Many Other Things | Freelancer | Consultant | Websites | Web Sites | HTML | HTML5 | CSS | CSS3 | JavaScript | PostgreSQL | Ruby | Rails | Sinatra </title>
+  <title>Danyale C. Walker | Designer | Developer | So Many Other Things | Brand Specialist | Freelancer | Consultant | Websites | Web Sites | HTML | HTML5 | CSS | CSS3 | JavaScript | PostgreSQL | Ruby | Rails | Sinatra </title>
 </head>
 
 <body>
 
   <div class="main-container">
     <div class="top-left">
-      <div class="creator"><img src="./Images/1-cameras-sign-that-says-creator-notepad-pens-glasses.jpg" alt="" loading="lazy"></div>
+      <div class="creator">
+        <picture><img src="./Images/1-cameras-sign-that-says-creator-notepad-pens-glasses.jpg" alt="" loading="lazy">
+        </picture>
+      </div>
     </div>
 
     <div class="bottom-left">
-      <div class="books"><img src="./Images/1-black-coding-books-with-small-cactus-in-orange-pot.jpg" alt="" loading="lazy"></div>
+      <div class="books">
+        <picture><img src="./Images/1-black-coding-books-with-small-cactus-in-orange-pot.jpg" alt="" loading="lazy">
+        </picture>
+      </div>
     </div>
 
     <div class="top-right">
@@ -66,16 +72,16 @@
 
     <div class="bottom-right">
       <div class="top-right-bottom">
-        <h1 class="color title">Designer, Developer <br> &amp; Brand Specialist</h1>
+        <h1 class="color title">Designer &amp; Developer</h1>
       </div>
 
       <nav class="bottom-navbar">
         <a id="about-nav" class="about-nav" href="javascript:about();">About</a>
+        <a id="project-nav" class="project-nav" href="javascript:project();">Projects</a>
+        <a id="more-nav" class="more-nav" href="javascript:more();">More</a>
         <!-- when add logos and design back in change all .bottom-navbar to repeat(5, 1fr) -->
         <!-- <a id="design-nav" class="design-nav" href="javascript:design();">Designs</a>
         <a id="logo-nav" class="logo-nav" href="javascript:logo();">Logos</a> -->
-        <a id="project-nav" class="project-nav" href="javascript:project();">Projects</a>
-        <a id="more-nav" class="more-nav" href="javascript:more();">More</a>
       </nav>
     </div>
     <!--<div class="square-nav-one"></div>
@@ -127,10 +133,10 @@
         <ul>
           <li>Adobe XD</li>
           <li>Photoshop</li>
+          <li>Illustrator</li>
           <li>Bootstrap</li>
           <li>Git</li>
           <li>PostgreSQL</li>
-          <li>w3School</li>
         </ul>
       </div>
       <div class="service">
@@ -150,64 +156,75 @@
   <div class="main-projects">
     <div class="card one">
       <div class="container">
-        <img src="./Images/herstorical-women-logo.png" alt="herstorical-women-logo" class="image" loading="lazy">
+        <picture><img src="./Images/herstorical-women-logo.png" alt="herstorical-women-logo" class="image" loading="lazy">
+        </picture>
         <div class="overlay"><a id="women" class="text" target="_blank">View Project</a>
         </div>
       </div>
       <h3>Herstorical Women</h3>
-      <p>JavaScript | W3School | HTML | CSS</p>
+      <!-- <p>JavaScript | W3School | HTML | CSS</p> -->
     </div>
 
     <div class="card colors">
       <div class="container colors">
-        <img src="./Images/danyale-walker-logo.png" alt="danyale-walker-logo" class="image" loading="lazy">
+        <picture><img src="./Images/danyale-walker-logo.png" alt="danyale-walker-logo" class="image" loading="lazy">
+        </picture>
         <div class="overlay"><a id="portfolio2"
           class="text">View Project</a>
         </div>
       </div>
       <h3>Portfolio V2</h3>
-      <p>CSS | HTML</p>
+      <!-- <p>CSS | HTML</p> -->
     </div>
 
     <div class="card">
       <div class="container">
-        <div class="portfolio"><img src="./Images/volkswagon-bus-with-surfboards.jpg" alt="volkswagon-bus-with-surfboards" class="image" loading="lazy"></div>
+        <div class="portfolio">
+          <picture><img src="./Images/volkswagon-bus-with-surfboards.jpg" alt="volkswagon-bus-with-surfboards" class="image" loading="lazy">
+          </picture>
+        </div>
         <div class="overlay"><a id="portfolio1" class="text">View Project</a>
         </div>
       </div>
       <h3>Portfolio V1</h3>
-      <p> HTML | CSS</p>
+      <!-- <p> HTML | CSS</p> -->
       <br><br>
     </div>
 
     <div class="card">
       <div class="container">
-        <div class="ice-cream"><img src="./Images/purple-ice-cream-scoop-and-scooper.jpg" alt="purple-ice-cream-scoop-and-scooper" class="image" loading="lazy"></div>
+        <div class="ice-cream">
+          <picture><img src="./Images/purple-ice-cream-scoop-and-scooper.jpg" alt="purple-ice-cream-scoop-and-scooper" class="image" loading="lazy">
+          </picture>
+        </div>
         <div class="overlay"><a id="icecream" class="text">View Project</a>
         </div>
       </div>
       <h3>Ice-Cream Code</h3>
-      <p>SVG | CSS | HTML</p>
+      <!-- <p>SVG | CSS | HTML</p> -->
     </div>
 
     <div class="card">
       <div class="container">
-        <div class="bubbles"><img src="./Images/purple-green-and-blue-bubbles.jpg" alt="purple-green-and-blue-bubbles" class="image" loading="lazy"></div>
+        <div class="bubbles">
+          <picture><img src="./Images/purple-green-and-blue-bubbles.jpg" alt="purple-green-and-blue-bubbles" class="image" loading="lazy">
+          </picture>
+        </div>
         <div class="overlay"><a id="bubbles" class="text">View Project</a>
         </div>
       </div>
       <h3>Dots in Motion</h3>
-      <p>SVG | HTML | CSS</p>
+      <!-- <p>SVG | HTML | CSS</p> -->
     </div>
 
-    <div class="card">
+    <!-- <div class="card">
       <div class="container">
         <img src="./Images/palm-trees-pool-surfboard.jpg" alt="palm-trees-pool-surfboard" class="image" loading="lazy">
         <div class="overlay"><a id="surf" class="text">View Project</a>
         </div>
       </div>
       <h3>Surf Blog</h3>
-      <p>Ruby | Sinatra | PostgreSQL | HTML</p>
+       <p>Ruby | Sinatra | PostgreSQL | HTML</p>
       <p>User Name: scully@gmail.com</p>
       <p>Password: 8675309</p>
     </div>
@@ -224,7 +241,7 @@
       <p>Password: 123456</p>
     </div>
 
-    <!-- <div class="card">
+    <div class="card">
       <div class="container">
         <img src="./Images/map-of-brooklyn-ny.png" alt="map-of-brooklyn-ny" class="image" loading="lazy">
         <div class="overlay"><a id="out" class="text" >View Project</a>

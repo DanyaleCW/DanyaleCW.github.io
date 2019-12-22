@@ -16,12 +16,12 @@ project.addEventListener("click", function() {
 more.addEventListener("click", function() {
   window.location.href = "#more"
 });
-design.addEventListener("click", function() {
-  window.location.href = "design.html";
-});
-logo.addEventListener("click", function() {
-  window.location.href = "logo.html";
-});
+// design.addEventListener("click", function() {
+//   window.location.href = "design.html";
+// });
+// logo.addEventListener("click", function() {
+//   window.location.href = "logo.html";
+// });
 
 //PROJECTS
 
