@@ -41,72 +41,84 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-
-  <!-- <link rel="stylesheet" href="main.css"> -->
-  <link rel="stylesheet" href="design.css">
+  <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="media-query.css">
 
-  <title>Designs | Danyale C. Walker</title>
+  <title>Construction Page | Danyale C. Walker</title>
 </head>
 
 <body>
-  <!-- <button type="button" class="btn">
-    <a id="home" href="javascript:gohome();">Home</a>
-  </button> -->
+<button type="button" class="btn">
+  <a id="home" href="javascript:gohome();">Home</a>
+</button>
+<div class="logo-pic"><img src="./Images/assorted-construction-tools.jpg" alt="" loading="lazy"></div>
 
-  <div class="header">
 
-
-  <div class="header-right">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a class="active" href="#designs">Designs</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+<div class="bgimg">
+  <div class="middle">
+    <h1>UNDER CONSTRUCTION</h1>
   </div>
-  <div class="logo">Danyale C.<br><span>Walker<span></div> 
+  <!-- <div class="bottomleft">
+    <p>Photo by Ludde Lorentz on Unsplash</p>
+  </div> -->
 </div>
+</body>
 
+<style>
+  #home {
+    color: #efeff2;
+  }
+  .btn {
+    background-color: #75487C;
+    border: none;
+  }
 
-    <div>
-      <h1>Designs</h1>
-    </div>
+  body,
+  html {
+    height: 100%
+  }
 
+  h1 {
+    font-size: 10rem;
+    color: #efeff2;
+    background-color: #75487C;
+    opacity: 0.7;
+  }
 
-  <!-- FOOTER -->
-    <div class="more">
-        <div class="more-grid">
-        <a target="_blank" href="https://github.com/DanyaleCW">
-          <i class="fa fa-github w3-hover-opacity social-media"></i>
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/danyalecwalker">
-          <i class="fa fa-linkedin w3-hover-opacity social-media"></i>
-        </a>
-        <a target="_blank" href="https://codepen.io/danyalecw">
-          <i class="fa fa-codepen w3-hover-opacity social-media"></i>
-        </a>
-        <a target="_blank" href="https://twitter.com/DanyaleCWalker">
-          <i class="fa fa-twitter w3-hover-opacity social-media"></i>
-        </a>
-        <a href="mailto:danyalecw@gmail.com"><i class="fa fa-envelope"></i>
-        </a>
-    </div>
+  .logo-pic {
+    background-image: url('./Images/assorted-stickers-construction-tools.jpg');
+    height: 95%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+  }
 
-  </div>
-<hr>
-<footer>
-  <div class="love">Made with <span class="heart">&hearts;</span> in Brooklyn</div>
-  <p class="footer-bottom">© 2020 Design. Code. Surf. Studios, L.L.C. Brooklyn, N.Y. All rights reserved.</p>
-</footer>
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    font-size: 10px;
+  }
 
-<script src="main.js"></script>
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  hr {
+    margin: auto;
+    width: 40%;
+  }
+</style>
 
 <script>
   function gohome() {
     window.location.href = "./index.html"
   }
 </script>
-</body>
-
-</html>
