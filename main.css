@@ -96,6 +96,7 @@ When an element has a hidden attribute, they should be hidden from view. Normali
 #607bae
 #75487C
 #121643
+#40222B
 #efeff2
 */
 
@@ -114,7 +115,6 @@ h6, {
 
 h4 {
   font-weight: 600;
-
 }
 
 h3 {
@@ -205,8 +205,9 @@ span {
   /* width: 375px; */
   height: 30px;
   margin: 27px auto;
-  background-image: linear-gradient(top,#69abd7, #69abd7 70%, transparent 70%,transparent 100%);
-  background-image: -webkit-linear-gradient(top,#69abd7, #69abd7 70%, transparent 70%,transparent 100%);
+  /* opacity: 20%; */
+  background-image: linear-gradient(top, #9181A7, #9181A7 70%, transparent 70%,transparent 100%);
+  background-image: -webkit-linear-gradient(top, #9181A7, #9181A7 70%, transparent 70%, transparent 100%);
 }
 
 .top-right-bottom > h1 {
