@@ -553,6 +553,7 @@ a.about-nav, a.project-nav, a.more-nav, a.design-nav, a.logo-nav {
   margin-top: 20px;
   align-items: center;
   justify-items: center;
+  /* justify-content: center; */
   grid-gap: 10px;
 }
 
@@ -564,6 +565,11 @@ a.about-nav, a.project-nav, a.more-nav, a.design-nav, a.logo-nav {
   width: 30px;
   padding: 17px;
   border-radius: 50%;
+  color: #121643;
+}
+
+.fa:hover {
+  color: #9181A7 !important;
 }
 
 .follow {
