@@ -116,17 +116,19 @@ body {
 .header {
   overflow: hidden;
   background-color: #75487C;
-  padding: 20px 22px 10px 31px;
+  padding: 20px 40px 20px 31px;
 }
 
 .header a {
   float: left;
   color: var(--main-background-color);
   text-align: center;
-  padding: .75em;
+  /* padding: .75em;
+  margin-right: .75em; */
   text-decoration: none;
   font-size: 1.1em;
   line-height: 3px;
+
 }
 
 .header {
@@ -139,6 +141,9 @@ body {
   color: #121643;
   border-bottom-style: solid;
   border-bottom-color: #121643;
+  margin-left: 16px;
+  margin-bottom: 0px;
+  padding-bottom: 0.75em;
 }
 
 .header a.active {
@@ -147,11 +152,14 @@ body {
   color: #54B2BA;
   border-bottom-style: solid;
   border-bottom-color: #54B2BA;
+  margin-left: 16px;
+  margin-bottom: 0px;
+  padding-bottom: 0.75em;
 }
 
 .header-right {
   float: right;
-  padding-top: 1%;
+  padding-top: 1.5%;
 }
 
 .logo {
@@ -164,6 +172,10 @@ body {
   margin-left: 2.8em;
 }
 
+.header {
+  color: purple;
+}
+
 /* ----- DESIGNS ------ */
 
 .design-container {
@@ -171,7 +183,7 @@ body {
   /* margin: 0 20px;
   display: grid; */
   /* grid-gap: 20px; */
-  row-gap: 30px;
+  row-gap: 15px;
   display: grid;
   margin: 0 auto;
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
@@ -186,16 +198,20 @@ body {
   flex: 1 1 200px;
 }
 
-.tall-panel {
+.tall-row {
   grid-row-end: span 2;
 }
 
+/* .tall-column {
+  grid-column-end: span 2;
+} */
+
 
 .design-container > * {
-  background-color: #75487C;
-  color: #fff;
+  /* background-color: #75487C; */
+  color: black;
   border-radius: 0;
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 150%;
   margin-bottom: 10px;
 }
@@ -209,7 +225,7 @@ img {
 }
 
 .text {
-  padding-top: 30px;
+  padding-top: 15px;
   display: block;
   justify-content: center;
   cursor: pointer;
@@ -218,25 +234,23 @@ img {
 }
 
 h3 {
-  font-weight: 900;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 h4 {
-  font-weight: 900;
-  font-size: 0.7em;
+  font-size: 0.6em;
 }
 
-.ebonite {
-  padding-top: 12px;
+.ebonite, .commerce {
+
 }
+
 .wine, .x-mas {
-  padding-top: 30px;
-  border-radius: 0;
+
 }
 
 .x-mas2 {
-  padding-top: 50px;
+  padding-top: 10px;
   border-radius: 0;
 }
 

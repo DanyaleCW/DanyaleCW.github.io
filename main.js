@@ -60,10 +60,10 @@ surf.addEventListener("click", function() {
   window.open("https://xd.adobe.com/view/d600ac6c-3391-4676-7a54-beebee25e2e9-a031/?fullscreen", "_blank")
 });
 
-// let women = document.getElementById("women");
-// women.addEventListener("click", function() {
-//   window.open("https://danyalecw.github.io/Herstorical-Women/main.html", "_blank")
-// });
+let women = document.getElementById("women");
+women.addEventListener("click", function() {
+  window.open("https://xd.adobe.com/view/480faa9c-a432-458c-6ea4-7c85f7632ba8-3e3e/?fullscreen", "_blank")
+});
 
 
 //
