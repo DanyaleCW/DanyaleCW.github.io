@@ -34,6 +34,7 @@
 
   <!-- Fonts -------------------->
   <link href="https://fonts.googleapis.com/css?family=Karla|Rubik&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
 
   <!-- FONTAWESOME ICONS--------------->
   <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -43,64 +44,78 @@
 
 
 
-  <!-- <link rel="stylesheet" href="main.css"> -->
+  <link rel="stylesheet" href="header-footer.css">
   <link rel="stylesheet" href="work.css">
-  <link rel="stylesheet" href="media-query.css">
+  <!-- <link rel="stylesheet" href="media-query.css"> -->
 
-  <title>Work | Danyale C. Walker</title>
+  <title>Work | Danyale C. Walker | Full Stack Designer</title>
 </head>
 
 <body>
+  <div>
   <nav role="navigation" class="header">
     <div class="header-right">
-      <!-- <a href="#home">Home</a> -->
-      <a href="#about">About</a>
-      <a class="active" href="#work">Work</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a class="active" href="work.html">Work</a>
       <!-- <a href="#contact">Contact</a> -->
     </div>
     <div class="logo">Danyale C.<br><span>Walker<span>
     </div>
   </nav>
+  </div>
 
 <!-- ROW 1 -->
   <div class="design-container">
+
   <div class="panel">
     <picture><img src="./Images/the-present.png" alt="present-site-logo" class="image" loading="lazy">
     </picture>
     <div class="overlay">
       <div class="text">
         <h3>The Present</h3>
-        <a>
-          <h4 class="case-study">~ View Case Study ~</h4>
-          <h4 id="present" class="project">~ View Project ~</h4>
+        <a href="the-present.html" class="case-study"><h4>~ View Case Study ~</h4>
+          <!-- <h4 id="present" class="project">~ View Project ~</h4> -->
         </a>
       </div>
-
     </div>
   </div>
-    <div class="panel container">
+
+  <div class="panel">
+    <picture><img src="./Images/herstorical-women.png" alt="herstorical-women-magazine-coverpage" class="image women" loading="lazy">
+    </picture>
+    <div class="overlay">
+        <div class="text">
+          <h3>Herstorical Women</h3>
+          <a  href="under-construction.html" class="case-study"><h4>~ View Case Study ~</h4>
+            <!-- <h4 id="women" class="project">~ View Project ~</h4> -->
+          </a>
+      </div>
+    </div>
+  </div>
+
+    <div class="panel">
       <picture><img src="./Images/portfolio-V3.jpg" alt="portfolio-V3-logo" class="image" loading="lazy">
       </picture>
       <div class="overlay">
-        <a id="portfolio3">
           <div class="text">
             <h3>Portfolio V3</h3>
-            <h4>~ View ~</h4>
-          </div>
+            <a id="portfolio3"><h4>~ View ~</h4>
         </a>
+        </div>
       </div>
     </div>
 
-    <div class="panel tall-row">
-      <picture><img src="./Images/surf-blog-home-2.jpg" alt="surf-blog" class="image surf" loading="lazy">
+    <div class="panel">
+      <picture><img src="./Images/green-bug-with-yellow-surfboard.jpg" alt="Images/green-bug-with-yellow-surfboard.jpg" class="image surf" loading="lazy">
       </picture>
       <div class="overlay">
-        <a id="surf">
+
           <div class="text">
             <h3>Surf Blog</h3>
-            <h4>~ View ~</h4>
-          </div>
-        </a>
+            <a id="surf"><h4>~ View ~</h4>
+            </a>
+        </div>
       </div>
     </div>
 
@@ -108,12 +123,12 @@
       <picture><img src="./Images/danyale-walker-logo.png" alt="danyale-walker-logo" class="image" loading="lazy">
       </picture>
       <div class="overlay">
-        <a id="portfolio2">
           <div class="text">
             <h3>Portfolio V2</h3>
-            <h4>~ View ~</h4>
-          </div>
+            <a id="portfolio2"><h4>~ View ~</h4>
+
         </a>
+        </div>
       </div>
     </div>
 
@@ -121,16 +136,13 @@
       <div class="ice-cream">
         <picture><img src="./Images/purple-icecream-and-scooper.jpg" alt="purple-ice-cream-scoop-and-scooper" class="image" loading="lazy">
         </picture>
-
-
       </div>
       <div class="overlay">
-        <a id="icecream">
           <div class="text">
             <h3>Ice-Cream Code</h3>
-            <h4>~ View ~</h4>
-          </div>
+            <a id="icecream"><h4>~ View ~</h4>
         </a>
+        </div>
       </div>
     </div>
 
@@ -139,12 +151,13 @@
         <picture><img src="./Images/purple-green-and-blue-bubbles.jpg" alt="purple-green-and-blue-bubbles" class="image" loading="lazy">
         </picture>
       </div>
-      <div class="overlay"><a id="bubbles">
+      <div class="overlay">
         <div class="text">
           <h3>Dots in Motion</h3>
-          <h4>~ View ~</h4>
-          </div>
+          <a id="bubbles"><h4>~ View ~</h4>
+
         </a>
+        </div>
       </div>
     </div>
 
@@ -154,12 +167,13 @@
         </picture>
       </div>
       <div class="overlay">
-        <a id="portfolio1">
+
           <div class="text">
             <h3>Portfolio V1</h3>
-            <h4>~ View ~</h4>
-          </div>
+            <a id="portfolio1"><h4>~ View ~</h4>
+
         </a>
+        </div>
       </div>
     </div>
 
@@ -174,9 +188,17 @@
       </picture>
     </div>
 
-    <div class="panel tall-row">
-      <picture><img src="./Images/Wine-COVID-19.jpg" alt="wine-COVID-19-POST" class="image wine" loading="lazy">
+    <div class="panel">
+      <picture><img src="./Images/red-wine-sign.jpg" alt="red-wine-sign" class="image wine" loading="lazy">
       </picture>
+      <div class="overlay">
+        <div class="text">
+          <h3>Wine COVID-19 2020</h3>
+          <a id="wine"><h4>~ View ~</h4>
+
+        </a>
+        </div>
+      </div>
     </div>
 
     <div class="panel tall-row">
@@ -186,18 +208,7 @@
       </picture>
     </div>
 
-    <div class="panel">
-      <picture><img src="./Images/herstorical-women.png" alt="herstorical-women-magazine-coverpage" class="image women" loading="lazy">
-      </picture>
-      <div class="overlay">
-        <a id="women">
-          <div class="text">
-            <h3>Herstorical Women</h3>
-            <h4>~ View ~</h4>
-          </div>
-        </a>
-      </div>
-    </div>
+
 
     <!-- <div class="panel"><img src="https://picsum.photos/450/325?image=400" alt="Dummy Image" class="masonry-content"></div>
 
@@ -205,42 +216,7 @@
 
   </div>
 
-
-
-
-
-  <!-- <div class="end">
-    <div class="left-triangle right-triangle">
-      <div class="end-text">THE END</div>
-    </div>
-  </div> -->
-
-  <!-- FOOTER -->
-  <footer>
-    <div class="more">
-      <div class="more-grid">
-        <a target="_blank" href="https://github.com/DanyaleCW">
-          <i class="fa fa-github w3-hover-opacity social-media"></i>
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/danyalecwalker">
-          <i class="fa fa-linkedin w3-hover-opacity social-media"></i>
-        </a>
-        <a target="_blank" href="https://codepen.io/danyalecw">
-          <i class="fa fa-codepen w3-hover-opacity social-media"></i>
-        </a>
-        <a target="_blank" href="https://twitter.com/DanyaleCWalker">
-          <i class="fa fa-twitter w3-hover-opacity social-media"></i>
-        </a>
-        <a href="mailto:danyalecw@gmail.com"><i class="fa fa-envelope"></i>
-        </a>
-      </div>
-
-    </div>
-    <hr>
-
-    <div class="love">Made with <span class="heart">&hearts; </span>in Brooklyn</div>
-    <p class="footer-bottom">© 2020 Design. Code. Surf. Studios, L.L.C. Brooklyn, N.Y. All rights reserved.</p>
-  </footer>
+  <footer-template></footer-template>
 
   <script src="main.js"></script>
 

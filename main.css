@@ -93,6 +93,7 @@ When an element has a hidden attribute, they should be hidden from view. Normali
 /*
 #69abd7
 #5c5374
+#9181A7
 #607bae
 #75487C
 #121643
@@ -102,6 +103,7 @@ When an element has a hidden attribute, they should be hidden from view. Normali
 
 body {
   background-color: var(--main-background-color);
+  font-family: var(--body-font);
 }
 
 h2,
@@ -109,7 +111,7 @@ h3,
 h4,
 h5,
 h6, {
-  font-family: var(--header-font);
+  font-family: var(--body-font);
   color: var(--main-text-color);
 }
 
@@ -199,6 +201,7 @@ span {
     content:"";
     background-color: #607bae;
 } */
+
 
 .color {
   width: 500px;
