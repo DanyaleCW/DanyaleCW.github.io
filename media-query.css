@@ -348,9 +348,9 @@
 /* @media (max-width: 1480) and (min-width: 1280px) { */
 
 @media (min-width: 1439px) and (max-width: 1600px) {
- body {
+ /* body {
     background-color: yellow;
-  }
+  } */
 
   .main-container {
     display: grid;
@@ -397,9 +397,9 @@
 }
 
 @media (min-width: 1800px) {
-  body {
+  /* body {
     background-color: green;
-  }
+  } */
   .bottom-navbar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -154,8 +154,8 @@ When an element has a hidden attribute, they should be hidden from view. Normali
 /* ----------------- FOOTER ---------------- */
 footer {
   /* background-color: #2E589E; */
-  margin-top: 130px;
-  padding: 100px 0 0 0;
+  margin-top: 70px;
+  padding: 80px 0 0 0;
   background-color: #5C396F;
 }
 
@@ -179,7 +179,7 @@ footer {
 
 .sm {
   float: right;
-  font-size: 30px;
+  font-size: 25px;
   padding: 24px 0 20px 0;
   margin-top: 23px;
   margin-right: -123px;
@@ -194,14 +194,14 @@ footer {
 }
 
 .github, .twitter a {
-  padding-left: 24px;
+  padding-left: 21px;
 }
 
 
 .fa {
   text-decoration: none;
   background: #607bae;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   width: 30px;
   padding: 17px;
@@ -235,15 +235,15 @@ span.heart {
 }
 
 .footer-contact {
-  font-size: 16px;
+  font-size: 15px;
   padding: 0 0 20px 100px;
   color: var(--main-background-color);
   letter-spacing: 2px;
 }
 
 .email a, .phone a, .footer-CTA {
-  font-size: 30px;
-  padding: 0px 0 20px 100px;
+  font-size: 25px;
+  padding: 0px 0 30px 100px;
   color: var(--main-background-color);
   text-decoration: underline #69abd7;
   text-decoration: 5px;
@@ -260,14 +260,14 @@ span.heart {
 }
 
 .footer-text-sm {
-  font-size: 30px;
+  font-size: 25px;
   padding: 0 0 20px 0;
   color: var(--main-background-color);
 }
 
 .footer-bottom {
-  font-size: 15px;
-  padding: 100px 0 40px 100px;
+  font-size: 11px;
+  padding: 60px 0 20px 100px;
   letter-spacing: .6px;
   color: var(--main-background-color);
 }
