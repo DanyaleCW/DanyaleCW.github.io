@@ -233,6 +233,9 @@ div.panel:nth-child(odd) {
 
 .fun-fact {
   background-color: var(--main-background-color);
+
+div p {
+  margin: 20px 60px 10px 60px;
   letter-spacing: .7px;
   line-height: normal;
   font-size: 15px;
