@@ -75,15 +75,15 @@ customElements.define('footer-template', FooterTemplate);
 
 //PROJECTS
 
+let present = document.getElementById("present");
+present.addEventListener("click", function() {
+  window.open("https://xd.adobe.com/view/346ccc60-7eed-4378-617a-fc2c6239bc93-425d/?fullscreen", "_blank")
+});
+
 let icecream = document.getElementById("icecream");
 icecream.addEventListener("click", function() {
   window.open("https://codepen.io/danyalecw/full/ZPEraK", "_blank")
 });
-
-// let present = document.getElementById("present");
-// present.addEventListener("click", function() {
-//   window.open("https://xd.adobe.com/view/346ccc60-7eed-4378-617a-fc2c6239bc93-425d/?fullscreen", "_blank")
-// });
 
 let port3 = document.getElementById("portfolio3");
 portfolio3.addEventListener("click", function() {

@@ -392,8 +392,6 @@
     grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
     grid-gap: 2rem;
   }
-
-
 }
 
 @media (min-width: 1800px) {
@@ -417,4 +415,5 @@
   .work-container {
     padding: 40px 0px 20px 251px;
 
+}
 }

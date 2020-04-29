@@ -155,7 +155,7 @@ When an element has a hidden attribute, they should be hidden from view. Normali
 footer {
   /* background-color: #2E589E; */
   margin-top: 70px;
-  padding: 80px 0 0 0;
+  padding: 60px 0 0 0;
   background-color: #5C396F;
 }
 
