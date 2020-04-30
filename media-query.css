@@ -1,9 +1,9 @@
 /* Smartphones (landscape) ---------- */
 @media (max-width: 320px) {
 
-  body {
+  /* body {
      background-color: lavender;
-   }
+   } */
   .main-container {
     display: block;
   }
@@ -77,9 +77,9 @@
 
 @media (min-width: 321px) and (max-width: 375px) {
 
-  body {
+  /* body {
      background-color: beige;
-   }
+   } */
 
   .main-container {
     display: block;
@@ -145,9 +145,9 @@
 }
 
 @media (min-width: 376px) and (max-width: 414px) {
-  body {
+  /* body {
      background-color: pink;
-   }
+   } */
   .main-container {
     display: block;
   }
@@ -210,9 +210,9 @@
 
 
 @media (min-width: 415px) and (max-width: 740px) {
-  body {
+  /* body {
     background-color: orange;
-  }
+  } */
   .main-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -274,9 +274,9 @@
 
 @media (min-width: 741px) and (max-width: 900px) {
 
-  body {
+  /* body {
     background-color: blue;
-  }
+  } */
   .top-right-bottom > h1 {
     text-align: center;
     font-size: 1.5em;
@@ -310,9 +310,9 @@
 
 @media (min-width: 900px) and (max-width: 1024px) {
 
-  body {
+  /* body {
      background-color: purple;
-   }
+   } */
   .bottom-right {
     grid-row: 2;
     margin: 0 110px 0 7px;

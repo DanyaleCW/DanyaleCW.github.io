@@ -175,10 +175,13 @@ body {
   height: 3px;
   transform-origin: 0 50%;
   background-color: var(--main-text-color);
-  margin: 60px 0 10px 60px;
+  /* margin: 60px 0 10px 60px; */
+  margin: 60px 0 -21px 60px;
+  z-index: 0;
+  transform: skewY(-6deg);
 }
 
-h1, h2 {
+h1, h2, h3 {
   color: var(--main-text-color);
 }
 
@@ -189,16 +192,9 @@ h1.title {
   padding-left: 30px;
   margin-top: 65px;
   color: var(--main-text-color);
+  z-index: 0;
+  transform: skewY(-6deg);
 }
-
-/* h1.title:nth-child(7) {
- margin-bottom: 32px;
-}
-
-h1.title:nth-child(10) {
- margin-bottom: 40px;
-} */
-
 
 /* ----- BACK TO WORK ----- */
 a {
@@ -223,9 +219,55 @@ button.btn.work:hover, button {
   background-color: #95849E;
 }
 
+/* .grey1 {
+  background-color: #d6d6c2;
+  height: 196px;
+  margin: -221px 300px 0 300px;
+}
+
+.grey2 {
+  background-color: #d6d6c2;
+  height: 194px;
+  margin: -181px 300px 0 300px;
+}
+
+.grey3 {
+  background-color: #d6d6c2;
+  height: 570px;
+  margin: -628px 300px 0 300px;
+}
+
+.grey4 {
+  background-color: #d6d6c2;
+  height: 574px;
+  margin: -300px 300px -252px 300px;
+}
+
+.green {
+  background-color: #0D85A2;
+  height: 250px;
+  margin: 0 300px -130px 300px;
+} */
+
+.skewed {
+  position: static;
+  margin: 127px 0 0 0;
+  padding: 0 0 108px 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 130%;
+  background: #C8F2DF;
+  z-index: 0;
+  transform: skewY(6deg);
+  transform-origin: top right;
+}
 .mountain-lake {
   background-image: url("./Images/mountain-lake.jpg");
-  height: 400px;
+  height: 350px;
+  margin: 0 60px 0 60px;
 }
 
 div.page-title {
@@ -249,13 +291,23 @@ div.page-title2 {
   width: 25%;
 }
 
+.shadow {
+  position: static;
+  width: 70px;
+  height: 7px;
+  transform-origin: 0 50%;
+  /* background-color: var(--main-text-color); */
+  color: black;
+  margin: 0 0 10px 675px;
+}
+
 .text {
  margin: 20px 212px 0 212px;
  letter-spacing: .6px;
  color: var(--main-text-color);
+ z-index: 0;
+ transform: skewY(-6deg);
 }
-
-
 
 /* ----- VIEW DESIGN ----- */
 
@@ -273,6 +325,14 @@ button.project-button {
   font-size: 15px;
   cursor: pointer;
   color: #5C396F;
+}
+
+button.project-button.design {
+  margin-top: 0;
+}
+
+button.project-button.current {
+  transform: skewY(-6deg);
 }
 
 button:hover {

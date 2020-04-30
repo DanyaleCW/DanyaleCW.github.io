@@ -130,12 +130,11 @@ body {
   background-color: #95849E;
 }
 
-.scotch {
-  margin: 20px 60px 10px 214px;
+.thanks, .scotch {
+  margin: 72px 60px 10px 214px;
   letter-spacing: .7px;
   line-height: normal;
   font-size: 20px;
-  padding-bottom: 60px;
 }
 
 .me-design-container {
@@ -155,9 +154,9 @@ body {
   flex: 1 1 200px;
 }
 
-.me {
+/* .me {
   padding-top: 60px;
-}
+} */
 
 img.me-picture {
   /* padding: 20px 700px 10px 120px; */
@@ -174,7 +173,7 @@ img.me-picture {
   margin-bottom: 10px;
 }
 
-div.me.me-panel p {
+div.me.me-panel p, div.process.me-panel p {
   letter-spacing: .7px;
   line-height: normal;
   padding-right: 50px;
@@ -225,6 +224,7 @@ div.panel:nth-child(2) {
 div.panel:nth-child(3) {
   padding-left: 29px;
 }
+
 div.panel:nth-child(odd) {
   letter-spacing: .7px;
   line-height: normal;
@@ -233,21 +233,15 @@ div.panel:nth-child(odd) {
 
 .fun-fact {
   background-color: var(--main-background-color);
-
-div p {
-  margin: 20px 60px 10px 60px;
-  letter-spacing: .7px;
-  line-height: normal;
-  font-size: 15px;
 }
 
-.process {
+/* .process {
   margin: 37px 41px 10px 0;
   letter-spacing: .7px;
   line-height: normal;
   font-size: 20px;
   padding: 0 100px 60px 0;
-}
+} */
 
 div.design-container:nth-child(8) > div:nth-child(odd) {
  padding-top: 60px;
