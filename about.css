@@ -202,7 +202,7 @@ div.me.me-panel p, div.process.me-panel p {
   color: black;
   border-radius: 0;
   padding: 20px;
-  font-size: 150%;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
@@ -262,5 +262,5 @@ div.design-container:nth-child(8) {
 }
 
 div.me-design-container:nth-child(10) {
- padding-bottom: 20px;
+ padding-bottom: 60px;
 }

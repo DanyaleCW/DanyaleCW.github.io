@@ -156,7 +156,7 @@ span {
   grid-row: 1;
 }
 
-.top-left > img, .bottom-left > img, .logo-pic > img {
+.top-left img, .bottom-left img, .logo-pic img {
   width: 100%;
   /* height: 50%; */
   object-fit: cover;
@@ -221,13 +221,17 @@ span {
   padding-top: 10px;
 }
 
+.here {
+  font-style: oblique;
+}
 
-.bottom-navbar {
+
+/* .bottom-navbar {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 45px;
   grid-gap: .625rem;
-  margin: 35px 87px 0 123px;
+  margin: 35px 87px 0px 123px;
   text-align: center;
   text-decoration: none;
 }
@@ -238,39 +242,18 @@ a {
 }
 
 a:hover {
-  color: #9181A7;
-}
+  background-color: #9181A7;
+} */
 
 
 
 
 /* ----------------------------------------------- */
-/* -----WORK TITLE CONTAINER -----*/
-.work-title-container {
-  display: inline-block;
-  /* align-items: center; */
-  margin: 70px 0 40px 100px;
-}
 
-.work-line {
-  position: static;
-  display: inline-block;
-  width: 120px;
-  height: 3px;
-  transform-origin: 0 50%;
-  background-color: var(--main-text-color);
-  margin-bottom: 10px;
-}
-
-.work-title {
-  display: inline-block;
-  align-items: center;
-  padding-left: 30px;
-}
 
 /* ----- WORK PROJECT CONTAINER -----*/
 
-.work-container {
+.work-container, .work-title-container{
   max-width: 1920px;
   /* margin: 0 20px;
   display: grid; */
@@ -282,6 +265,30 @@ a:hover {
   grid-auto-rows: minmax(150px, auto);
   padding: 40px 5px 20px 5px;
 }
+
+/* -----WORK TITLE CONTAINER -----*/
+.work-title-container {
+  display: inline-block;
+  padding-top: 0px;
+  margin: 100px 0 40px 43px;
+}
+
+.work-line {
+  position: static;
+  display: inline-block;
+  width: 120px;
+  height: 3px;
+  transform-origin: 0 50%;
+  background-color: var(--main-text-color);
+  margin: 0 0 8px 0;
+}
+
+.work-title {
+  display: inline-block;
+  align-items: center;
+  padding-left: 30px;
+}
+/* -----WORK TITLE CONTAINER -----*/
 
 .container {
   /* needed for the flex layout*/
@@ -299,6 +306,24 @@ a:hover {
   margin-bottom: 10px;
 }
 
+/* div.work-container:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+} */
+
+.hover-zoom {
+  -webkit-transition: transform .2s;
+  -o-transition: transform .2s;
+  transition: transform .2s;
+  width: 278px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.3);
+}
+
 
 /* ----- WORK BUTTON ----- */
 
@@ -309,9 +334,13 @@ button {
   border-style: solid;
   border-color: #5C396F;
   border-width: 2px;
-  margin: 0 auto;
-  margin-top: 100px;
+  margin: 70px auto;
+  /* margin-top: 100px; */
   display: block;
+}
+
+button:hover {
+  background-color: #9181A7;
 }
 
 

@@ -145,7 +145,7 @@ body {
 
 .header-right {
   float: right;
-  padding-top: 3%;
+  padding-top: 4.5%;
 }
 
 .logo {
@@ -344,119 +344,8 @@ footer {
   background-color: #0D85A2;
   margin-top: 70px;
   padding: 60px 0 0 0;
-  /* background-color: #5C396F; */
 }
 
-.social-media-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  margin-top: 20px;
-  margin-left: 20px;
-  align-items: flex-end;
-  grid-gap: 10px;
-  float: right;
-  padding: 20px 100px 0 0;
-}
-
-.text-sm {
-  float: right;
-  padding: 0 100px 20px 0;
-  color: var(--main-background-color);
-  letter-spacing: 2px;
-}
-
-.sm {
-  float: right;
-  font-size: 25px;
-  padding: 24px 0 20px 0;
-  margin-top: 23px;
-  margin-right: -142px;
-}
-
-
-.sm a {
-  color: var(--main-background-color);
-  text-decoration: underline #69abd7;
-  text-decoration: 5px;
-  text-decoration: underline #69abd7 5px;
-}
-
-div.github {
-  padding-left: 48px;
-}
-
-div.linkedin {
-  padding-left: 30px;
-}
-div.twitter {
-  padding-left: 50px;
-}
-div.codepen {
-  padding-left: 21px;
-}
-
-.follow {
-  padding-top: 30px;
-  font-size: 25px;
-}
-
-.heart {
-  color: #54B2BA;
-  font-size: 34px;
-}
-
-.love {
-  margin: 100px 0 50px 0;
-  font-size: 15px;
-  text-align: center;
-  color: var(--main-background-color);
-}
-
-span.heart {
-  padding-left: 0;
-}
-
-.footer-contact {
-  font-size: 15px;
-  padding: 0 0 20px 100px;
-  color: var(--main-background-color);
-  letter-spacing: 2px;
-}
-
-.email a, .phone a, .footer-CTA {
-  font-size: 25px;
-  padding: 0px 0 30px 100px;
-  color: var(--main-background-color);
-  text-decoration: underline #69abd7;
-  text-decoration: 5px;
-  text-decoration: underline #69abd7 5px;
-}
-
-.footer-CTA {
-  text-decoration: none;
-  padding-right: 779px;
-}
-
-.phone {
-  padding-top: 40px;
-}
-
-.footer-text-sm {
-  font-size: 25px;
-  padding: 0 0 20px 0;
-  color: var(--main-background-color);
-}
-
-.footer-bottom {
-  font-size: 11px;
-  padding: 60px 0 20px 100px;
-  letter-spacing: .6px;
-  color: var(--main-background-color);
-}
-
-footer a:hover {
-  color: #54B2BA;
-}
 
 @media (min-width: 1800px) {
   .present-pic {

@@ -45,11 +45,26 @@ customElements.define('header-template', HeaderTemplate);
 
 class FooterTemplate extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = `<footer>
-    <div>
-      <p class="text-sm">SOCIAL MEDIA</p>
+    this.innerHTML = `
+    <footer>
+
+    <div class="footer-main-container">
+
+    <div class="footer-container">
+    <p class="contact">CONTACT</p>
+    <p class="CTA">I would <span class="heart">  &#10084;  </span> to hear from you. If you have any questions or want to collaborate on a project, please feel free  to contact me. Let's make magic.</p>
+    <p class="email"><a href="mailto:danyalecw@gmail.com">
+      danyalecw@gmail.com</a></p>
+    <p class="phone"><a href="tel:+347-566-0530">
+        347-566-0530</a></p>
+    <!-- <p class="copyright">© 2020 Design. Code. Surf. Studios, L.L.C. Brooklyn, N.Y. <br> All rights reserved.</p> -->
     </div>
-    <div class="sm">
+
+<!-- <div class="footer-container">
+</div> -->
+    <div class="footer-container social-media">
+      <p class="text-sm">SOCIAL MEDIA</p>
+    <div class="links-sm">
       <div class="github"><a  target="_blank" href="https://github.com/DanyaleCW">Github</a>
       </div>
       <div><a target="_blank" href="https://www.linkedin.com/in/danyalecwalker">Linkedin</a>
@@ -59,14 +74,11 @@ class FooterTemplate extends HTMLElement {
       <div class="twitter"><a target="_blank" href="https://twitter.com/DanyaleCWalker">Twitter</a>
       </div>
   </div>
-
-    <p class="footer-contact">CONTACT</p>
-    <p class="footer-CTA">I would <span class="heart">  &#10084;  </span> to hear from you. If you have any questions or want to collaborate on a project, please feel free  to contact me. Let's make magic.</p>
-    <p class="email"><a href="mailto:danyalecw@gmail.com">
-      danyalecw@gmail.com</a></p>
-    <p class="phone"><a href="tel:+347-566-0530">
-        347-566-0530</a></p>
-    <p class="footer-bottom">© 2020 Design. Code. Surf. Studios, L.L.C. Brooklyn, N.Y. <br> All rights reserved.</p>
+    </div>
+    <div class="footer-container">
+    <p class="copyright">© 2020 Design. Code. Surf. Studios, L.L.C. Brooklyn, N.Y. <br> All rights reserved.</p>
+    </div>
+    </div>
   </footer>`;
   }
 }
