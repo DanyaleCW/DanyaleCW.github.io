@@ -168,7 +168,7 @@
     margin-top: 400px;
   }
 
-  .footer-main-container {
+  /* .footer-main-container {
     display: block;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
@@ -180,7 +180,7 @@
   div.footer-container:nth-child(2) {
     width: 319px;
     height: 188px;
-    margin-bottom: 10px;
+    margin-bottom: 80px;
     margin-left: 0px;
   }
 
@@ -189,18 +189,28 @@
   }
 
   .links-sm {
+    margin-left: -41px;
+  } */
+
+
+  /* .links-sm {
     padding-left: 19px;
     margin-left: -63px;
-  }
+  } */
 
-  .github, .twitter {
+  /* .github, .twitter {
     padding-left: 0px;
   }
+
+  .linkedin, .codepen {
+     padding-left: 1px;
+  }
+
 
   .copyright {
     margin-left: -23px;
     padding-left: 0px;
-  }
+  } */
 
 }
 
@@ -253,30 +263,30 @@ margin-top: 195px;
 margin-bottom: 0px;
 }
 
-div.footer-container:nth-child(1) {
+/* div.footer-container:nth-child(1) {
  margin-left: 7px;
  margin-right: 93px;
 }
 
 div.footer-container:nth-child(2) {
  margin-left: 0px;
-}
+} */
 
-.text-sm {
+/* .text-sm {
  padding-left: 26px;
 }
 
 .links-sm {
  padding-left: 26px;
-}
+} */
 
-div.footer-container:nth-child(3) {
+/* div.footer-container:nth-child(3) {
  margin-left: -28px;
 }
 
 .github, .twitter {
   padding-left: 0;
-}
+} */
 
 
 }
@@ -344,25 +354,25 @@ div.footer-container:nth-child(3) {
     margin: 170px 0 25px 166px;
   }
 
-  div.footer-container:nth-child(2) {
+  /* div.footer-container:nth-child(2) {
     margin-left: 32px;
-  }
+  } */
 
-  .links-sm {
+  /* .links-sm {
     padding-left: 60px;
   }
 
   .twitter, .github {
     padding-left: 0px;
-  }
+  } */
 }
 
 @media (min-width: 741px) and (max-width: 900px) {
 
-  /* body {
+  body {
     background-color: blue;
-  } */
-  .top-right-bottom>h1 {
+  }
+  .top-right-bottom > h1 {
     text-align: center;
     font-size: 1.5em;
   }
@@ -391,6 +401,31 @@ div.footer-container:nth-child(3) {
     align-items: center;
     justify-items: center;
   }
+
+  /* div.footer-container:nth-child(1) {
+   margin: 0 109px 0 105px;
+  } */
+
+  /* .text-sm {
+    padding-left: 0px;
+    margin-left: 90px;
+  }
+
+  .links-sm {
+    padding-left: 55px;
+  }
+
+  .github, .twitter, .linkedin {
+    padding-left: 14px;
+  }
+
+
+
+  .copyright {
+    margin-left: 83px;
+  } */
+
+
 }
 
 @media (min-width: 900px) and (max-width: 1024px) {
@@ -423,9 +458,9 @@ div.footer-container:nth-child(3) {
     margin: 120px 0 40px 82px;
   }
 
-  div.footer-container:nth-child(2) {
+  /* div.footer-container:nth-child(2) {
  margin-left: 32px;
-}
+} */
 
 /* .links-sm {
   padding-left: 61px;
@@ -496,11 +531,11 @@ div.footer-container:nth-child(3) {
   }
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1900px) {
 
-  /* body {
+  body {
     background-color: green;
-  } */
+  }
   .bottom-navbar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -509,11 +544,6 @@ div.footer-container:nth-child(3) {
     margin: 35px 87px 0 96px;
   }
 
-  .main-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(636px, 1fr));
-    /* min-height: 100vh; */
-  }
 
   .work-title-container {
     display: inline-block;
@@ -532,8 +562,76 @@ div.footer-container:nth-child(3) {
   .hover-zoom:hover {
     transform: scale(1.5);
   }
+  body > footer-template:nth-child(5) > footer:nth-child(1) {
+   height: 404px;
+  }
+
+  .footer-main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(632px, 1fr));
+    padding-bottom: 0px;
+    height: 419px;
+    /* min-height: 100vh; */
+  }
+
+  /* div.footer-container:nth-child(1) {
+  margin-left: 200px;
+  margin-top: 40px;
+  padding: 0 30px 0 0;
+  margin: 40px 0 0 200px;
+  }
 
   div.footer-container:nth-child(2) {
-    margin-left: 875px;
+    margin-left: 600px;
   }
+
+  div.footer-container:nth-child(2) {
+   margin: 0 auto;
+   margin-left: 600px;
+  }
+
+  div.footer-container:nth-child(3) {
+    margin-left: 163px;
+    height: 86px;
+  } */
+
+  /* .contact {
+    padding: 0;
+  }
+
+  .CTA, .email, .phone {
+    padding: 0px;
+  }
+
+  .CTA {
+    margin: 33px 0 0 17px;
+  }
+
+
+  .email, .phone {
+    margin-top: 20px;
+  }
+
+  .links-sm {
+    padding-left: 80px;
+  }
+
+  .text-sm {
+    padding-left: 44px;
+    margin-top: 20px;
+    margin-left: 29px;
+  }
+
+  .linkedin, .github, .twitter, .codepen {
+    padding-top: 5px;
+  }
+
+  .codepen {
+    padding-left: 18px;
+  }
+
+  .copyright {
+    margin-left: 54px;
+  } */
+
 }

@@ -67,9 +67,9 @@ class FooterTemplate extends HTMLElement {
     <div class="links-sm">
       <div class="github"><a  target="_blank" href="https://github.com/DanyaleCW">Github</a>
       </div>
-      <div><a target="_blank" href="https://www.linkedin.com/in/danyalecwalker">Linkedin</a>
+      <div class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/danyalecwalker">Linkedin</a>
         </div>
-      <div><a target="_blank" href="https://codepen.io/danyalecw">CodePen</a>
+      <div class="codepen"><a target="_blank" href="https://codepen.io/danyalecw">CodePen</a>
         </div>
       <div class="twitter"><a target="_blank" href="https://twitter.com/DanyaleCWalker">Twitter</a>
       </div>
