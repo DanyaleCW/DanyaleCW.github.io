@@ -3,7 +3,7 @@
 
 <head>
   <title> About | Danyale C. Walker | Full~Stack Designer | UI Designer | Web Developer | Freelancer | Creator of Things</title>
-</head>
+
   <!-- MISC DATA -------------------->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,46 +40,70 @@
   <!-- FONTAWESOME ICONS--------------->
   <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
   <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
 
 
-
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="about.css">
-  <!-- <link rel="stylesheet" href="header-footer.css"> -->
+  <link rel="stylesheet" href="footer.css">
   <link rel="stylesheet" href="media-query.css">
+</head>
 
 <body>
-  <header-template></header-template>
+  <header>
+    <nav>
+      <div class="w3-bar w3-card">
+        <a href="index0.html" class="w3-bar-item w3-button w3-wide logo">Danyale C.<br><span class="walker">Walker<span></a>
+        <div class="w3-right header-right">
+          <a href="about.html" class="w3-bar-item w3-button active">ABOUT</a>
 
-  <div class="thanks">Thanks for clicking the link to find out more. I hope you like what you discover. </div>
+          <a href="work.html" class="w3-bar-item w3-button">WORK</a>
 
-<div class="main-about">
-  <div class="line"></div>
-    <h1 class="title">Hello, I am Danyale</h1>
-
-    <div class="me-design-container">
-      <div class="me me-panel">
-        <p>I spend my week days as a Legal Specialist for non-profit organization and at night and on the weekends I spend my time honing my design and developer skills by reading article, watching tutorials, designing and building passion projects and designing concept for sites that need an upgrade.
-        </p>
+          <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
         </div>
-        <div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="main-about">
+    <!-- <div class="line"></div>
+    <h1 class="title">Hello, I am Danyale</h1> -->
+    <!-- <div class="about-container"> -->
+    <!-- <div>
+    <img src="Images/live-work-create-on-brick-wall.jpg" alt="live-work-create-on-brick-wall" class="brick-wall panel">
+    </div> -->
+
+
+    <div class="w3-row w3-container">
+      <!-- <div class="w3-col m3">
+      </div>
+      <div class="w3-col m3">
+      </div> -->
+      <div class="w3-col m8">
+        <div class="me">
+          <h1>Danyale C. Walker ~ Creator</h1>
+          <p>I spend my week days as a Legal Specialist for non-profit organization and at night and on the weekends I spend my time honing my design and developer skills by reading articles, watching tutorials, designing and building passion projects, and redesigning sites that need an upgrade. I am looking forward to working on a with a team to create beautiful things.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <div>
         <img src="Images/live-work-create-on-brick-wall.jpg" alt="live-work-create-on-brick-wall" class="me-panel me-picture">
-        </div>
-    </div>
+        </div> -->
 
-    <div class="purple">
-      <div class="line"></div>
-        <h1 class="title">My Skills</h1>
-    </div>
-
-    <div class="design-container">
-
-      <div class="panel design">
-        <h4>Design</h4>
+  <!-- <div class="line"></div>
+        <h1 class="title">My Skills</h1> -->
+  <section class="design-dev">
+    <div class="w3-row w3-container">
+      <div class="w3-col m3">
+        <div class="design">
+          <h3>Design</h3>
           <ul>
             <li>Adobe XD</li>
             <li>Photoshop</li>
@@ -88,41 +112,40 @@
             <li>Adobe Spark</li>
             <li>Research</li>
             <li>Responsive Web Design</li>
-            <li>jQuery</li>
-            <li>Ruby</li>
-            <li>Rails</li>
-            <li>Sinatra</li>
+        </div>
       </div>
-
-      <div class="panel">
+      <div class="w3-col m3">
+        <div class="development">
+          <h3>Development</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>SASS</li>
+            <li>Git</li>
+            <li>Bootstrap</li>
+            <li>w3 schools</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>Ruby, Rails & Sinatra</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </div>
+      </div>
+      <div class="w3-col m6">
         <picture><img src="Images/laptop-pc-drawing-tablet-iphone.jpg" alt="laptop-pc-drawing-tablet-iphone.jpg" class="skill-picture">
         </picture>
       </div>
+    </div>earcepe
+  </section>
+  <!-- <div class="line"></div>
+        <h1 class="title">Fun Facts</h1> -->
 
-      <div class="panel development">
-        <h4>Development</h4>
-        <ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>SASS</li>
-          <li>Bootstrap</li>
-          <li>JavaScript</li>
-          <li>jQuery</li>
-          <li>Ruby, Rails & Sinatra</li>
-          <li>Git</li>
-          <li>PostgreSQL</li>
-        </ul>
-      </div>
-</div>
-      <div class="line"></div>
-        <h1 class="title">Fun Facts</h1>
-
-      <div class="design-container fun-fact">
-        <div class="panel">
-          <picture><img src="Images/bass-guitar-neck (1).jpg" alt="bass-guitar-neck" class="fun-facts-picture">
+  <!-- <div class="design-container fun-fact">-->
+  <!-- <div class="panel"> -->
+  <!-- <picture><img src="Images/bass-guitar-neck (1).jpg" alt="bass-guitar-neck" class="fun-facts-picture">
           </picture>
-        </div>
-        <div class="fun-facts panel">
+        </div> -->
+  <!-- <div class="fun-facts panel">
               <ul>
                 <li>I enjoy surfing</li>
                 <li>I play the bass guitar (play might be a bit of an over statement)</li>
@@ -132,36 +155,31 @@
                 <li>I adore the 49ers, Mets, and Red Sox</li>
                 <li>Stephen King is my author of choice</li>
               </ul>
-        </div>
-        <div class="panel">
+        </div> -->
+  <!-- <div class="panel">
           <picture><img src="Images/assorted-color-surfboards-on-rack (1).jpg" alt="assorted-color-surfboards-on-rack" class="fun-facts-picture">
           </picture>
-        </div>
-        </div>
+        </div> -->
 
-      <div class="purple">
-        <div class="line"></div>
-          <h1 class="title">My Design Process</h1>
+  <section class="scotch">
+    <div class="w3-col m3 w3-center">
+      <div class="scotch-container">
+        <picture><img src="Images/wireframe (1).jpg" alt="wireframe" class="wireframe-picture">
+        </picture>
       </div>
-        <div class="me-design-container purple">
-          <div class="process me-panel"><p>I start my process by determining the problem I am trying to solve. Once I know the problem(s), complete a competitive set and audit to try to figure out what similars site did well and what they did not. There is no point in trying to reinvent the wheel. The site is then mapped and color and typography are determined. The next steps are mood boards, wireframes and low resolution mockups.  Then it is time to start building the pages in Adobe XD...</p></div>
+    </div>
+    <div class="w3-col m3">
+      <div class="scotch-text">
+        <p>If you would like to find out more, please feel free to contact me. If you are in the Brooklyn area we can get to know each other over a <span class="color">Single Malt Scotch. </span>&nbsp; 🥃
+        </p>
+  </section>
 
-          <div class="panel">
-            <picture><img src="Images/wireframe (1).jpg" alt="wireframe" class="process-picture">
-            </picture>
-          </div>
-      </div>
-
-        <div class="scotch">
-          <p>If you would like to find out more, please feel free to contact me. If you are in the Brooklyn area we can get to know each other over a Single Malt Scotch. 🥃
-          </p>
-        </div>
-</div>
-
-
-<footer-template></footer-template>
+  <footer-template id="contact"></footer-template>
 
   <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>

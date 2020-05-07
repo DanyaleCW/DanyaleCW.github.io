@@ -23,20 +23,46 @@
 //   window.location.href = "logo.html";
 // });
 
+// class HeaderTemplate extends HTMLElement {
+//   connectedCallback() {
+//     this.innerHTML = `<div>
+//     <nav role="navigation" class="header">
+//       <div class="header-right">
+//         <a href="index.html">Home</a>
+//         <a class="active" href="about.html">About</a>
+//         <a href="work.html">Work</a>
+//         <!-- <a href="#contact">Contact</a> -->
+//       </div>
+//       <div class="logo">Danyale C.<br><span>Walker<span>
+//       </div>
+//     </nav>
+//     </div>`;
+//   }
+// }
+
 class HeaderTemplate extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = `<div>
-    <nav role="navigation" class="header">
-      <div class="header-right">
-        <a href="index.html">Home</a>
-        <a class="active" href="about.html">About</a>
-        <a href="work.html">Work</a>
-        <!-- <a href="#contact">Contact</a> -->
+    this.innerHTML = `<nav class="navbar navbar-expand-lg header">
+      <div class="navbar-brand logo">Danyale C.<br><span>Walker<span>
       </div>
-      <div class="logo">Danyale C.<br><span>Walker<span>
+      <button style="color:white;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">MENU</span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end header header-right" id="navbarSupportedContent" style="color: white">
+        <ul class="nav justify-content-end navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index0.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="work.html">Work</a>
+      </li>
+    </ul>
       </div>
-    </nav>
-    </div>`;
+    </nav>`;
   }
 }
 
@@ -46,40 +72,46 @@ customElements.define('header-template', HeaderTemplate);
 class FooterTemplate extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
+    <hr>
     <footer>
-
-    <div class="footer-main-container">
-
-    <div class="footer-container">
-    <p class="contact">CONTACT</p>
-    <p class="CTA">I would <span class="heart">  &#10084;  </span> to hear from you. If you have any questions or want to collaborate on a project, please feel free  to contact me. Let's make magic.</p>
-    <p class="email"><a href="mailto:danyalecw@gmail.com">
-      danyalecw@gmail.com</a></p>
-    <p class="phone"><a href="tel:+347-566-0530">
-        347-566-0530</a></p>
-    <!-- <p class="copyright">© 2020 Design. Code. Surf. Studios, L.L.C. Brooklyn, N.Y. <br> All rights reserved.</p> -->
-    </div>
-
-<!-- <div class="footer-container">
-</div> -->
-    <div class="footer-container social-media">
-      <p class="text-sm">SOCIAL MEDIA</p>
-    <div class="links-sm">
-      <div class="github"><a  target="_blank" href="https://github.com/DanyaleCW">Github</a>
-      </div>
-      <div class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/danyalecwalker">Linkedin</a>
+      <div class="w3-cell-row">
+        <div class="w3-container w3-col m5 w3-cell-top">
+          <p class="contact">CONTACT</p>
+          <p class="CTA">Please contact me if you would like to collaborate and create.</p>
         </div>
-      <div class="codepen"><a target="_blank" href="https://codepen.io/danyalecw">CodePen</a>
+
+        <div class="w3-container w3-col m5  w3-cell-top">
+          <p class="email"><a href="mailto:danyalecw@gmail.com">
+            danyalecw@gmail.com</a></p>
+          <p class="phone"><a href="tel:+347-566-0530">
+              347-566-0530</a></p>
+          <div class="github"><a target="_blank" href="https://github.com/DanyaleCW">GitHub</a>
+          </div>
         </div>
-      <div class="twitter"><a target="_blank" href="https://twitter.com/DanyaleCWalker">Twitter</a>
+
+      <div class="w3-container w3-col m2 w3-cell-top">
+        <div class="links-sm">
+          <div class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/danyalecwalker">Linkedin</a>
+            </div>
+          <div class="codepen"><a target="_blank" href="https://codepen.io/danyalecw">CodePen</a>
+            </div>
+          <div class="twitter"><a target="_blank" href="https://twitter.com/DanyaleCWalker">Twitter</a>
+          </div>
       </div>
-  </div>
-    </div>
-    <div class="footer-container">
-    <p class="copyright">© 2020 Design. Code. Surf. Studios, L.L.C. Brooklyn, N.Y. <br> All rights reserved.</p>
     </div>
     </div>
-  </footer>`;
+    <div class="w3-cell-row">
+      <div class="w3-container w3-col m5 w3-cell-top">
+        <p class="copyright">© 2020 Design. Code. Surf. Studios, L.L.C. Brooklyn, N.Y. <br> All rights reserved.
+      </div>
+      <div class="w3-container w3-col  m5 w3-cell-top">
+        <p class="copyright">Designed and Coded by Danyale C. Walker
+      </div>
+      <div class="w3-container w3-col m2 w3-cell-top">
+        <p class="copyright">Made with <span class="heart">  &#10084; </span>in Brooklyn
+          </div>
+    </div>
+    </footer>`;
   }
 }
 
