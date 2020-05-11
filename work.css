@@ -109,7 +109,6 @@ body {
   background-color: var(--main-background-color);
 }
 
-
 header {
   overflow: hidden;
   background-color: #5C396F;
@@ -122,7 +121,7 @@ header {
 
 .w3-button:hover {
   color: #95849E !important;
-  background-color:#5C396F !important;
+  background-color: #5C396F !important;
   text-decoration: none;
 }
 
@@ -139,9 +138,9 @@ header {
 }
 
 .w3-right {
- margin-top: 45px;
- font-size: 1em;
- font-weight: bold;
+  margin-top: 45px;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 .header-right a {
@@ -153,16 +152,6 @@ header {
   line-height: 3px;
 }
 
-/* .w3-right a:hover {
-  color: #95849E;
-  background-color:#5C396F;
-  border-bottom-style: solid;
-  border-bottom-color: #95849E;
-  margin-bottom: 0px;
-  padding-bottom: 0.75em;
-  cursor: pointer;
-} */
-
 .w3-right a.active {
   text-decoration: none;
   color: #54B2BA;
@@ -173,23 +162,21 @@ header {
 }
 
 a.w3-bar-item:nth-child(1) {
- padding-left: 3px;
- padding-right: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 a.w3-bar-item:nth-child(2) {
- padding-left: 3px;
- padding-right: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 a.w3-bar-item:nth-child(3) {
- padding-left: 3px;
- padding-right: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
-
 /* ----- DESIGNS ------ */
-
 .design-container {
   max-width: 1920px;
   /* margin: 0 20px;
@@ -217,9 +204,7 @@ a.w3-bar-item:nth-child(3) {
 /* .tall-column {
   grid-column-end: span 2;
 } */
-
-
-.design-container > * {
+.design-container>* {
   /* background-color: #75487C; */
   color: black;
   border-radius: 0;
@@ -232,9 +217,7 @@ img {
   border-radius: 0;
 }
 
-.overlay {
-
-}
+.overlay {}
 
 .text {
   padding-top: 15px;
@@ -288,18 +271,16 @@ h4 {
   /* border-radius: 4%;
   -webkit-border-radius: 4%;
 } */
-
 /*.container:hover {
   /* transform: scale(1.035, 1.035);
   -webkit-transform: scale(1.035, 1.035); */
-  /*box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+/*box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
   border-collapse: separate;
   /* border-radius: 4%;
   -webkit-border-radius: 4%; */
 /*  transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
 } */
-
 /* .text {
   position: absolute;
   top: 50%;
@@ -309,7 +290,6 @@ h4 {
   transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
 } */
-
 /*
 .container {
   position: relative;
@@ -327,8 +307,6 @@ h4 {
 .panel h3 {
   margin-top: 6px;
 } */
-
-
 /* ------ END 'BUTTON' if want bottom purple to overlap, need to make it its own div------ */
 button.end.left-triangle.right-triangle {
   padding-left: 555px;
@@ -339,6 +317,7 @@ button.end.left-triangle.right-triangle {
   display: flex;
   justify-content: center;
 }
+
 .end-text {
   color: #40222B;
   width: 128px;
@@ -352,40 +331,36 @@ button.end.left-triangle.right-triangle {
   /* width: 0;
 	height: 0;
 	border-top: 50px solid transparent; */
-	border-left: 150px solid #7A99D8;
-	/* border-bottom: 25px solid transparent; */
+  border-left: 150px solid #7A99D8;
+  /* border-bottom: 25px solid transparent; */
   background-color: #95849E;
 }
 
 .right-triangle {
   width: 0;
-	height: 0;
-	border-top: 70px solid transparent;
-	border-right: 150px solid #75487C;
-	border-bottom: 0px solid transparent;
+  height: 0;
+  border-top: 70px solid transparent;
+  border-right: 150px solid #75487C;
+  border-bottom: 0px solid transparent;
 }
 
-
-
 /* ----------------- FOOTER ---------------- */
-
 footer {
   /* background-color: #5C396F; */
 }
 
-body > footer:nth-child(3) {
- margin: 50px 0 0 45px;
+body>footer:nth-child(3) {
+  margin: 50px 0 0 45px;
 }
-
 
 footer a {
   /* color: var(--main-background-color); */
   color: #5C396F;
-	font-size: 25px;
-	/* text-decoration: underline #69abd7; */
+  font-size: 25px;
+  /* text-decoration: underline #69abd7; */
   text-decoration: underline #9181A7;
-	text-decoration: 5px;
-	/* text-decoration: underline #69abd7 5px; */
+  text-decoration: 5px;
+  /* text-decoration: underline #69abd7 5px; */
   text-decoration: underline #9181A7 5PX;
 }
 
@@ -395,7 +370,7 @@ footer p {
 }
 
 .w3-cell-row {
- margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 a:link {
@@ -427,8 +402,8 @@ span.heart {
 }
 
 .heart {
-	color: #54B2BA;
-	font-size: 11px;
+  color: #54B2BA;
+  font-size: 11px;
 }
 
 .copyright {

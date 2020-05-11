@@ -111,7 +111,7 @@ header {
 
 .w3-button:hover {
   color: #C8F2DF !important;
-  background-color:#0D85A2 !important;
+  background-color: #0D85A2 !important;
   text-decoration: none;
 }
 
@@ -128,9 +128,9 @@ header {
 }
 
 .w3-right {
- margin-top: 45px;
- font-size: 1em;
- font-weight: bold;
+  margin-top: 45px;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 .header-right a {
@@ -151,7 +151,6 @@ header {
   padding-bottom: 0.75em;
   cursor: pointer;
 } */
-
 .w3-right a.active {
   text-decoration: none;
   color: #54B2BA;
@@ -162,18 +161,18 @@ header {
 }
 
 a.w3-bar-item:nth-child(1) {
- padding-left: 3px;
- padding-right: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 a.w3-bar-item:nth-child(2) {
- padding-left: 3px;
- padding-right: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 a.w3-bar-item:nth-child(3) {
- padding-left: 3px;
- padding-right: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 /* .grey {
@@ -184,7 +183,6 @@ a.w3-bar-item:nth-child(3) {
   background-repeat: no-repeat;
   background-size: 300px 1000px;
 } */
-
 .line {
   position: static;
   display: inline-block;
@@ -223,7 +221,8 @@ a {
   text-decoration: none;
   font-family: var(--body-font);
   padding: 15px;
-  background-color: transparent; */
+  background-color: transparent;
+  */
   /* border-style: solid; */
   /* border-color: #5C396F; */
   /* border-width: 2px; */
@@ -269,7 +268,6 @@ button.btn.work:hover, button {
   height: 250px;
   margin: 0 300px -130px 300px;
 } */
-
 .skewed {
   position: static;
   margin: 127px 0 0 0;
@@ -285,6 +283,7 @@ button.btn.work:hover, button {
   transform: skewY(6deg);
   transform-origin: top right;
 }
+
 .mountain-lake {
   background-image: url("./Images/mountain-lake.jpg");
   height: 350px;
@@ -322,16 +321,14 @@ div.page-title2 {
 }
 
 .text {
- margin: 20px 212px 0 212px;
- letter-spacing: .6px;
- color: var(--main-text-color);
- z-index: 0;
- transform: skewY(-6deg);
+  margin: 20px 212px 0 212px;
+  letter-spacing: .6px;
+  color: var(--main-text-color);
+  z-index: 0;
+  transform: skewY(-6deg);
 }
 
 /* ----- VIEW DESIGN ----- */
-
-
 button.project-button {
   font-family: var(--body-font);
   padding: 0.75em;
@@ -366,11 +363,11 @@ button:hover {
 footer a {
   /* color: var(--main-background-color); */
   color: #0D85A2;
-	font-size: 25px;
-	/* text-decoration: underline #69abd7; */
+  font-size: 25px;
+  /* text-decoration: underline #69abd7; */
   text-decoration: underline #C8F2DF;
-	text-decoration: 5px;
-	/* text-decoration: underline #69abd7 5px; */
+  text-decoration: 5px;
+  /* text-decoration: underline #69abd7 5px; */
   text-decoration: underline #C8F2DF 5PX;
 }
 

@@ -122,7 +122,14 @@ h4 {
 h3 {
   font-weight: 900;
   font-size: 1.7em;
+  font-family: 'Homemade Apple', cursive;
 }
+
+.w3-container,
+.w3-panel {
+ padding: 0;
+}
+
 
 p, div {
   font-family: var(--body-font);
@@ -130,13 +137,10 @@ p, div {
 }
 
 header {
-  margin: 15px 0 0 20px;
+  height: 450px;
+  margin: 30px 0 0 45px;
   padding-top: 5px;
   font-family: 'Homemade Apple', cursive;
-}
-
-.more {
-  margin: 100px 35px 75px 55px;
 }
 
 span {
@@ -144,21 +148,20 @@ span {
 }
 
 /* MAIN CONTAINER TOP WITH PICTURES-------------------------------*/
-.main-container {
+/* .main-container {
   display: grid;
   display: -ms-grid;
   grid-template-columns: repeat(auto-fill, minmax(478px, 1fr));
   /* min-height: 100vh; */
 }
 
-.top-left {
+/*.top-left {
   grid-column: 1;
   grid-row: 1;
 }
 
 .top-left img, .bottom-left img, .logo-pic img {
   width: 100%;
-  /* height: 50%; */
   object-fit: cover;
 }
 
@@ -171,15 +174,15 @@ span {
 .bottom-left {
   grid-column: 1;
   grid-row: 2;
-}
+} */
 
-.bottom-right {
+/* .bottom-right { */
   /* commenting this out allows the navbar to sit directly under the title?? */
   /* display: grid;
   grid-column: 2; */
-  grid-row: 2;
+  /* grid-row: 2;
   margin: 0 200px 0 200px;
-}
+} */
 
 /* .top-right-bottom {
   margin-top: 305px;
@@ -189,80 +192,47 @@ span {
     z-index: -1;
     top: 90%;
     /* left: 0; */
-    /* width: 36%;
+/* width: 36%;
     height: 5%;
     content:"";
     background-color: #607bae;
 } */
 
+.w3-purple,
+.w3-hover-purple:hover {
+ color: var(--main-text-color)!important;
+ background-color:#9181A7!important;
+}
 
-.color {
-  width: 100%;
-  /* width: 375px; */
-  height: 43px;
+.bottom-right > h1:nth-child(1) {
+  margin-left: 170px;
+  text-align: center;
+  color: var(--main-text-color);
+  width: 50%;
+  height: 41px;
   margin: 27px auto;
-  /* opacity: 20%; */
-  background-image: linear-gradient(top, #9181A7, #9181A7 70%, transparent 70%,transparent 100%);
+  background-image: linear-gradient(top, #9181A7, #9181A7 70%, transparent 70%, transparent 100%);
   background-image: -webkit-linear-gradient(top, #9181A7, #9181A7 70%, transparent 70%, transparent 100%);
 }
 
-.top-right-bottom > h1, .top-right-bottom > p {
-  text-align: center;
-  font-size: 2.3em;
-  font-family: var(--header-font);
-  color: var(--main-text-color);
-  /* font-weight: 900; */
-  padding-left: .3em;
-}
-
-.top-right-bottom > p {
-  font-size: 1.1em;
-  font-weight: 0;
-  padding-top: 10px;
-  letter-spacing: .6px;
+.bottom-right > p:nth-child(2) {
+ margin-left: 175px;
+ margin-right: 175px;
+ font-size: 1.1em;
+ font-weight: 0;
+ padding-top: 10px;
+ letter-spacing: .6px;
+ text-align: center;
+ color: var(--main-text-color);
 }
 
 .here {
   font-style: oblique;
 }
 
-a:link {
-  text-decoration: none;
-}
-
-a:hover {
-  color: #9181A7;
-  text-decoration: underline;
-}
-
-/* .bottom-navbar {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 45px;
-  grid-gap: .625rem;
-  margin: 35px 87px 0px 123px;
-  text-align: center;
-  text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-  color: var(--main-text-color);
-}
-
-a:hover {
-  background-color: #9181A7;
-} */
-
-
-
-
 /* ----------------------------------------------- */
-
-
 /* ----- WORK PROJECT CONTAINER -----*/
-
-.work-container, .work-title-container{
+.work-container, .work-title-container {
   max-width: 1920px;
   /* margin: 0 20px;
   display: grid; */
@@ -297,8 +267,8 @@ a:hover {
   align-items: center;
   padding-left: 30px;
 }
-/* -----WORK TITLE CONTAINER -----*/
 
+/* -----WORK TITLE CONTAINER -----*/
 .container {
   /* needed for the flex layout*/
   margin-left: 20px;
@@ -306,7 +276,7 @@ a:hover {
   flex: 1 1 200px;
 }
 
-.work-container > * {
+.work-container>* {
   /* background-color: #75487C; */
   color: black;
   border-radius: 0;
@@ -319,7 +289,6 @@ a:hover {
   grid-column: 1;
   grid-row: 1;
 } */
-
 .hover-zoom {
   -webkit-transition: transform .2s;
   -o-transition: transform .2s;
@@ -333,9 +302,7 @@ a:hover {
   transform: scale(1.3);
 }
 
-
 /* ----- WORK BUTTON ----- */
-
 button {
   font-family: var(--body-font);
   padding: 0.75em;
@@ -344,13 +311,15 @@ button {
   border-color: #5C396F;
   border-width: 2px;
   margin: 70px auto;
-  /* margin-top: 100px; */
   display: block;
+  cursor: pointer;
+}
+
+button a:hover {
+  color: #5C396F;
 }
 
 button:hover {
   background-color: #9181A7;
+  color: #5C396F;
 }
-
-
-/* ----------------- FOOTER ---------------- */
