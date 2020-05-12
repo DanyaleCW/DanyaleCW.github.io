@@ -1,9 +1,9 @@
 /* Smartphones (landscape) ---------- */
 @media (max-width: 320px) {
 
-  body {
+  /* body {
      background-color: lavender;
-   }
+   } */
 
   .top-right-bottom>h1 {
     text-align: center;
@@ -19,9 +19,9 @@
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
-  body {
+  /* body {
     background-color: brown;
-  }
+  } */
 
   header {
     height: 450px;
@@ -62,9 +62,9 @@
 }
 
 @media (min-width: 376px) and (max-width: 414px) {
-  body {
+  /* body {
     background-color: pink;
-  }
+  } */
   header {
     height: 450px;
     height: 125px;
@@ -94,9 +94,10 @@
 }
 
 @media (min-width: 415px) and (max-width: 740px) {
-  body {
+  /* body {
     background-color: orange;
-  }
+  } */
+
   header {
     height: 115px;
   }
@@ -144,9 +145,9 @@
 }
 
 @media (min-width: 741px) and (max-width: 900px) {
-  body {
+  /* body {
     background-color: blue;
-  }
+  } */
 
   header {
     height: 125px;
@@ -166,9 +167,9 @@
 }
 
 @media (min-width: 900px) and (max-width: 1024px) {
- body {
-     background-color: purple;
-   }
+   /* body {
+    background-color: purple;
+  } */
 
    header {
      /* height: 450px; */
@@ -192,9 +193,9 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1112px) {
-  body {
+  /* body {
       background-color: turquoise;
-    }
+    } */
 
     header {
       /* height: 450px; */
@@ -241,9 +242,9 @@
 }
 
 @media (min-width: 1900px) {
-  body {
+  /* body {
     background-color: green;
-  }
+  } */
 
   .work-title-container {
     display: inline-block;
