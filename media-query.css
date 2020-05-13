@@ -1,8 +1,8 @@
 /* Smartphones (landscape) ---------- */
 @media (max-width: 320px) {
-  body {
+  /* body {
      background-color: lavender;
-   }
+   } */
 
   .top-right-bottom>h1 {
     text-align: center;
@@ -163,9 +163,9 @@
 }
 
 @media (min-width: 415px) and (max-width: 740px) {
-  body {
+  /* body {
     background-color: orange;
-  }
+  } */
 
   header {
     height: 115px;
