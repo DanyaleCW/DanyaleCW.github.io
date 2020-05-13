@@ -1,0 +1,601 @@
+/* CSS Reset */
+* {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+pre,
+blockquote,
+figure,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/* Browsers don’t inherit typography for forms and buttons. They set font to 400 11px system-ui. I find this mind-boggling and weird. I always have to make them inherit from ancestor elements manually. */
+input,
+textarea,
+select,
+button {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+/* Different browsers have style the borders for forms elements and buttons differently. I dislike these default styles, and would prefer to set them to 1px solid gray. */
+input,
+textarea,
+button {
+  border: 2px solid #121643;
+}
+
+/* I made a few more adjustments to buttons:
+Set button padding to 0.75em and 1em because they seem like sensible defaults from my experience.
+Removed the default border-radius that’s applied to buttons.
+Forced background color to be transparent */
+button {
+  border-radius: 0;
+  padding: 0.75em 1em;
+  background-color: transparent;
+}
+
+/* I also set these elements to display: block because inline-block creates an unwanted whitespace at the bottom of the element. */
+embed,
+iframe,
+img,
+object,
+video {
+  display: grid;
+  max-width: 100%;
+}
+
+/* The hidden attribute
+When an element has a hidden attribute, they should be hidden from view. Normalize.css does this for us already. */
+[hidden] {
+  display: none;
+}
+
+/* CSS Reset End--------------------------------*/
+/* ----------START OF SITE SPECIFIC CSS-------- */
+:root {
+--main-text-color: #121643;
+--main-background-color: #efeff2;
+--header-font: 'Rubik', sans-serif;
+--body-font: 'Karla', sans-serif;
+--main-margin: 100px 35px 0 55px;
+--main-padding: 20px;
+}
+
+/*
+#69abd7
+#5c5374
+#9181A7
+#607bae
+#75487C
+#121643
+#40222B
+#efeff2
+*/
+
+body {
+  background-color: var(--main-background-color);
+  font-family: var(--body-font);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6, {
+  font-family: var(--body-font);
+  color: var(--main-text-color);
+}
+
+h4 {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 1.7em;
+}
+
+p, div {
+  font-family: var(--body-font);
+  color: var(--main-text-color);
+}
+
+header {
+  margin: 15px 0 0 20px;
+  padding-top: 5px;
+}
+
+.about, .project, .more {
+  margin: var(--main-margin);
+}
+
+/* .about {
+  margin: 100px 35px 75px 55px;
+} */
+
+.main-about, .main-projects {
+  margin: 20px 35px 0 55px;
+}
+
+span {
+  padding-left: 2.8em;
+}
+
+/* MAIN CONTAINER TOP WITH PICTURES-------------------------------*/
+.main-container {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: repeat(auto-fill, minmax(478px, 1fr));
+  /* min-height: 100vh; */
+}
+
+.top-left {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.top-left > img, .bottom-left > img, .logo-pic > img {
+  width: 100%;
+  /* height: 50%; */
+  object-fit: cover;
+}
+
+.top-right {
+  grid-column: 2;
+  grid-row: 1;
+  padding: 5px 0 0 30px;
+}
+
+.bottom-left {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.bottom-right {
+  /* commenting this out allows the navbar to sit directly under the title?? */
+  /* display: grid;
+  grid-column: 2; */
+  grid-row: 2;
+  margin: 0 110px 0 120px;
+}
+
+/* .top-right-bottom {
+  margin-top: 305px;
+}
+.color:after {
+    position:absolute;
+    z-index: -1;
+    top: 90%;
+    /* left: 0; */
+    /* width: 36%;
+    height: 5%;
+    content:"";
+    background-color: #607bae;
+} */
+
+
+.color {
+  width: 500px;
+  /* width: 375px; */
+  height: 30px;
+  margin: 27px auto;
+  /* opacity: 20%; */
+  background-image: linear-gradient(top, #9181A7, #9181A7 70%, transparent 70%,transparent 100%);
+  background-image: -webkit-linear-gradient(top, #9181A7, #9181A7 70%, transparent 70%, transparent 100%);
+}
+
+.top-right-bottom > h1 {
+  text-align: center;
+  font-size: 2em;
+  font-family: var(--header-font);
+  color: var(--main-text-color);
+  font-weight: 900;
+  padding-left: .3em;
+}
+
+.bottom-navbar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 45px;
+  grid-gap: .625rem;
+  margin: 35px 87px 0 123px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.about-nav, .project-nav, .more-nav, .design-nav, .logo-nav {
+  padding: 0.75em;
+  background-color: transparent;
+  border-style: solid;
+  border-color: var(--main-text-color);
+  border-width: 2px;
+}
+
+/* .more-nav, #more {
+  padding: 0.75em;
+}
+.more-nav {
+  background-color: transparent;
+  border-style: solid;
+  border-color: var(--main-text-color);
+  border-width: 2px;
+}
+.more-nav:after {
+  content: '';
+	position: absolute;
+	left: 89.6%;
+	width: 0.8%;
+	border-top: 2px solid #fff;
+  bottom: -16px;
+}
+.more-nav:after {
+  content: '';
+	position: absolute;
+	left: 89.6%;
+	width: 0.8%;
+	border-right: 2px solid #fff;
+  bottom: -16px;
+} */
+
+a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+a.about-nav, a.project-nav, a.more-nav, a.design-nav, a.logo-nav {
+  color: #550e75;
+}
+
+/* .square-nav-one {
+  background-color: #75487C ;
+  position: absolute;
+  top: 561px;
+  right: 539px;
+  width: 21px;
+  height: 21px;
+  z-index: -1;
+}
+.square-nav-two {
+  background-color: #5c5374;
+  position: absolute;
+  top: 1375px;
+  right: 396px;
+  width: 21px;
+  height: 21px;
+  z-index: -1;
+}
+.square-nav-three {
+  background-color: #607bae;
+  position: absolute;
+  top: 1530px;
+  right: 269px;
+  width: 21px;
+  height: 21px;
+  z-index: -1;
+}
+.square-nav-four {
+  background-color: #40222B;
+  position: absolute;
+  top: 520px;
+  right: 126px;
+  width: 21px;
+  height: 21px;
+  z-index: -1;
+} */
+
+/* --------------------------------------------- */
+/* ABOUT CONTAINER -----------------------------*/
+.main-about {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 3rem;
+}
+
+.one:empty {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.me {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: #75487C;
+}
+
+.three:empty {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.mission {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: #4E88AF;
+}
+
+.four:empty {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.vision {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: #9181A7;
+}
+
+.five:empty {
+  grid-column: 1;
+  grid-row: 2;
+}
+/* .six:empty {
+  grid-column: 2;
+  grid-row: 3;
+} */
+/* .seven:empty {
+  grid-column: 1;
+  grid-row: 4;
+} */
+
+.skills {
+  grid-column: 1;
+  grid-row: 4;
+  background-color: #4EB5A5;
+}
+
+.eight:empty {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.hobbies {
+  grid-column: 2;
+  grid-row: 5;
+  background-color: #607bae;
+}
+.eight:empty {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.me, .mission, .vision, .skills {
+  padding: var(--main-padding);
+  margin-right: 20px;
+  border-radius: 9px;
+}
+
+.skills {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: auto; */
+}
+
+.skill2, .service {
+  padding-top: 30px;
+}
+
+.service {
+  padding-left: 63px;
+}
+
+/* .square-one {
+  background-color: #9181A7;
+  position: absolute;
+  top: 1050px;
+  right: 370px;
+  width: 345px;
+  height: 204px;
+  z-index: -1;
+}
+.square-two {
+  background-color: #69AEBD;
+  position: absolute;
+  top: 1380px;
+  right: 1158px;
+  width: 242px;
+  height: 140px;
+  z-index: -1;
+}
+.square-three {
+  background-color: #92D6A5;
+  position: absolute;
+  top: 1527px;
+  right: 590px;
+  width: 247px;
+  height: 155px;
+  z-index: -1;
+}
+.square-four {
+  background-color: #8D93A5;
+  position: absolute;
+  top: 1795px;
+  right: 720px;
+  width: 305px;
+  height: 185px;
+  z-index: -1;
+}
+.square-five {
+  background-color: #789FBC;
+  position: absolute;
+  top: 2135px;
+  right: 25px;
+  width: 456px;
+  height: 105px;
+  z-index: -1;
+} */
+
+/* ----------------------------------------------- */
+/* PROJECT CONTAINER ---------------------------*/
+
+.main-projects {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  grid-gap: 1rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.main-projects > img {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container:hover .overlay {
+  opacity: 4;
+  border-radius: 4%;
+  -webkit-border-radius: 4%;
+}
+
+.container:hover {
+  transform: scale(1.035, 1.035);
+  -webkit-transform: scale(1.035, 1.035);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  border-collapse: separate;
+  border-radius: 4%;
+  -webkit-border-radius: 4%;
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  color: #ffffff ;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.card img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4%;
+}
+
+.card h3 {
+  margin-top: 6px;
+}
+
+/* .card.colors {
+  margin: 0;
+  padding: 0;
+  width: 336px;
+  height: 42px;
+  /* margin: 50px auto; */
+  /* background-image: linear-gradient(top,#607bae, #607bae 70%, transparent 70%,transparent 100%);
+  background-image: -webkit-linear-gradient(top,#607bae, #607bae 70%, transparent 70%,transparent 100%)
+}
+.card {
+  background-color: #607bae;
+} */
+
+
+/* ----------------- FOOTER ---------------- */
+.more {
+  /* background-color: #2E589E; */
+  margin-bottom: 100px;
+}
+
+.more-grid {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 20px;
+  align-items: center;
+  justify-items: center;
+  /* justify-content: center; */
+  grid-gap: 10px;
+}
+
+.fa {
+  text-decoration: none;
+  background: #607bae;
+  font-size: 30px;
+  text-align: center;
+  width: 30px;
+  padding: 17px;
+  border-radius: 50%;
+  color: #121643;
+}
+
+.fa:hover {
+  color: #9181A7 !important;
+}
+
+.follow {
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.heart {
+  color: #550e75;
+  font-size: 34px;
+}
+
+.love {
+  margin: 100px 0 50px 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+span.heart {
+  padding-left: 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-bottom: 30px;
+}
