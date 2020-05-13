@@ -77,7 +77,8 @@ class FooterTemplate extends HTMLElement {
       <div class="w3-cell-row">
         <div class="w3-container w3-col m5 w3-cell-top">
           <p class="contact">CONTACT</p>
-          <p class="CTA">Please contact me if you would like to <br>create a website that converts clicks to <br>leads and increases you bottom line.</p>
+          <p class="CTA">Please contact me if you would like to create a website that converts clicks to leads and increases you bottom line.</p>
+          <p>Let's make something special!!!</p>
         </div>
 
         <div class="w3-container w3-col m5  w3-cell-top">
@@ -132,6 +133,11 @@ icecream.addEventListener("click", function() {
 let port3 = document.getElementById("portfolio3");
 portfolio3.addEventListener("click", function() {
   window.open("https://danyalecw.github.io/Portfolio-V3/", "_blank")
+});
+
+let choco = document.getElementById("chocolate");
+chocolate.addEventListener("click", function() {
+  window.open("https://artboard.studio/present/5ebb22447b71d7001897ec6a/5eab867d49f5b20018d33d86", "_blank")
 });
 
 let port2 = document.getElementById("portfolio2");

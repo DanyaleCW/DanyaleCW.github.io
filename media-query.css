@@ -1,9 +1,8 @@
 /* Smartphones (landscape) ---------- */
 @media (max-width: 320px) {
-
-  /* body {
+  body {
      background-color: lavender;
-   } */
+   }
 
   .top-right-bottom>h1 {
     text-align: center;
@@ -11,10 +10,50 @@
     margin-top: 150px;
   }
 
-  .color {
-    width: 180px;
-    height: 24px;
-    margin: 13px 0 13px -46px;
+
+  /* main0.css | file:///Users/Danyale/Documents/danyalecw.github.io/main0.css */
+
+  header {
+    /* height: 450px; */
+    height: 105px;
+  }
+
+  .bottom-right > h1:nth-child(1) {
+    /* height: 41px; */
+    /* margin: 27px auto; */
+    height: 29px;
+    margin: 0px 1px 1px 128px;
+  }
+
+  h1 {
+    /* font-size: 36px; */
+    font-size: 21px;
+  }
+
+  .bottom-right {
+    margin-left: -67px;
+    margin-top: 25px;
+  }
+
+
+  .bottom-right > p:nth-child(2) {
+    margin-left: 97px;
+    margin-right: 35px;
+    margin-top: 18px;
+  }
+
+  .w3-lavender {
+    padding-left: 0px;
+    padding-right: -20px;
+    margin-top: 51px;
+  }
+
+  .work-title-container {
+    margin-left: 27px;
+  }
+
+  .work-container {
+    padding-left: 0px;
   }
 }
 
@@ -24,19 +63,43 @@
   } */
 
   header {
-    height: 450px;
-    height: 125px;
+    height: 105px;
+  }
+
+  .bottom-right > h1:nth-child(1) {
+    height: 29px;
+    margin: 0px 1px 1px 128px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .bottom-right {
+    margin-left: -67px;
+    margin-top: 46px;
+}
+
+
+  .bottom-right > p:nth-child(2) {
+    margin-left: 101px;
+    margin-top: 26px;
+    margin-right: 43px;
+}
+
+
+  .w3-lavender {
+    padding-left: 0px;
+    padding-right: -20px;
+    margin-top: 51px;
+  }
+
+  .work-container {
+    padding-left: 0px;
   }
 
   .w3-lavender {
   margin-bottom: 86px;
-  }
-
-  .bottom-right > p:nth-child(2) {
-   margin-top: 33px;
-   padding-top: 52px;
-   margin-left: 50px;
-   margin-right: 50px;
   }
 
   .work-title-container {
@@ -58,6 +121,11 @@
   .work-container {
     padding-top: 20px;
   }
+
+  #contact > footer:nth-child(2) {
+    margin-left: 13%;
+  }
+
 
 }
 
@@ -95,9 +163,9 @@
 }
 
 @media (min-width: 415px) and (max-width: 740px) {
-  /* body {
+  body {
     background-color: orange;
-  } */
+  }
 
   header {
     height: 115px;
@@ -130,6 +198,11 @@
     margin: 170px 0 25px 117px;
   }
 
+  div.container.hover-zoom {
+    margin-bottom: 42px;
+  }
+
+
   .bottom-right > p:nth-child(2) {
     margin-left: 50px;
     margin-right: 50px;
@@ -139,9 +212,28 @@
     margin-top: 70px;
   }
 
-  #contact > footer:nth-child(2) {
-    margin-left: 4px;
+  footer a {
+    /* font-size: 25px; */
+    font-size: 20px;
   }
+
+  #contact > footer:nth-child(2) {
+    margin-left: 11px;
+    margin-right: 11px;
+  }
+
+  .contact {
+    /* font-size: 62px; */
+    font-size: 52px;
+  }
+
+  .CTA {
+    margin-right: 18px;
+  }
+
+  div.w3-cell-row:nth-child(2) > div:nth-child(1) > p:nth-child(1) {
+ margin-right: 8px;
+}
 
 }
 

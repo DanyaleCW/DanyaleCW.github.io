@@ -237,7 +237,7 @@ h3 {
 }
 
 .design, .development {
-  margin-top: 30px;
+  margin-top: 80px;
   font-size: 17px;
 }
 
@@ -270,7 +270,8 @@ img.skill-picture {
 }
 
 .scotch>div:nth-child(2) {
-  margin-top: 160px;
+  margin-top: 200px;
+  margin-left: 3%;
   font-size: 17px;
 }
 

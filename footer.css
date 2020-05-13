@@ -49,6 +49,22 @@ a:hover {
   font-style: normal;
 }
 
+.CTA {
+ margin-right: 97px;
+}
+
+.CTA {
+  margin-right: 97px;
+}
+
+#contact > footer:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+  margin-top: 20px;
+}
+
+#contact > footer:nth-child(2) > div:nth-child(1) > div:nth-child(3) {
+  margin-top: 20px;
+}
+
 .email {
   margin-bottom: 10px;
 }

@@ -105,6 +105,10 @@ header {
   padding: 20px 40px 20px 31px;
 }
 
+body > main:nth-child(2) {
+ margin-bottom: 50px;
+}
+
 .w3-wide {
   letter-spacing: 0px;
 }
