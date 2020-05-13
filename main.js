@@ -84,8 +84,8 @@ class FooterTemplate extends HTMLElement {
         <div class="w3-container w3-col m5  w3-cell-top">
           <p class="email"><a href="mailto:danyalecw@gmail.com">
             danyalecw@gmail.com</a></p>
-          <p class="phone"><a href="tel:+347-566-0530">
-              347-566-0530</a></p>
+          <!-- <p class="phone"><a href="tel:+347-566-0530">
+              347-566-0530</a></p> -->
           <div class="github"><a target="_blank" href="https://github.com/DanyaleCW">GitHub</a>
           </div>
         </div>
