@@ -89,7 +89,6 @@ When an element has a hidden attribute, they should be hidden from view. Normali
 --main-margin: 100px 35px 0 55px;
 --main-padding: 20px;
 }
-
 /*
 #69abd7
 #5c5374
@@ -100,7 +99,6 @@ When an element has a hidden attribute, they should be hidden from view. Normali
 #40222B
 #efeff2
 */
-
 body {
   background-color: var(--main-background-color);
   font-family: var(--body-font);
@@ -127,9 +125,8 @@ h3 {
 
 .w3-container,
 .w3-panel {
- padding: 0;
+  padding: 0;
 }
-
 
 p, div {
   font-family: var(--body-font);
@@ -175,15 +172,13 @@ span {
   grid-column: 1;
   grid-row: 2;
 } */
-
 /* .bottom-right { */
-  /* commenting this out allows the navbar to sit directly under the title?? */
-  /* display: grid;
+/* commenting this out allows the navbar to sit directly under the title?? */
+/* display: grid;
   grid-column: 2; */
-  /* grid-row: 2;
+/* grid-row: 2;
   margin: 0 200px 0 200px;
 } */
-
 /* .top-right-bottom {
   margin-top: 305px;
 }
@@ -197,14 +192,13 @@ span {
     content:"";
     background-color: #607bae;
 } */
-
 .w3-purple,
 .w3-hover-purple:hover {
- color: var(--main-text-color)!important;
- background-color:#9181A7!important;
+  color: var(--main-text-color) !important;
+  background-color: #9181A7 !important;
 }
 
-.bottom-right > h1:nth-child(1) {
+.bottom-right>h1:nth-child(1) {
   margin-left: 170px;
   text-align: center;
   color: var(--main-text-color);
@@ -215,15 +209,15 @@ span {
   background-image: -webkit-linear-gradient(top, #9181A7, #9181A7 70%, transparent 70%, transparent 100%);
 }
 
-.bottom-right > p:nth-child(2) {
- margin-left: 175px;
- margin-right: 175px;
- font-size: 1.1em;
- font-weight: 0;
- padding-top: 10px;
- letter-spacing: .6px;
- text-align: center;
- color: var(--main-text-color);
+.bottom-right>p:nth-child(2) {
+  margin-left: 175px;
+  margin-right: 175px;
+  font-size: 1.1em;
+  font-weight: 0;
+  padding-top: 10px;
+  letter-spacing: .6px;
+  text-align: center;
+  color: var(--main-text-color);
 }
 
 .here {
@@ -313,6 +307,7 @@ button {
   margin: 70px auto;
   display: block;
   cursor: pointer;
+  text-decoration: none;
 }
 
 button a:hover {
@@ -322,4 +317,309 @@ button a:hover {
 button:hover {
   background-color: #9181A7;
   color: #5C396F;
+  text-decoration: none;
+}
+
+/* ------ END MAIN CSS ----- */
+/* ----- MEDIA QUERY ------ */
+@media (max-width: 320px) {
+
+  /* body {
+     background-color: lavender;
+   } */
+  header {
+    height: 140px;
+  }
+
+  h1 {
+    font-size: 21px;
+  }
+
+  .top-right-bottom>h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 150px;
+  }
+
+  .bottom-right>h1:nth-child(1) {
+    height: 29px;
+    width: 55%;
+    margin: 0px 1px 1px 128px;
+  }
+
+  .w3-lavender h1 {
+    font-size: 21px;
+  }
+
+  .bottom-right>h1:nth-child(1) {
+    height: 24px;
+  }
+
+  .bottom-right {
+    margin-left: -67px;
+    margin-top: 25px;
+  }
+
+  .bottom-right>p:nth-child(2) {
+    margin-left: 97px;
+    margin-right: 35px;
+    margin-top: 18px;
+  }
+
+  .w3-lavender {
+    padding-left: 0px;
+    padding-right: -20px;
+    margin-top: 51px;
+  }
+
+  .work-title-container {
+    margin-left: 27px;
+  }
+
+  .work-container {
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+
+  /* body {
+    background-color: brown;
+  } */
+  header {
+    height: 130px;
+  }
+
+  .bottom-right>h1:nth-child(1) {
+    height: 29px;
+    margin: 0px 1px 1px 128px;
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+
+  .bottom-right {
+    margin-left: -67px;
+    margin-top: 46px;
+  }
+
+  .bottom-right>p:nth-child(2) {
+    margin-left: 101px;
+    margin-top: 26px;
+    margin-right: 43px;
+  }
+
+  .w3-lavender {
+    padding-left: 0px;
+    padding-right: -20px;
+    margin-top: 51px;
+  }
+
+  .work-container {
+    padding-left: 0px;
+  }
+
+  #contact>footer:nth-child(2) {
+    margin-left: 9%;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 414px) {
+
+  /* body {
+    background-color: pink;
+  } */
+  .w3-lavender {
+    margin-bottom: 86px;
+  }
+
+  .bottom-right>p:nth-child(2) {
+    margin-top: 33px;
+    padding-top: 52px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 740px) {
+
+  /* body {
+    background-color: orange;
+  } */
+  h1 {
+    font-size: 20px;
+  }
+
+  .top-right {
+    height: 135px;
+  }
+
+  .bottom-right>h1:nth-child(1) {
+    width: 40%;
+    height: 25px;
+  }
+
+  .bottom-right>p:nth-child(2) {
+    margin-left: 48px;
+    margin-right: 50px;
+    font-size: 1.1em;
+    padding-top: 0px;
+  }
+
+  div.m6 img {
+    height: 221px;
+    width: 327px;
+  }
+
+  footer a {
+    font-size: 20px;
+  }
+
+  #contact>footer:nth-child(2) {
+    margin-left: 11px;
+    margin-right: 11px;
+  }
+
+  .contact {
+    font-size: 52px;
+  }
+
+  .CTA {
+    margin-right: 18px;
+  }
+
+  div.w3-cell-row:nth-child(2)>div:nth-child(1)>p:nth-child(1) {
+    margin-right: 8px;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 900px) {
+
+  /* body {
+    background-color: blue;
+  } */
+  header {
+    height: 94px;
+    margin: 30px 0 0 45px;
+    padding-top: 5px;
+    font-family: 'Homemade Apple', cursive;
+  }
+
+  .w3-lavender {
+    margin-bottom: 86px;
+    font-size: 23px;
+  }
+
+  .bottom-right>h1:nth-child(1) {
+    width: 63%;
+    height: 27px;
+  }
+
+  .bottom-right>p:nth-child(2) {
+    margin-top: 0px;
+    padding-top: 25px;
+    margin-left: 46px;
+    margin-right: 50px;
+  }
+
+  .bottom-right {
+    padding-top: 31px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+
+  /* body {
+    background-color: purple;
+  } */
+  header {
+    height: 155px;
+  }
+
+  .w3-lavender {
+    margin-bottom: 80px;
+    font-size: 25px;
+    margin-top: 79px;
+  }
+
+  .bottom-right>h1:nth-child(1) {
+    width: 56%;
+    height: 27px;
+  }
+
+  .bottom-right {
+    margin-top: 108px;
+  }
+
+  .bottom-right>p:nth-child(2) {
+    margin: 0px 100px 0 100px;
+  }
+
+  .work-title-container {
+    display: inline-block;
+    padding-top: 0px;
+    margin: 120px 0 40px 82px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1112px) {
+
+  /* body {
+      background-color: turquoise;
+    } */
+  header {
+    height: 251px;
+  }
+
+  .bottom-right {
+    margin-top: 106px;
+  }
+
+  .bottom-right>h1:nth-child(1) {
+    height: 31px;
+    Font-size: 29px;
+  }
+
+  .w3-lavender {
+    margin-bottom: 0px;
+    margin-top: 33px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .bottom-right>p:nth-child(2) {
+    margin-top: 22px;
+    margin-left: 105px;
+    margin-right: 105px;
+  }
+}
+
+@media (min-width: 1800px) {
+
+  /* body {
+    background-color: green;
+  } */
+  .hover-zoom {
+    width: 254px;
+  }
+
+  .hover-zoom:hover {
+    transform: scale(1.5);
+  }
+
+  .top-right>header:nth-child(1) {
+    margin-top: 140px;
+  }
+
+  .bottom-right>p:nth-child(2) {
+    margin-left: 237px;
+    margin-right: 237px;
+  }
+
+  body>main:nth-child(1)>section:nth-child(2) {
+    margin-left: 12.8%;
+  }
 }

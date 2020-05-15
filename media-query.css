@@ -1,17 +1,14 @@
 /* Smartphones (landscape) ---------- */
 @media (max-width: 320px) {
-  /* body {
+  body {
      background-color: lavender;
-   } */
+   }
 
   .top-right-bottom>h1 {
     text-align: center;
     font-size: 1.5em;
     margin-top: 150px;
   }
-
-
-  /* main0.css | file:///Users/Danyale/Documents/danyalecw.github.io/main0.css */
 
   header {
     /* height: 450px; */
@@ -25,9 +22,13 @@
     margin: 0px 1px 1px 128px;
   }
 
-  h1 {
+  .w3-lavender h1 {
     /* font-size: 36px; */
     font-size: 21px;
+  }
+
+  .bottom-right > h1:nth-child(1) {
+    height: 24px;
   }
 
   .bottom-right {
@@ -55,12 +56,105 @@
   .work-container {
     padding-left: 0px;
   }
+  /* ----- WORK PAGE ----- */
+
+  .page-header {
+ height: 230px;
+}
+
+.w3-right {
+  margin-top: 45px;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+.design-container {
+ padding-left: 0px;
+}
+
+.panel {
+  /* needed for the flex layout*/
+  margin-right: 20px;
+  flex: 1 1 200px;
+}
+
+/* ----- ABOUT PAGE ------ */
+.main-about {
+  margin-left: 44px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+  .me h1 {
+    /* font-size: 21px; */
+    font-size: 17px;
+  }
+
+.me p {
+  /* font-size: 26px; */
+  font-size: 16px;
+}
+
+.me > h1:nth-child(1) {
+  margin-right: 0px;
+}
+
+.main-about > div:nth-child(1) {
+  padding-left: 0px;
+}
+
+.me > p:nth-child(2) {
+  padding-right: 20px;
+}
+
+/* ----- ABOUT PAGE ------ */
+.main-about {
+  margin-left: 44px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.w3-right {
+  margin-top: 45px;
+  font-size: .7em;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-right: 18px;
+}
+
+
+.page-title > h1:nth-child(1) {
+  margin-left: 5px;
+  font-size: 41px;
+}
+
+.arrow-back {
+ margin-bottom: 0px;
+ padding-bottom: 0px;
+ padding-top: 0px;
+ margin-top: -45px;
+}
+
+.text {
+  /* margin: 20px 212px 0 212px; */
+  margin: 20px 22px 0 22px;
+}
+
+.line {
+  /* width: 120px; */
+  width: 0px;
+}
+
+h1.title:nth-child(2) {
+  padding-left: 0px;
+}
+
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
-  /* body {
+  body {
     background-color: brown;
-  } */
+  }
 
   header {
     height: 105px;
@@ -80,13 +174,11 @@
     margin-top: 46px;
 }
 
-
   .bottom-right > p:nth-child(2) {
     margin-left: 101px;
     margin-top: 26px;
     margin-right: 43px;
 }
-
 
   .w3-lavender {
     padding-left: 0px;
@@ -123,16 +215,69 @@
   }
 
   #contact > footer:nth-child(2) {
-    margin-left: 13%;
+    margin-left: 9%;
   }
+
+  /* ----- WORK PAGE ----- */
+
+  .page-header{
+ height: 240px;
+}
+
+.w3-right {
+ margin-right: 22px;
+}
+
+/* ----- about page ----- */
+
+.main-about {
+  margin-left: 44px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.me p {
+  font-size: 17px;
+  line-height: 37px;
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  h1 {
+    /* font-size: 24px; */
+    font-size: 20px;
+  }
+}
+
+.me > h1:nth-child(1) {
+  margin-left: -31px;
+}
+/* ----- the present ----- */
+.text {
+  margin: 20px 40px 0 40px;
+  letter-spacing: .6px;
+  color: var(--main-text-color);
+  z-index: 0;
+  transform: skewY(-6deg);
+}
+
+.line {
+  /* width: 120px; */
+  /* margin: 60px 0 -21px 60px; */
+  width: 67px;
+  margin: 60px 0 -21px 41px;
+}
+
+h1.title {
+  /* padding-left: 30px; */
+  padding-left: 7px;
+}
 
 
 }
 
 @media (min-width: 376px) and (max-width: 414px) {
-  /* body {
+  body {
     background-color: pink;
-  } */
+  }
 
   header {
     height: 450px;
@@ -160,57 +305,95 @@
     margin-top: 85px;
     margin-bottom: 0px;
   }
+
+  /* ----- WORK PAGE ----- */
+
+  .page-header {
+ height: 240px;
+}
+
+.w3-right {
+ margin-right: 24px;
+}
+
+.design-container {
+ padding-left: 7px;
+}
+
+  /* ----- ABOUT PAGE ----- */
+
+  .me h1 {
+ font-size: 24px;
+}
+
+
+  .m6 {
+    margin-top: 70px;
+  }
+
+  .main-about {
+    /* margin-left: 464px; */
+    /* margin-top: 300px; */
+    margin-left: 46px;
+    margin-top: 30px;
+  }
+
+  .design-dev {
+    /* padding: 100px 0 0 50px; */
+    padding: 0px 0 0 50px;
+  }
+
+  .m6 {
+ margin-top: 70px;
+}
+
+  .scotch > div:nth-child(2) {
+ margin-top: 100px;
+}
+
+.scotch-text > p:nth-child(1) {
+ margin-left: 29px;
+ margin-right: 57px;
+}
+/* ----- The Present ------ */
+
+.line {
+  /* width: 120px; */
+  width: 69px;
+}
+
+
+div.line:nth-child(1) {
+  margin-left: 40px;
+}
+
+.text {
+  margin: 20px 40px 0 40px;
+  letter-spacing: .6px;
+  color: var(--main-text-color);
+  z-index: 0;
+  transform: skewY(-6deg);
+}
+
+.arrow-back {
+ padding-top: 0px;
+ margin-top: -47px;
+}
+
 }
 
 @media (min-width: 415px) and (max-width: 740px) {
-  /* body {
+  body {
     background-color: orange;
-  } */
-
-  header {
-    height: 115px;
   }
+
+
 
   h1 {
     /* font-size: 36px; */
-    font-size: 30px;
+    font-size: 27px;
   }
 
-  .bottom-right > h1:nth-child(1) {
-  height: 36px;
-  }
-
-  img {
-    height: 233px;
-  }
-
-  .w3-lavender {
-    margin-bottom: 75px;
-  }
-
-  .bottom-right > p:nth-child(2) {
-   padding-top: 52px;
-  }
-
-  .work-title-container {
-    display: inline-block;
-    padding-top: 0px;
-    margin: 170px 0 25px 117px;
-  }
-
-  div.container.hover-zoom {
-    margin-bottom: 42px;
-  }
-
-
-  .bottom-right > p:nth-child(2) {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-  .work-title-container {
-    margin-top: 70px;
-  }
 
   footer a {
     /* font-size: 25px; */
@@ -235,12 +418,118 @@
  margin-right: 8px;
 }
 
+/* ----- WORK PAGE ----- */
+
+.page-header {
+height: 164px;
 }
 
+body > main:nth-child(2) {
+ margin-left: 0px;
+}
+
+.design-container {
+  padding: 40px 5px 20px 54px;
+}
+
+div.overlay {
+  margin-right: 105px;
+}
+
+.x-mas2 {
+  padding-top: 10px;
+  border-radius: 0;
+  width: 350px;
+}
+
+div.overlay {
+ margin-right: 140px;
+}
+
+.women, .bars {
+ height: 200px;
+ width: 350px;
+}
+
+
+/* ----- About Page ----- */
+
+.main-about {
+  /* margin-left: 464px; */
+  /* margin-top: 300px; */
+  margin-left: -36px;
+  margin-top: 50px;
+}
+
+.me p {
+  /* font-size: 26px; */
+  font-size: 19px;
+}
+
+.me > p:nth-child(2) {
+  padding-right: 0px;
+}
+
+.design-dev {
+  /* padding: 100px 0 0 50px; */
+  padding: 50px 0 0 99px;
+}
+
+.design-dev {
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+.m6 > picture:nth-child(1) {
+  margin-top: 9px;
+}
+
+.m6 {
+ margin-top: 50px;
+}
+.m6 {
+  margin-top: 146px;
+}
+
+.scotch-text > p:nth-child(1) {
+  margin-right: 0px;
+  width: 216px;
+}
+
+.scotch > div:nth-child(2) {
+  margin-top: 85px;
+}
+
+.w3-center {
+  margin-left: -67px;
+}
+
+
+/* ----- the present ----- */
+
+.line {
+  /* width: 120px; */
+  /* margin: 60px 0 -21px 60px; */
+  width: 67px;
+  margin: 60px 0 -21px 41px;
+}
+
+h1.title {
+  /* padding-left: 30px; */
+  padding-left: 7px;
+}
+
+div.line {
+ margin-bottom: -10px;
+}
+
+}
+
+
 @media (min-width: 741px) and (max-width: 900px) {
-  /* body {
+  body {
     background-color: blue;
-  } */
+  }
 
   header {
     height: 125px;
@@ -257,12 +546,50 @@
    margin-right: 50px;
   }
 
+/* ----- WORK PAGE ----- */
+  .design-container {
+    /* margin: 0 auto; */
+  }
+
+  .design-container {
+    margin: 0 27px 0 30px;
+  }
+
+  .women, .bars {
+ height: 180px;
+}
+/* ----- ABOUT PAGE ----- */
+
+.main-about {
+  /* margin-left: 464px; */
+  /* margin-top: 300px; */
+  margin-left: 46px;
+  margin-top: 30px;
+}
+
+.main-about {
+  margin-left: 245px;
+}
+
+h1 {
+  /* font-size: 36px; */
+  font-size: 29px;
+}
+
+.me > h1:nth-child(1) {
+  margin-bottom: 25px;
+}
+.scotch-text {
+ margin-top: -135px;
+ width: 266px;
+}
+
 }
 
 @media (min-width: 900px) and (max-width: 1024px) {
-   /* body {
+   body {
     background-color: purple;
-  } */
+  }
 
    header {
      /* height: 450px; */
@@ -282,12 +609,18 @@
     padding-top: 0px;
     margin: 120px 0 40px 82px;
   }
+
+  /* ----- WORK PAGE ----- */
+
+  .women, .bars {
+ height: 174px;
+}
 }
 
 @media (min-width: 1025px) and (max-width: 1112px) {
-  /* body {
+  body {
       background-color: turquoise;
-    } */
+    }
 
     header {
       /* height: 450px; */
@@ -315,17 +648,26 @@
       margin-right: 105px;
     }
 
+/* ----- The Present ------ */
+
+p.text {
+  margin: 20px 40px 0 40px;
+  letter-spacing: .6px;
+  color: var(--main-text-color);
+  z-index: 0;
+  transform: skewY(-6deg);
+}
 
 }
 
 /* @media (max-width: 1480) and (min-width: 1280px) { */
 @media (min-width: 1439px) and (max-width: 1600px) {
-  /* body {
+  body {
     background-color: yellow;
   }
 
 
-  header {
+  /*header {
     height: 200px;
   }
   .bottom-right {
@@ -333,40 +675,10 @@
   } */
 }
 
-@media (min-width: 1900px) {
-  /* body {
+@media (min-width: 1800px) {
+  body {
     background-color: green;
-  } */
-
-  .work-title-container {
-    display: inline-block;
-    padding-top: 0px;
-    margin: 100px 0 40px 285px;
   }
 
-  .work-container {
-    padding: 40px 0px 20px 251px;
-  }
 
-  .hover-zoom {
-    width: 254px;
-  }
-
-  .hover-zoom:hover {
-    transform: scale(1.5);
-  }
-
-  .top-right > header:nth-child(1) {
-    margin-top: 140px;
-  }
-
-  .bottom-right > p:nth-child(2) {
-    margin-left: 237px;
-    margin-right: 237px;
-}
-
-
-  /* .wireframe-picture {
-  margin-left: -106px;
-  } */
 }
