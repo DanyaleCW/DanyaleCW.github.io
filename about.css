@@ -252,24 +252,6 @@ img.skill-picture {
   /* body {
     background-color: lavender;
   } */
-  header {
-    height: 207px;
-    width: 321;
-  }
-
-  .w3-bar {
-    height: 165px;
-  }
-
-  .w3-right {
-    margin: 0;
-    position: absolute;
-    top: 26%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: .8em;
-  }
 
   .main-about {
     margin-bottom: 0px;
@@ -324,27 +306,6 @@ img.skill-picture {
   /* body {
     background-color: brown;
   } */
-  /* header {
-    height: 207px;
-  }
-
-  .header {
-    padding-left: 35px;
-  }
-
-  .w3-bar {
-    height: 165px;
-  }
-
-  .w3-right {
-    margin: 0;
-    position: absolute;
-    top: 23%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: .8em;
-  }
 
   .main-about {
     margin-bottom: 0px;
@@ -406,22 +367,6 @@ img.skill-picture {
   /* body {
     background-color: pink;
   } */
-  /* header {
-    height: 204px;
-  }
-
-  .w3-bar {
-    height: 165px;
-  }
-
-  .w3-right {
-    margin: 0;
-    position: absolute;
-    top: 19%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-  }
 
   div.text {
     margin: 0;
@@ -482,22 +427,6 @@ img.skill-picture {
   /* body {
     background-color: orange;
   } */
-  /* header {
-    height: 155px;
-  }
-
-  .w3-bar {
-    height: 112px;
-  }
-
-  .w3-right {
-    margin: 0;
-    position: absolute;
-    top: 21%;
-    left: 72%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-  }
 
   div.text {
     margin: 0;
@@ -563,22 +492,7 @@ img.skill-picture {
   /* body {
     background-color: blue;
   } */
-  /* header {
-    height: 151px;
-  }
 
-  .w3-bar {
-    height: 110px;
-  }
-
-  .w3-right {
-    margin: 0;
-    position: absolute;
-    top: 19.5%;
-    left: 75%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-  }
 
   .main-about {
     margin-left: 48px;
@@ -605,9 +519,7 @@ img.skill-picture {
 }
 
 @media (min-width: 767px) and (max-width: 768px) {
-  /* .w3-right {
-    top: 7.5%;
-  } */
+
 }
 
 @media (min-width: 900px) and (max-width: 1024px) {
@@ -615,9 +527,7 @@ img.skill-picture {
   /* body {
     background-color: purple;
   } */
-  /* header {
-    height: 155px;
-  }
+
 
   body>main:nth-child(2) {
     margin-left: 4%;
@@ -659,9 +569,7 @@ img.skill-picture {
   /* body {
       background-color: turquoise;
     } */
-  /* header {
-    height: 162px;
-  }
+
 
   div.text {
     margin: 0;

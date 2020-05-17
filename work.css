@@ -258,72 +258,61 @@ span.heart {
 
 /* ----- MAIN CSS END ------ */
 /* ------ MEDIA QUERIES ------ */
-@media (max-width: 320px) {
+@media (max-width: 400px) {
   /* body {
-    background-color: lavender;
+    background-color: purple;
   } */
 
-  /* header {
-    height: 207px;
-    width: 321px;
+  .logo {
+    font-size: 1.6em;
   }
-
-  .w3-bar {
-    height: 165px;
-  }
-
-  .w3-right {
-    margin: 0;
-    position: absolute;
-    top: 26%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: .8em;
-  }
-
   .design-container {
     padding-left: 0px;
   }
 
-  .panel { */
+  .panel {
     /* needed for the flex layout*/
-    /* margin-right: 20px;
+    margin-right: 20px;
     flex: 1 1 200px;
   }
-} */
+}
 
-@media (min-width: 321px) and (max-width: 375px) {
-  /* body {
-    background-color: brown;
-  } */
-
-  /* header {
-    height: 206px;
+@media (min-width: 401px) and (max-width: 567px) {
+  body {
+    background-color: purple;
   }
 
-  .w3-bar {
-    height: 165px;
-  }
-
-  .w3-right {
-    margin: 0;
-    position: absolute;
-    top: 23%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-  } */
+  div.panel:nth-child(n + 1) > picture:nth-child(n + 1) > img:nth-child(n + 1) {
+    margin-left: 10px;
+}
 
   #contact>footer:nth-child(2) {
     margin-left: 9%;
   }
 }
 
-@media (min-width: 376px) and (max-width: 414px) {
-  /* body {
+@media (min-width: 568px) and (max-width: 568px) {
+  body {
+    background-color: purple;
+  }
+
+  div.panel:nth-child(n + 1) > picture:nth-child(n + 1) > img:nth-child(n + 1) {
+ margin-left: 85px;
+}
+
+
+  #contact>footer:nth-child(2) {
+    margin-left: 9%;
+  }
+}
+
+@media (min-width: 666px) and (max-width: 669px) {
+  body {
     background-color: pink;
-  } */
+  }
+  div.panel:nth-child(n + 1) > picture:nth-child(n + 1) > img:nth-child(n + 1) {
+ margin-left: 125px;
+}
 
   /* header {
     height: 204px;
