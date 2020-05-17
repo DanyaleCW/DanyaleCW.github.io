@@ -253,6 +253,10 @@ img.skill-picture {
     background-color: lavender;
   } */
 
+  .logo {
+    font-size: 1.6em;
+  }
+
   .main-about {
     margin-bottom: 0px;
   }
@@ -352,10 +356,14 @@ img.skill-picture {
     margin-left: 34px;
   }
 
+  .scotch > div:nth-child(2) {
+ margin-top: 53px;
+}
+
   .scotch-text {
     margin-left: 9px;
     margin-right: 29px;
-  } */
+  }
 
   footer {
     margin: 5% 0 1.5% 9%;
@@ -428,6 +436,10 @@ img.skill-picture {
     background-color: orange;
   } */
 
+  .logo {
+    font-size: 1.5em;
+  }
+
   div.text {
     margin: 0;
     margin-right: 7%;
@@ -457,7 +469,7 @@ img.skill-picture {
   }
 
   .design-dev {
-    padding: 0px 0 0 50px;
+    padding: 0px 0 0 30px;
   }
 
   .skill-picture {
@@ -493,6 +505,9 @@ img.skill-picture {
     background-color: blue;
   } */
 
+  .design-dev {
+   padding-left: 10px;
+  }
 
   .main-about {
     margin-left: 48px;
