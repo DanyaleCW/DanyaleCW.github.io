@@ -129,7 +129,7 @@ class FooterTemplate extends HTMLElement {
         <div class="links-sm">
 
 
-          <div class="work"><a target="_blank" href="work.hmtl">Work</a>
+          <div class="work"><a target="_blank" href="work.html">Work</a>
           </div>
           <div class="about"><a target="_blank" href="about.html">About</a>
       </div>
