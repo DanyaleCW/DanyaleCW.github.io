@@ -40,6 +40,37 @@
 //   }
 // }
 
+
+// Slideshow
+// var slideIndex = 1;
+// showDivs(slideIndex);
+//
+// function plusDivs(n) {
+//   showDivs(slideIndex += n);
+// }
+//
+// function currentDiv(n) {
+//   showDivs(slideIndex = n);
+// }
+//
+// function showDivs(n) {
+//   var i;
+//   var x = document.getElementsByClassName("mySlides");
+//   var dots = document.getElementsByClassName("demodots");
+//   if (n > x.length) {slideIndex = 1}
+//   if (n < 1) {slideIndex = x.length} ;
+//   for (i = 0; i < x.length; i++) {
+//     x[i].style.display = "none";
+//   }
+//   for (i = 0; i < dots.length; i++) {
+//     dots[i].className = dots[i].className.replace(" w3-white", "");
+//   }
+//   x[slideIndex-1].style.display = "block";
+//   dots[slideIndex-1].className += " w3-white";
+// }
+
+
+
 class HeaderTemplate extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `<nav class="navbar navbar-expand-lg header">
@@ -82,22 +113,25 @@ class FooterTemplate extends HTMLElement {
         </div>
 
         <div class="w3-container w3-col m5  w3-cell-top">
-          <p class="email"><a href="mailto:danyalecw@gmail.com">
-            danyalecw@gmail.com</a></p>
-          <!-- <p class="phone"><a href="tel:+347-566-0530">
-              347-566-0530</a></p> -->
-          <div class="github"><a target="_blank" href="https://github.com/DanyaleCW">GitHub</a>
-          </div>
+          <div class="email"><a href="mailto:danyalecw@gmail.com">
+            danyalecw@gmail.com</a></div>
+            <div class="github"><a target="_blank" href="https://github.com/DanyaleCW">GitHub</a>
+            </div>
+              <div class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/danyalecwalker">Linkedin</a>
+                </div>
+              <div class="codepen"><a target="_blank" href="https://codepen.io/danyalecw">CodePen</a>
+                </div>
+              <div class="twitter"><a target="_blank" href="https://twitter.com/DanyaleCWalker">Twitter</a>
+              </div>
         </div>
 
       <div class="w3-container w3-col m2 w3-cell-top">
         <div class="links-sm">
-          <div class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/danyalecwalker">Linkedin</a>
-            </div>
-          <div class="codepen"><a target="_blank" href="https://codepen.io/danyalecw">CodePen</a>
-            </div>
-          <div class="twitter"><a target="_blank" href="https://twitter.com/DanyaleCWalker">Twitter</a>
+
+
+          <div class="work"><a target="_blank" href="work.hmtl">Work</a>
           </div>
+          <div class="about"><a target="_blank" href="about.html">About</a>
       </div>
     </div>
     </div>

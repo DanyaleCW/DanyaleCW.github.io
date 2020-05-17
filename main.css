@@ -117,112 +117,69 @@ h4 {
   font-weight: 600;
 }
 
-h3 {
-  font-weight: 900;
-  font-size: 1.7em;
-  font-family: 'Homemade Apple', cursive;
-}
-
 .w3-container,
 .w3-panel {
   padding: 0;
 }
 
-p, div {
-  font-family: var(--body-font);
-  color: var(--main-text-color);
-}
-
-header {
-  height: 450px;
-  margin: 30px 0 0 45px;
-  padding-top: 5px;
-  font-family: 'Homemade Apple', cursive;
-}
-
-span {
-  padding-left: 2.8em;
-}
-
-/* MAIN CONTAINER TOP WITH PICTURES-------------------------------*/
-/* .main-container {
-  display: grid;
-  display: -ms-grid;
-  grid-template-columns: repeat(auto-fill, minmax(478px, 1fr));
-  /* min-height: 100vh; */
-}
-
-/*.top-left {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.top-left img, .bottom-left img, .logo-pic img {
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/2-cameras-sign-that-says-creator-notepad-pens-glasses.jpg");
   width: 100%;
-  object-fit: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image:
 }
 
-.top-right {
-  grid-column: 2;
-  grid-row: 1;
-  padding: 5px 0 0 30px;
-}
-
-.bottom-left {
-  grid-column: 1;
-  grid-row: 2;
-} */
-/* .bottom-right { */
-/* commenting this out allows the navbar to sit directly under the title?? */
-/* display: grid;
-  grid-column: 2; */
-/* grid-row: 2;
-  margin: 0 200px 0 200px;
-} */
-/* .top-right-bottom {
-  margin-top: 305px;
-}
-.color:after {
-    position:absolute;
-    z-index: -1;
-    top: 90%;
-    /* left: 0; */
-/* width: 36%;
-    height: 5%;
-    content:"";
-    background-color: #607bae;
-} */
-.w3-purple,
-.w3-hover-purple:hover {
-  color: var(--main-text-color) !important;
-  background-color: #9181A7 !important;
-}
-
-.bottom-right>h1:nth-child(1) {
-  margin-left: 170px;
+.hero-text {
   text-align: center;
-  color: var(--main-text-color);
-  width: 50%;
-  height: 41px;
-  margin: 27px auto;
-  background-image: linear-gradient(top, #9181A7, #9181A7 70%, transparent 70%, transparent 100%);
-  background-image: -webkit-linear-gradient(top, #9181A7, #9181A7 70%, transparent 70%, transparent 100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5vw;
 }
 
-.bottom-right>p:nth-child(2) {
-  margin-left: 175px;
-  margin-right: 175px;
-  font-size: 1.1em;
-  font-weight: 0;
-  padding-top: 10px;
-  letter-spacing: .6px;
-  text-align: center;
-  color: var(--main-text-color);
+h1 {
+  font-weight: 900;
+  /* font-size: 4em; */
+  font-family: 'Homemade Apple', cursive;
+  line-height: 2em;
+}
+
+h2 {
+  /* font-weight: 900; */
+  /* font-size: 3em; */
+}
+
+p {
+  line-height: 2;
+  /* font-size: 1.5em; */
 }
 
 .here {
   font-style: oblique;
 }
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
 
 /* ----------------------------------------------- */
 /* ----- WORK PROJECT CONTAINER -----*/
@@ -260,6 +217,9 @@ span {
   display: inline-block;
   align-items: center;
   padding-left: 30px;
+  color: var(--main-text-color);
+  font-family: var(--body-font);
+  font-size: 40px;
 }
 
 /* -----WORK TITLE CONTAINER -----*/
@@ -327,7 +287,7 @@ button:hover {
   /* body {
      background-color: lavender;
    } */
-  header {
+  /* header {
     height: 140px;
   }
 
@@ -379,14 +339,14 @@ button:hover {
   .work-container {
     padding-left: 0px;
   }
-}
+} */
 
 @media (min-width: 321px) and (max-width: 375px) {
 
   /* body {
     background-color: brown;
   } */
-  header {
+  /* header {
     height: 130px;
   }
 
@@ -423,14 +383,14 @@ button:hover {
   #contact>footer:nth-child(2) {
     margin-left: 9%;
   }
-}
+} */
 
 @media (min-width: 376px) and (max-width: 414px) {
 
   /* body {
     background-color: pink;
   } */
-  .w3-lavender {
+  /* .w3-lavender {
     margin-bottom: 86px;
   }
 
@@ -440,19 +400,28 @@ button:hover {
     margin-left: 50px;
     margin-right: 50px;
   }
-}
+} */
 
 @media (min-width: 415px) and (max-width: 740px) {
 
   /* body {
     background-color: orange;
   } */
+
+  /* header {
+    height: 202px;
+  }
+
   h1 {
     font-size: 20px;
   }
 
   .top-right {
     height: 135px;
+  }
+
+  .w3-right {
+    top: 24%;
   }
 
   .bottom-right>h1:nth-child(1) {
@@ -492,14 +461,14 @@ button:hover {
   div.w3-cell-row:nth-child(2)>div:nth-child(1)>p:nth-child(1) {
     margin-right: 8px;
   }
-}
+} */
 
 @media (min-width: 741px) and (max-width: 900px) {
 
   /* body {
     background-color: blue;
   } */
-  header {
+  /* header {
     height: 94px;
     margin: 30px 0 0 45px;
     padding-top: 5px;
@@ -526,14 +495,14 @@ button:hover {
   .bottom-right {
     padding-top: 31px;
   }
-}
+} */
 
 @media (min-width: 900px) and (max-width: 1024px) {
 
   /* body {
     background-color: purple;
   } */
-  header {
+  /* header {
     height: 155px;
   }
 
@@ -561,14 +530,14 @@ button:hover {
     padding-top: 0px;
     margin: 120px 0 40px 82px;
   }
-}
+} */
 
 @media (min-width: 1025px) and (max-width: 1112px) {
 
   /* body {
       background-color: turquoise;
     } */
-  header {
+  /* header {
     height: 251px;
   }
 
@@ -595,14 +564,14 @@ button:hover {
     margin-left: 105px;
     margin-right: 105px;
   }
-}
+} */
 
 @media (min-width: 1800px) {
 
   /* body {
     background-color: green;
   } */
-  .hover-zoom {
+  /* .hover-zoom {
     width: 254px;
   }
 
@@ -621,5 +590,5 @@ button:hover {
 
   body>main:nth-child(1)>section:nth-child(2) {
     margin-left: 12.8%;
-  }
+  } */
 }

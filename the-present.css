@@ -100,83 +100,38 @@ body {
 }
 
 header {
-  overflow: hidden;
   background-color: #0D85A2;
-  padding: 20px 40px 20px 31px;
-}
-
-body > main:nth-child(2) {
- margin-bottom: 50px;
-}
-
-.w3-wide {
-  letter-spacing: 0px;
+  color: var(--main-background-color);
 }
 
 .w3-button:hover {
-  color: #C8F2DF !important;
+  color: #54B2BA!important;
   background-color: #0D85A2 !important;
   text-decoration: none;
 }
 
 .logo {
   color: var(--main-background-color);
-  line-height: 50px;
   font-weight: 900;
   font-size: 2em;
   font-family: 'Homemade Apple', cursive;
 }
 
-.walker {
-  margin-left: 3em;
-}
-
 .w3-right {
-  margin-top: 45px;
-  font-size: 1em;
-  font-weight: bold;
-}
-
-.header-right a {
-  color: var(--main-background-color);
-  text-align: center;
-  margin-right: .75em;
-  text-decoration: none;
   font-size: 1.3em;
-  line-height: 3px;
 }
 
-/* .w3-right a:hover {
-  color: #95849E;
-  background-color:#5C396F;
-  border-bottom-style: solid;
-  border-bottom-color: #95849E;
-  margin-bottom: 0px;
-  padding-bottom: 0.75em;
-  cursor: pointer;
-} */
-.w3-right a.active {
+a.active {
   text-decoration: none;
   color: #54B2BA;
   border-bottom-style: solid;
   border-bottom-color: #54B2BA;
   margin-bottom: 0px;
-  padding-bottom: 0.75em;
 }
+/* ----- header end ------ */
 
-a.w3-bar-item:nth-child(1) {
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-a.w3-bar-item:nth-child(2) {
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-a.w3-bar-item:nth-child(3) {
-  padding-left: 3px;
-  padding-right: 3px;
+main {
+  padding-bottom: 100px;
 }
 
 /* .grey {
@@ -275,7 +230,7 @@ button.btn.work:hover, button {
 .skewed {
   position: static;
   margin: 127px 0 0 0;
-  padding: 0 0 108px 0;
+  padding: 0 0 60px 0;
   top: 0;
   bottom: 0;
   right: 0;
@@ -332,20 +287,25 @@ div.page-title2 {
   transform: skewY(-6deg);
 }
 
+h1.title:nth-child(6) {
+ padding-top: 50px;
+}
+
+
 /* ----- VIEW DESIGN ----- */
 button.project-button {
   font-family: var(--body-font);
   padding: 0.75em;
   background-color: transparent;
   border-style: solid;
-  border-color: #5C396F;
+  border-color: #0D85A2;
   border-width: 2px;
   margin: 0 auto;
   margin-top: 100px;
   display: block;
   font-size: 15px;
   cursor: pointer;
-  color: #5C396F;
+  color: #0D85A2;
 }
 
 button.project-button.design {
@@ -356,14 +316,14 @@ button.project-button.current {
   transform: skewY(-6deg);
 }
 button a:hover {
-  color: #5C396F;
+  color: #0D85A2;
   text-decoration: none;
 }
 
 
 button:hover {
-  color: #5C396F;
-  background-color: #95849E;
+  color: #0D85A2;
+  background-color: #69abd7;
 }
 
 /* ----------------- FOOTER ---------------- */
@@ -598,7 +558,7 @@ footer a:hover {
   .w3-right {
     margin: 0;
     position: absolute;
-    top: 21%;
+    top: 24%;
     left: 72%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
@@ -647,7 +607,7 @@ footer a:hover {
   }
 }
 
-@media (min-width: 714px) and (max-width: 900px) {
+@media (min-width: 741px) and (max-width: 900px) {
 
   /* body {
     background-color: blue;

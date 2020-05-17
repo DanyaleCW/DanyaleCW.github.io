@@ -110,13 +110,8 @@ body {
 }
 
 header {
-  overflow: hidden;
   background-color: #5C396F;
-  padding: 20px 40px 20px 31px;
-}
-
-.w3-wide {
-  letter-spacing: 0px;
+  color: var(--main-background-color);
 }
 
 .w3-button:hover {
@@ -127,53 +122,21 @@ header {
 
 .logo {
   color: var(--main-background-color);
-  line-height: 50px;
   font-weight: 900;
   font-size: 2em;
   font-family: 'Homemade Apple', cursive;
 }
 
-.walker {
-  margin-left: 3em;
-}
-
 .w3-right {
-  margin-top: 45px;
-  font-size: 1em;
-  font-weight: bold;
-}
-
-.header-right a {
-  color: var(--main-background-color);
-  text-align: center;
-  margin-right: .75em;
-  text-decoration: none;
   font-size: 1.3em;
-  line-height: 3px;
 }
 
-.w3-right a.active {
+a.active {
   text-decoration: none;
   color: #54B2BA;
   border-bottom-style: solid;
   border-bottom-color: #54B2BA;
   margin-bottom: 0px;
-  padding-bottom: 0.75em;
-}
-
-a.w3-bar-item:nth-child(1) {
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-a.w3-bar-item:nth-child(2) {
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-a.w3-bar-item:nth-child(3) {
-  padding-left: 3px;
-  padding-right: 3px;
 }
 
 /* ----- HEADER END ----- */

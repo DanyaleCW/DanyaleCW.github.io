@@ -109,13 +109,8 @@ body {
 }
 
 header {
-  overflow: hidden;
   background-color: #5C396F;
-  padding: 20px 40px 20px 31px;
-}
-
-.w3-wide {
-  letter-spacing: 0px;
+  color: var(--main-background-color);
 }
 
 .w3-button:hover {
@@ -126,61 +121,26 @@ header {
 
 .logo {
   color: var(--main-background-color);
-  line-height: 50px;
   font-weight: 900;
   font-size: 2em;
   font-family: 'Homemade Apple', cursive;
 }
 
-.walker {
-  margin-left: 3em;
-}
-
 .w3-right {
-  margin-top: 45px;
-  font-size: 1em;
-  font-weight: bold;
-}
-
-.header-right a {
-  color: var(--main-background-color);
-  text-align: center;
-  margin-right: .75em;
-  text-decoration: none;
   font-size: 1.3em;
-  line-height: 3px;
 }
 
-.w3-right a.active {
+a.active {
   text-decoration: none;
   color: #54B2BA;
   border-bottom-style: solid;
   border-bottom-color: #54B2BA;
   margin-bottom: 0px;
-  padding-bottom: 0.75em;
-}
-
-a.w3-bar-item:nth-child(1) {
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-a.w3-bar-item:nth-child(2) {
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-a.w3-bar-item:nth-child(3) {
-  padding-left: 3px;
-  padding-right: 3px;
 }
 
 /* ----- DESIGNS ------ */
 .design-container {
   max-width: 1920px;
-  /* margin: 0 20px;
-  display: grid; */
-  /* grid-gap: 20px; */
   row-gap: 15px;
   display: grid;
   margin: 0 auto;
@@ -203,7 +163,7 @@ a.w3-bar-item:nth-child(3) {
 /* .tall-column {
   grid-column-end: span 2;
 } */
-.design-container>* {
+.design-container > * {
   /* background-color: #75487C; */
   color: black;
   border-radius: 0;
@@ -212,139 +172,21 @@ a.w3-bar-item:nth-child(3) {
   margin-bottom: 10px;
 }
 
-img {
-  border-radius: 0;
-}
-
-.overlay {}
-
-.text {
-  padding-top: 15px;
-  display: block;
-  justify-content: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-}
-
-.text a {
-  text-decoration: none;
-  color: #121643;
-}
-
-.text a:hover {
-  text-decoration: none;
-  color: #607bae;
-  border-bottom-style: solid;
-  border-bottom-color: #607bae;
-  cursor: pointer;
-}
-
 h3 {
   font-size: 0.8em;
+  text-align: center;
+  margin-top: 5px;
 }
 
 h4 {
   font-size: 0.6em;
+  text-align: center;
   text-decoration: none;
-}
-
-.women, .bars {
-  height: 200px;
 }
 
 .x-mas2 {
   padding-top: 10px;
   border-radius: 0;
-}
-
-/* .overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-/*  height: 100%;
-  transition: .5s ease;
-  opacity: 0;
-  text-align: center;
-  cursor: pointer;
-}
-
-.container:hover .overlay {
-  opacity: 4;
-  /* border-radius: 4%;
-  -webkit-border-radius: 4%;
-} */
-/*.container:hover {
-  /* transform: scale(1.035, 1.035);
-  -webkit-transform: scale(1.035, 1.035); */
-/*box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
-  border-collapse: separate;
-  /* border-radius: 4%;
-  -webkit-border-radius: 4%; */
-/*  transform: translateY(-10px);
-  -webkit-transform: translateY(-10px);
-} */
-/* .text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 15px;
-  color: #ffffff ;
-  transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-} */
-/*
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 300px;
-}
-
-.panel img {
-  display: flex;
-  max-width: 100%;
-  height: auto;
-  border-radius: 4%;
-}
-
-.panel h3 {
-  margin-top: 6px;
-} */
-/* ------ END 'BUTTON' if want bottom purple to overlap, need to make it its own div------ */
-button.end.left-triangle.right-triangle {
-  padding-left: 555px;
-}
-
-.end {
-  padding-top: 75px;
-  display: flex;
-  justify-content: center;
-}
-
-.end-text {
-  color: #40222B;
-  width: 128px;
-  text-align: center;
-  font-size: 1.6em;
-  margin-top: -51px;
-  margin-left: -67px;
-}
-
-.left-triangle {
-  /* width: 0;
-	height: 0;
-	border-top: 50px solid transparent; */
-  border-left: 150px solid #7A99D8;
-  /* border-bottom: 25px solid transparent; */
-  background-color: #95849E;
-}
-
-.right-triangle {
-  width: 0;
-  height: 0;
-  border-top: 70px solid transparent;
-  border-right: 150px solid #75487C;
-  border-bottom: 0px solid transparent;
 }
 
 /* ----------------- FOOTER ---------------- */
@@ -421,7 +263,7 @@ span.heart {
     background-color: lavender;
   } */
 
-  header {
+  /* header {
     height: 207px;
     width: 321px;
   }
@@ -444,19 +286,19 @@ span.heart {
     padding-left: 0px;
   }
 
-  .panel {
+  .panel { */
     /* needed for the flex layout*/
-    margin-right: 20px;
+    /* margin-right: 20px;
     flex: 1 1 200px;
   }
-}
+} */
 
 @media (min-width: 321px) and (max-width: 375px) {
   /* body {
     background-color: brown;
   } */
 
-  header {
+  /* header {
     height: 206px;
   }
 
@@ -471,7 +313,7 @@ span.heart {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
-  }
+  } */
 
   #contact>footer:nth-child(2) {
     margin-left: 9%;
@@ -483,7 +325,7 @@ span.heart {
     background-color: pink;
   } */
 
-  header {
+  /* header {
     height: 204px;
   }
 
@@ -502,16 +344,12 @@ span.heart {
 
   div.text {
     margin: 0;
-    /* position: absolute;
-   top: 30%;
-   left: 50%; */
     margin-right: 8%;
-    /* transform: translate(-50%, -50%) */
   }
 
   .design-container {
     padding-left: 6%;
-  }
+  } */
 }
 
 @media (min-width: 415px) and (max-width: 740px) {
@@ -519,7 +357,7 @@ span.heart {
     background-color: orange;
   } */
 
-  header {
+  /* header {
     height: 155px;
   }
 
@@ -536,20 +374,16 @@ span.heart {
     transform: translate(-50%, -50%)
   }
 
-  .panel {
+  .panel { */
   /* needed for the flex layout*/
-  margin-left: 96px;
+  /* margin-left: 96px;
   margin-right: 20px;
   flex: 1 1 200px;
 }
 
   div.text {
     margin: 0;
-    /* position: absolute;
-     top: 30%;
-     left: 50%; */
     margin-right: 26%;
-    /* transform: translate(-50%, -50%) */
   }
 
   .women, .bars {
@@ -558,7 +392,6 @@ span.heart {
   }
 
   footer a {
-    /* font-size: 25px; */
     font-size: 20px;
   }
 
@@ -568,13 +401,12 @@ span.heart {
   }
 
   .contact {
-    /* font-size: 62px; */
     font-size: 52px;
   }
 
   .CTA {
     margin-right: 18px;
-  }
+  } */
 }
 
 @media (min-width: 714px) and (max-width: 900px) {
@@ -582,7 +414,7 @@ span.heart {
     background-color: blue;
   } */
 
-  header {
+  /* header {
     height: 151px;
   }
 
@@ -603,14 +435,13 @@ span.heart {
   padding-top: 15px;
   display: block;
   justify-content: center;
-  /*! text-align: center; */
   letter-spacing: 0.06em;
     margin-left: -29px;
   }
 
   .women, .bars {
     height: 191px;
-  }
+  } */
 }
 
 @media (min-width: 900px) and (max-width: 1024px) {
@@ -618,8 +449,7 @@ span.heart {
     background-color: purple;
   } */
 
-  header {
-    /* height: 450px; */
+  /* header {
     height: 155px;
   }
 
@@ -633,12 +463,8 @@ span.heart {
 
     div.text {
       margin: 0;
-      /* position: absolute;
-   top: 30%;
-   left: 50%; */
       margin-right: 17%;
-      /* transform: translate(-50%, -50%) */
-    }
+    } */
   }
 
   @media (min-width: 1025px) and (max-width: 1112px) {
@@ -646,7 +472,7 @@ span.heart {
       background-color: turquoise;
     } */
 
-    header {
+    /* header {
       height: 162px;
-    }
+    } */
   }
