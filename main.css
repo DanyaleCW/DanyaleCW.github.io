@@ -287,9 +287,9 @@ button:hover {
 /* ----- MEDIA QUERY ------ */
 @media (max-width: 320px) {
 
-  /* body {
+  body {
      background-color: lavender;
-   } */
+   }
 
    h1 {
      font-weight: 900;
@@ -380,49 +380,15 @@ button:hover {
   }
 }
 
-  /* header {
-    height: 130px;
-  }
-
-  .bottom-right>h1:nth-child(1) {
-    height: 29px;
-    margin: 0px 1px 1px 128px;
-  }
-
-  h1 {
-    font-size: 23px;
-  }
-
-  .bottom-right {
-    margin-left: -67px;
-    margin-top: 46px;
-  }
-
-  .bottom-right>p:nth-child(2) {
-    margin-left: 101px;
-    margin-top: 26px;
-    margin-right: 43px;
-  }
-
-  .w3-lavender {
-    padding-left: 0px;
-    padding-right: -20px;
-    margin-top: 51px;
-  }
-
-  .work-container {
-    padding-left: 0px;
-  }
-
-  #contact>footer:nth-child(2) {
-    margin-left: 9%;
-  } */
-} 
 
 @media (min-width: 591px) and (max-width: 900px) {
 
   body {
     background-color: pink;
+  }
+
+  .hero-text>h1:nth-child(1) {
+    padding-top: 16px;
   }
 
   h1 {
@@ -439,66 +405,10 @@ button:hover {
   }
 }
 
-@media (min-width: 415px) and (max-width: 740px) {
+/* @media (min-width: 415px) and (max-width: 740px) {
 
-  /* body {
-    background-color: orange;
-  } */
 
-  /* header {
-    height: 202px;
-  }
-
-  h1 {
-    font-size: 20px;
-  }
-
-  .top-right {
-    height: 135px;
-  }
-
-  .w3-right {
-    top: 24%;
-  }
-
-  .bottom-right>h1:nth-child(1) {
-    width: 40%;
-    height: 25px;
-  }
-
-  .bottom-right>p:nth-child(2) {
-    margin-left: 48px;
-    margin-right: 50px;
-    font-size: 1.1em;
-    padding-top: 0px;
-  }
-
-  div.m6 img {
-    height: 221px;
-    width: 327px;
-  }
-
-  footer a {
-    font-size: 20px;
-  }
-
-  #contact>footer:nth-child(2) {
-    margin-left: 11px;
-    margin-right: 11px;
-  }
-
-  .contact {
-    font-size: 52px;
-  }
-
-  .CTA {
-    margin-right: 18px;
-  }
-
-  div.w3-cell-row:nth-child(2)>div:nth-child(1)>p:nth-child(1) {
-    margin-right: 8px;
-  }*/
-}
+} */
 
 @media (min-width: 741px) and (max-width: 900px) {
 
@@ -535,7 +445,6 @@ button:hover {
 }
 
 @media (min-width: 741px) and (max-width: 1900px) {
-
 
   h1 {
     width: 800px;
