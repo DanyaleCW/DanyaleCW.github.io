@@ -287,9 +287,9 @@ button:hover {
 /* ----- MEDIA QUERY ------ */
 @media (max-width: 320px) {
 
-  body {
+  /* body {
      background-color: lavender;
-   }
+   } */
 
    h1 {
      font-weight: 900;
@@ -359,9 +359,9 @@ button:hover {
 
 @media (min-width: 321px) and (max-width: 590px) {
 
-  body {
+  /* body {
     background-color: brown;
-  }
+  } */
 
   .hero-text {
     margin-top: 30px;
@@ -383,9 +383,9 @@ button:hover {
 
 @media (min-width: 591px) and (max-width: 900px) {
 
-  body {
+  /* body {
     background-color: pink;
-  }
+  } */
 
   .hero-text>h1:nth-child(1) {
     padding-top: 16px;
