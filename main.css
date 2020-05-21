@@ -156,6 +156,7 @@ h2 {
 
 p {
   line-height: 2;
+  margin-top: 10px;
   /* font-size: 1.5em; */
 }
 
@@ -163,6 +164,9 @@ p {
   font-style: oblique;
 }
 
+.hero-text p {
+
+}
 .hero-text button {
   border: none;
   outline: 0;
@@ -172,11 +176,13 @@ p {
   background-color: #ddd;
   text-align: center;
   cursor: pointer;
+  margin-top: 30px;
 }
 
 .hero-text button:hover {
   background-color: #555;
   color: white;
+  text-decoration: none;
 }
 
 .hero-text > button:nth-child(3) {
@@ -260,7 +266,7 @@ p {
 }
 
 /* ----- WORK BUTTON ----- */
-button {
+.work-button {
   font-family: var(--body-font);
   padding: 0.75em;
   background-color: transparent;
@@ -271,13 +277,14 @@ button {
   display: block;
   cursor: pointer;
   text-decoration: none;
+  box-shadow: 5px 5px 6px grey;
 }
 
-button a:hover {
+.work-button a:hover {
   color: #5C396F;
 }
 
-button:hover {
+.work-button:hover {
   background-color: #9181A7;
   color: #5C396F;
   text-decoration: none;
@@ -291,10 +298,15 @@ button:hover {
      background-color: lavender;
    } */
 
+   .work-line {
+     display: none;
+   }
+
    h1 {
      font-weight: 900;
      font-family: 'Homemade Apple', cursive;
      font-size: 2em;
+     line-height: 2em;
    }
 
    h2 {
@@ -302,6 +314,11 @@ button:hover {
      font-size: 1.5em;
      margin-top: 7px;
    }
+
+   /* .work-title {
+     padding-left: 73px;
+} */
+
 }
 
 @media (min-width: 321px) and (max-width: 590px) {
@@ -312,18 +329,28 @@ button:hover {
 
   .hero-text {
     margin-top: 30px;
+    width: 325px;
   }
 
   h1 {
     font-weight: 900;
     font-family: 'Homemade Apple', cursive;
-    font-size: 3em;
+    font-size: 2em;
   }
 
   h2 {
     font-weight: 900;
     font-size: 1.5em;
     margin-top: 7px;
+  }
+
+  .work-line {
+    display: none;
+  }
+
+  .work-title {
+    /* padding-left: 41px; */
+    padding-left: 2.5%;
   }
 }
 
@@ -333,6 +360,15 @@ button:hover {
   /* body {
     background-color: pink;
   } */
+
+  .work-line {
+    display: none
+  }
+
+  .work-title {
+    /* padding-left: 13%; */
+    padding-left: 2.5%;
+  }
 
   .hero-text>h1:nth-child(1) {
     padding-top: 16px;
@@ -371,18 +407,27 @@ button:hover {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1112px) {
+@media (min-width: 1024px) and (max-width: 1112px) {
 
   /* body {
       background-color: turquoise;
     } */
-
+    .work-line {
+      margin: 0 0 8px 23px;
+}
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1851px) {
 
   /* body {
     background-color: green;
   } */
 
+  .work-container, .work-title-container {
+    padding-left: 13%;
+  }
+
+  .work-title-container {
+    margin-left: 50px;
+  }
 }

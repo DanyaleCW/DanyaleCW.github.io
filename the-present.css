@@ -306,6 +306,7 @@ button.project-button {
   font-size: 15px;
   cursor: pointer;
   color: #0D85A2;
+  box-shadow: 3px 3px 4px gray;
 }
 
 button.project-button.design {
