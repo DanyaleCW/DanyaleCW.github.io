@@ -139,7 +139,7 @@ h4 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: var(--main-background-color);
 }
 
 h1 {
@@ -165,30 +165,37 @@ p {
 }
 
 .hero-text p {
-
+  font-size: 20px;
 }
+
 .hero-text button {
   border: none;
   outline: 0;
   display: inline-block;
   padding: 10px 15px;
-  color: black;
-  background-color: #ddd;
+  color: #5C396F;
+  background-color: var(--main-background-color);
   text-align: center;
   cursor: pointer;
   margin-top: 30px;
+  text-decoration: none;
 }
 
-.hero-text button:hover {
-  background-color: #555;
-  color: white;
+.hero-text a:hover {
+  color: #5C396F;
   text-decoration: none;
 }
 
 .hero-text > button:nth-child(3) {
  margin-top: 50px;
+ text-decoration: none;
 }
 
+.hero-text button:hover {
+  background-color: #9181A7;
+  color: #5C396F;
+  text-decoration: none;
+}
 
 /* ----------------------------------------------- */
 /* ----- WORK PROJECT CONTAINER -----*/
@@ -272,16 +279,17 @@ p {
   background-color: transparent;
   border-style: solid;
   border-color: #5C396F;
+  color: #5C396F;
   border-width: 2px;
   margin: 70px auto;
   display: block;
   cursor: pointer;
-  text-decoration: none;
   box-shadow: 5px 5px 6px grey;
 }
 
 .work-button a:hover {
   color: #5C396F;
+  text-decoration: none;
 }
 
 .work-button:hover {
@@ -354,6 +362,11 @@ p {
   }
 }
 
+@media (max-width: 900px) {
+  .hero-text p {
+    font-size: 16px;
+  }
+}
 
 @media (min-width: 591px) and (max-width: 900px) {
 
