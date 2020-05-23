@@ -131,12 +131,15 @@ header {
 }
 
 a.active {
-  text-decoration: none;
   color: #54B2BA;
   border-bottom-style: solid;
   border-bottom-color: #54B2BA;
-  margin-bottom: 0px;
+  text-decoration: none;
+  width: 60px;
+  padding: 0 4px 0 5px;
+  margin: 8px 13px 0 0;
 }
+
 
 /* ----- DESIGNS ------ */
 .design-container {
@@ -181,6 +184,9 @@ h3 {
 h4 {
   font-size: 0.6em;
   text-align: center;
+}
+
+div.text a:hover {
   text-decoration: none;
 }
 
@@ -249,13 +255,12 @@ span.heart {
 .heart {
   color: #54B2BA;
   font-size: 11px;
-  }
+}
 
-  .copyright {
-    font-size: 11px;
-    margin-top: 30px;
-  }
-
+.copyright {
+  font-size: 11px;
+  margin-top: 30px;
+}
   /* ----- MAIN CSS END ------ */
   /* ------ MEDIA QUERIES ------ */
   @media (max-width: 400px) {
@@ -281,8 +286,9 @@ span.heart {
   @media (min-width: 401px) and (max-width: 567px) {
 
     /* body {
-    background-color: purple;
-  } */
+      background-color: purple;
+    } */
+
     div.panel:nth-child(n + 1)>picture:nth-child(n + 1)>img:nth-child(n + 1) {
       margin-left: 10px;
     }

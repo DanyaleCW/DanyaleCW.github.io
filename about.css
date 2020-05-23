@@ -136,7 +136,9 @@ a.active {
   color: #54B2BA;
   border-bottom-style: solid;
   border-bottom-color: #54B2BA;
-  margin-bottom: 0px;
+  width: 60px;
+  padding: 0 4px 0 5px;
+  margin: 8px 13px 0 0;
 }
 
 /* ----- HEADER END ----- */
@@ -311,6 +313,11 @@ img.skill-picture {
     background-color: brown;
   } */
 
+  .logo {
+    font-size: 1.6em;
+  }
+
+
   .main-about {
     margin-bottom: 0px;
   }
@@ -437,7 +444,7 @@ img.skill-picture {
   } */
 
   .logo {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   div.text {

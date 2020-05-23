@@ -558,11 +558,11 @@ footer a:hover {
 
   .w3-right {
     margin: 0;
-    position: absolute;
+    /* position: absolute;
     top: 24%;
     left: 72%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%) */
   }
 
   .arrow-back {
@@ -623,11 +623,11 @@ footer a:hover {
 
   .w3-right {
     margin: 0;
-    position: absolute;
+    /* position: absolute;
     top: 19.5%;
     left: 75%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%) */
   }
 
   .arrow-back {
