@@ -108,8 +108,8 @@ class FooterTemplate extends HTMLElement {
       <div class="w3-cell-row">
         <div class="w3-container w3-col m5 w3-cell-top">
           <p class="contact">CONTACT</p>
-          <p class="CTA">Please contact me if you would like to create a website that converts clicks to leads and increases your bottom line.</p>
-          <p>Let's make something beautiful & profitable!!!</p>
+          <p class="CTA">Contact me if you would like to create a website that converts clicks to leads and increases your bottom line.</p>
+          <p>Let's make something beautiful & profitable!</p>
         </div>
 
         <div class="w3-container w3-col m5  w3-cell-top">
