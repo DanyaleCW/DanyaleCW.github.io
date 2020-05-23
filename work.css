@@ -134,10 +134,8 @@ a.active {
   color: #54B2BA;
   border-bottom-style: solid;
   border-bottom-color: #54B2BA;
+  margin-bottom: 0px;
   text-decoration: none;
-  width: 60px;
-  padding: 0 4px 0 5px;
-  margin: 8px 13px 0 0;
 }
 
 
