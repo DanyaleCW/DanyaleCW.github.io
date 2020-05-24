@@ -369,12 +369,12 @@ footer a:hover {
 
   .w3-right {
     margin: 0;
-    position: absolute;
+    /* position: absolute;
     top: 26%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    font-size: .8em;
+    font-size: .8em; */
   }
 
   .arrow-back {
@@ -436,11 +436,11 @@ footer a:hover {
 
   .w3-right {
     margin: 0;
-    position: absolute;
+    /* position: absolute;
     top: 23%;
     left: 51%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%) */
   }
 
   .arrow-back {
@@ -498,11 +498,11 @@ footer a:hover {
 
   .w3-right {
     margin: 0;
-    position: absolute;
+    /* position: absolute;
     top: 19%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%) */
   }
 
   .arrow-back {
