@@ -10,36 +10,27 @@ hr {
 }
 
 footer {
+  color: #5C396F;
   margin: 5% 0 1.5% 5%;
 }
 
 footer a {
-  /* color: var(--main-background-color); */
-  color: #5C396F;
   font-size: 25px;
-  /* text-decoration: underline #69abd7; */
-  text-decoration: underline #9181A7;
-  text-decoration: 5px;
-  /* text-decoration: underline #69abd7 5px; */
-  text-decoration: underline #9181A7 5PX;
 }
 
-footer p {
-  /* color: var(--main-background-color); */
-  color: #5C396F;
-}
+
 
 footer.w3-cell-row {
   margin-bottom: 50px;
 }
 
-a:link {
+footer a:link {
   text-decoration: none;
 }
 
-a:hover {
+footer a:hover {
   color: #9181A7;
-  text-decoration: underline;
+  text-decoration: underline #9181A7 5px;
 }
 
 .contact {
@@ -53,24 +44,12 @@ a:hover {
  margin-right: 97px;
 }
 
-.CTA {
-  margin-right: 97px;
-}
-
 #contact > footer:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
   margin-top: 20px;
 }
 
 #contact > footer:nth-child(2) > div:nth-child(1) > div:nth-child(3) {
   margin-top: 20px;
-}
-
-.email {
-  margin-bottom: 10px;
-}
-
-.phone {
-  margin-bottom: 10px;
 }
 
 span.heart {

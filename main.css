@@ -285,7 +285,13 @@ p {
   display: block;
   cursor: pointer;
   box-shadow: 5px 5px 6px grey;
+  text-decoration: none;
 }
+
+body > main:nth-child(1) > a:nth-child(3) {
+ text-decoration: none;
+}
+
 
 .work-button a:hover {
   color: #5C396F;

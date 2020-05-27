@@ -128,6 +128,11 @@ a.active {
   margin-bottom: 0px;
   text-decoration: none;
 }
+
+.w3-container {
+ /*! padding:0.01em 16px */
+ padding: 24px 44px 24px 50px;
+}
 /* ----- header end ------ */
 
 main {
@@ -142,18 +147,6 @@ main {
   background-repeat: no-repeat;
   background-size: 300px 1000px;
 } */
-.line {
-  position: static;
-  display: inline-block;
-  width: 120px;
-  height: 3px;
-  transform-origin: 0 50%;
-  background-color: var(--main-text-color);
-  /* margin: 60px 0 10px 60px; */
-  margin: 60px 0 -21px 60px;
-  z-index: 0;
-  transform: skewY(-6deg);
-}
 
 h1, h2, h3 {
   color: var(--main-text-color);
@@ -171,31 +164,30 @@ h1.title {
 }
 
 /* ----- BACK TO WORK ----- */
-a {
-  text-decoration: none;
-}
 
 .arrow-back {
-  float: right;
   text-decoration: none;
   font-family: var(--body-font);
-  padding: 15px;
-  background-color: transparent;
-  */
-  /* border-style: solid; */
-  /* border-color: #5C396F; */
-  /* border-width: 2px; */
-  margin: 5px 5px 0 10px;
+  background-color: #C8F2DF;
   font-size: 20px;
   cursor: pointer;
+  height: 60px;
+  padding-top: 1%;
+  padding-right: 4.4%;
 }
 
-.arrow {
-  font-size: 40px;
+p.back {
+  float: right;
 }
 
-button.btn.work:hover, button {
+
+/* button.btn.work:hover, button {
   background-color: #95849E;
+} */
+
+a:hover {
+  text-decoration: none;
+  color: #0D85A2;
 }
 
 /* .grey1 {
@@ -227,21 +219,6 @@ button.btn.work:hover, button {
   height: 250px;
   margin: 0 300px -130px 300px;
 } */
-.skewed {
-  position: static;
-  margin: 127px 0 0 0;
-  padding: 0 0 60px 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 130%;
-  background: #C8F2DF;
-  z-index: 0;
-  transform: skewY(6deg);
-  transform-origin: top right;
-}
 
 .mountain-lake {
   background-image: url("./Images/mountain-lake.jpg");
@@ -249,8 +226,9 @@ button.btn.work:hover, button {
   margin: 0 60px 0 60px;
 }
 
-div.page-title {
-  font-size: 30px;
+div.page-title h1 {
+  font-size: 40px;
+  font-weight: 900;
   text-align: center;
   margin: 80px 0 80px 0;
   color: var(--main-text-color);
@@ -277,6 +255,35 @@ div.page-title2 {
   margin: -16px 0 10px 645px;
   box-shadow: 10px 10px 5px grey;
   width: 110px;
+}
+
+.skewed {
+  position: static;
+  margin: 127px 0 0 0;
+  padding: 0 0 60px 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 130%;
+  background: #C8F2DF;
+  z-index: 0;
+  transform: skewY(6deg);
+  transform-origin: top right;
+}
+
+.line {
+  position: static;
+  display: inline-block;
+  width: 120px;
+  height: 3px;
+  transform-origin: 0 50%;
+  background-color: var(--main-text-color);
+  /* margin: 60px 0 10px 60px; */
+  margin: 60px 0 -21px 60px;
+  z-index: 0;
+  transform: skewY(-6deg);
 }
 
 .text {
@@ -328,18 +335,19 @@ button:hover {
 }
 
 /* ----------------- FOOTER ---------------- */
-/* footer {
+hr {
   background-color: #0D85A2;
-} */
+}
+
 footer a {
   /* color: var(--main-background-color); */
   color: #0D85A2;
   font-size: 25px;
   /* text-decoration: underline #69abd7; */
-  text-decoration: underline #C8F2DF;
-  text-decoration: 5px;
+  /* text-decoration: underline #C8F2DF;
+  text-decoration: 5px; */
   /* text-decoration: underline #69abd7 5px; */
-  text-decoration: underline #C8F2DF 5PX;
+  /* text-decoration: underline #C8F2DF 5px; */
 }
 
 footer p {
@@ -349,9 +357,10 @@ footer p {
 
 footer a:hover {
   color: #C8F2DF;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  text-decoration: underline #C8F2DF 5px;
 }
-/* ----- MAIN CSS END ------ */
+/* ----- PRESENT CSS END ------ */
 /* ------ MEDIA QUERIES ------ */
 @media (max-width: 320px) {
   body {
@@ -507,6 +516,7 @@ footer a:hover {
 
   .arrow-back {
     margin-top: -64px;
+    margin-right: 44px;
   }
 
   .present-pic {

@@ -113,6 +113,15 @@ header {
   color: var(--main-background-color);
 }
 
+header.w3-container {
+ padding-left: 39px;
+ padding-right: 29px;
+}
+
+main {
+  margin-bottom: 50px;
+}
+
 .w3-button:hover {
   color: #95849E !important;
   background-color: #5C396F !important;
@@ -166,7 +175,7 @@ a.active {
 } */
 .design-container > * {
   /* background-color: #75487C; */
-  color: black;
+  color: #5C396F;
   border-radius: 0;
   padding: 20px;
   font-size: 150%;
@@ -174,17 +183,18 @@ a.active {
 }
 
 h3 {
-  font-size: 0.8em;
+  font-size: 1em;
   text-align: center;
   margin-top: 5px;
 }
 
 h4 {
-  font-size: 0.6em;
+  font-size: 0.8em;
   text-align: center;
 }
 
 div.text a:hover {
+  color: #54B2BA;
   text-decoration: none;
 }
 
