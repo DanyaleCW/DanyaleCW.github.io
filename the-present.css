@@ -390,7 +390,7 @@ footer a:hover {
   }
 
   .arrow-back {
-    margin-top: -64px;
+    margin-top: 25px;
   }
 
   .present-pic {
@@ -456,7 +456,7 @@ footer a:hover {
   }
 
   .arrow-back {
-    margin-top: -64px;
+    margin-top: 25px;
   }
 
   .present-pic {
@@ -518,8 +518,8 @@ footer a:hover {
   }
 
   .arrow-back {
-    margin-top: -64px;
-    margin-right: 44px;
+    margin-top: -20px;
+    margin-right: 0px;
   }
 
   .present-pic {
@@ -579,7 +579,7 @@ footer a:hover {
   }
 
   .arrow-back {
-    margin-top: -64px;
+    margin-top: -20px;
   }
 
   .present-pic {
@@ -621,6 +621,25 @@ footer a:hover {
   }
 }
 
+@media (min-width: 539px) and (max-width: 699px) {
+  header.w3-container {
+    padding-left: 0px;
+    padding-right: 2px;
+  }
+  
+  .w3-right {
+    margin: 0;
+    /* position: absolute;
+    top: 24%;
+    left: 72%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) */
+    padding-top: 15px;
+  }
+
+
+}
+
 @media (min-width: 741px) and (max-width: 900px) {
 
   /* body {
@@ -644,7 +663,7 @@ footer a:hover {
   }
 
   .arrow-back {
-    margin-top: -64px;
+    margin-top: -25px;
   }
 
   .present-pic {
