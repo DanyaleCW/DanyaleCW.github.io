@@ -114,6 +114,11 @@ header {
   color: var(--main-background-color);
 }
 
+header.w3-container {
+ padding-left: 39px;
+ padding-right: 29px;
+}
+
 .w3-button:hover {
   color: #95849E !important;
   background-color: #5C396F !important;
@@ -218,7 +223,7 @@ img.skill-picture {
 
 .main-about {
   margin-left: 464px;
-  margin-top: 300px;
+  margin-top: 250px;
   margin-bottom: 50px;
 }
 
@@ -393,7 +398,7 @@ img.skill-picture {
   }
 
   .me>h1:nth-child(1) {
-    margin-left: -20px;
+    margin-left: 0px;
     font-size: 24px;
   }
 
@@ -457,7 +462,7 @@ img.skill-picture {
   }
 
   .me>h1:nth-child(1) {
-    margin-left: -20px;
+    margin-left: 0px;
     font-size: 24px;
   }
 
@@ -506,7 +511,7 @@ img.skill-picture {
   }
 }
 
-@media (min-width: 714px) and (max-width: 900px) {
+@media (min-width: 740px) and (max-width: 900px) {
 
   /* body {
     background-color: blue;
@@ -615,5 +620,5 @@ img.skill-picture {
   .scotch-text>p:nth-child(1) {
     margin: -86px 0 55px 13px;
     width: 317px;
-  } */
+  }
 }

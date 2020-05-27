@@ -104,6 +104,10 @@ header {
   color: var(--main-background-color);
 }
 
+a {
+  text-decoration: none;
+}
+
 .w3-button:hover {
   color: #54B2BA!important;
   background-color: #0D85A2 !important;
@@ -186,7 +190,6 @@ p.back {
 } */
 
 a:hover {
-  text-decoration: none;
   color: #0D85A2;
 }
 
@@ -280,7 +283,6 @@ div.page-title2 {
   height: 3px;
   transform-origin: 0 50%;
   background-color: var(--main-text-color);
-  /* margin: 60px 0 10px 60px; */
   margin: 60px 0 -21px 60px;
   z-index: 0;
   transform: skewY(-6deg);
@@ -314,6 +316,7 @@ button.project-button {
   cursor: pointer;
   color: #0D85A2;
   box-shadow: 3px 3px 4px gray;
+  text-decoration: none;
 }
 
 button.project-button.design {

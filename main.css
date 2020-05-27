@@ -181,7 +181,7 @@ p {
   text-decoration: none;
 }
 
-.hero-text a:hover {
+a.nav-link {
   color: #5C396F;
   text-decoration: none;
 }

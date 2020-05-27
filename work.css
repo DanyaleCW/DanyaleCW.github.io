@@ -139,14 +139,24 @@ main {
   font-size: 1.3em;
 }
 
-a.active {
+/* a.active {
   color: #54B2BA;
   border-bottom-style: solid;
   border-bottom-color: #54B2BA;
   margin-bottom: 0px;
   text-decoration: none;
-}
+} */
 
+
+a.active {
+  text-decoration: none;
+  color: #54B2BA;
+  border-bottom-style: solid;
+  border-bottom-color: #54B2BA;
+  width: 60px;
+  padding: 0 4px 0 5px;
+  margin: 8px 13px 0 0;
+}
 
 /* ----- DESIGNS ------ */
 .design-container {
