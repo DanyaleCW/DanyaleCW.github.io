@@ -155,7 +155,7 @@ a.active {
   border-bottom-color: #54B2BA;
   width: 60px;
   padding: 0 4px 0 5px;
-  margin: 8px 13px 0 0;
+  margin: 8px 16px 0 13px;
 }
 
 /* ----- DESIGNS ------ */
@@ -185,7 +185,7 @@ a.active {
 } */
 .design-container > * {
   /* background-color: #75487C; */
-  color: #5C396F;
+  color: #40222B;
   border-radius: 0;
   padding: 20px;
   font-size: 150%;
@@ -194,13 +194,13 @@ a.active {
 
 h3 {
   font-size: 1em;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 5px;
 }
 
 h4 {
   font-size: 0.8em;
-  text-align: center;
+  /* text-align: center; */
 }
 
 div.text a:hover {
