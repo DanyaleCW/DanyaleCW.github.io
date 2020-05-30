@@ -215,9 +215,9 @@ ul {
 }
 
 img.skill-picture {
-  /* padding: 20px 700px 10px 120px; */
   width: 100%;
   height: 100%;
+  margin-left: 20px;
 }
 
 .main-about {
@@ -303,6 +303,10 @@ img.skill-picture {
     margin-top: 50px;
     width: 304px;
     margin-left: -66px;
+  }
+
+  img.skill-picture {
+    margin-left: 8px;
   }
 
   .scotch>div:nth-child(2) {
@@ -419,10 +423,6 @@ img.skill-picture {
     padding: 0px 0 0 50px;
   }
 
-  .skill-picture {
-    margin-left: 17px;
-  }
-
   .wireframe-picture {
     height: 240px;
   }
@@ -483,10 +483,6 @@ img.skill-picture {
     padding: 0px 0 0 30px;
   }
 
-  .skill-picture {
-    margin-left: 17px;
-  }
-
   .scotch>div:nth-child(2) {
     margin-top: 100px;
   }
@@ -494,7 +490,7 @@ img.skill-picture {
   .scotch-text>p:nth-child(1) {
     margin-right: -119px;
     margin-top: -90px;
-  } */
+  }
 
   #contact>footer:nth-child(2) {
     margin-left: 0%;
@@ -507,6 +503,19 @@ img.skill-picture {
 
   footer a:link {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 600px) {
+  .scotch-text>p:nth-child(1) {
+    width: 90%;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 739px) and (max-width: 601px) {
+  .scotch-text>p:nth-child(1) {
+    width: 172%;
   }
 }
 
@@ -570,10 +579,6 @@ img.skill-picture {
     margin-bottom: 50px;
   }
 
-  .skill-picture {
-    margin-left: 16px;
-  }
-
   .scotch {
     margin-left: 65px;
   }
@@ -608,10 +613,6 @@ img.skill-picture {
     margin-bottom: 50px;
   }
 
-  .skill-picture {
-    margin-left: 16px;
-  }
-
   .scotch {
     margin-left: 65px;
   }
@@ -620,4 +621,5 @@ img.skill-picture {
     margin: -86px 0 55px 13px;
     width: 317px;
   }
+
 }
