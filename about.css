@@ -137,7 +137,6 @@ header.w3-container {
 }
 
 a.active {
-  text-decoration: none;
   color: #54B2BA;
   border-bottom-style: solid;
   border-bottom-color: #54B2BA;

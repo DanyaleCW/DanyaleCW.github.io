@@ -154,18 +154,10 @@ h2 {
   margin-top: 14px;
 }
 
-p {
-  line-height: 2;
-  margin-top: 10px;
-  /* font-size: 1.5em; */
-}
-
-.here {
-  font-style: oblique;
-}
-
 .hero-text p {
   font-size: 20px;
+  line-height: 2;
+  margin-top: 10px;
 }
 
 .hero-text button {
@@ -232,7 +224,6 @@ a.nav-link {
 .work-title {
   display: inline-block;
   align-items: center;
-  padding-left: 30px;
   color: var(--main-text-color);
   font-family: var(--body-font);
   font-size: 40px;

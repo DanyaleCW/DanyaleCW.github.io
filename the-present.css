@@ -160,8 +160,7 @@ h1.title {
   font-size: 25px;
   display: inline-block;
   align-items: center;
-  padding-left: 30px;
-  margin-top: 65px;
+  margin: 65px 0 0 61px;
   color: var(--main-text-color);
   z-index: 0;
   transform: skewY(-6deg);
@@ -361,7 +360,7 @@ footer p {
 footer a:hover {
   color: #C8F2DF;
   /* text-decoration: underline; */
-  text-decoration: underline #C8F2DF 5px;
+  text-decoration: underline #C8F2DF 3px;
 }
 /* ----- PRESENT CSS END ------ */
 /* ------ MEDIA QUERIES ------ */
@@ -626,7 +625,7 @@ footer a:hover {
     padding-left: 0px;
     padding-right: 2px;
   }
-  
+
   .w3-right {
     margin: 0;
     /* position: absolute;
