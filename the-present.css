@@ -435,6 +435,10 @@ footer a:hover {
     height: 207px;
   }
 
+  .logo {
+    font-size: 1.6em;
+  }
+
   .w3-container {
     /*! padding:0.01em 16px */
     padding: 24px 44px 24px 17px;
@@ -625,8 +629,7 @@ footer a:hover {
 
 @media (min-width: 539px) and (max-width: 699px) {
   header.w3-container {
-    padding-left: 0px;
-    padding-right: 2px;
+    padding: 24px 14px 24px 20px;
   }
 
   .w3-right {
@@ -669,18 +672,10 @@ footer a:hover {
   }
 } */
 
-@media (min-width: 699px) and (max-width: 739px) {
-  /* .w3-right {
-    padding-top: 9px;
-  } */
-
-  /* a.w3-right:nth-child(3) {
-   margin-top: 71px;
-  } */
-
-  /* a.w3-right:nth-child(2) {
-   margin-top: 61px;
-  } */
+@media (min-width: 700px) and (max-width: 720px) {
+  .w3-container {
+    padding: 24px 35px 24px 35px;
+  }
 }
 
 @media (min-width: 741px) and (max-width: 900px) {

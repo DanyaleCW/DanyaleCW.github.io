@@ -281,6 +281,11 @@ span.heart {
     /* body {
     background-color: purple;
   } */
+
+    header {
+      height: 207px;
+    }
+    
     .logo {
       font-size: 1.6em;
     }

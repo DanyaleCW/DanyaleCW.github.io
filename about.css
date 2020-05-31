@@ -323,6 +323,10 @@ img.skill-picture {
     background-color: brown;
   } */
 
+  header {
+    height: 207px;
+  }
+
   .logo {
     font-size: 1.6em;
   }
@@ -374,8 +378,8 @@ img.skill-picture {
   }
 
   .scotch > div:nth-child(2) {
- margin-top: 53px;
-}
+    margin-top: 53px;
+  }
 
   .scotch-text {
     margin-left: 9px;
