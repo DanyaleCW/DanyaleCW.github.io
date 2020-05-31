@@ -522,19 +522,7 @@ img.skill-picture {
   }
 }
 
-@media (min-width: 621px) and (max-width: 698px) {
-  .w3-right {
-    padding-top: 9px;
-  }
 
-  a.w3-right:nth-child(3) {
-   margin-top: 71px;
-  }
-
-  a.w3-right:nth-child(2) {
-   margin-top: 61px;
-  }
-}
 
 @media (min-width: 415px) and (max-width: 600px) {
   .scotch-text>p:nth-child(1) {
@@ -546,6 +534,20 @@ img.skill-picture {
 @media (min-width: 739px) and (max-width: 601px) {
   .scotch-text>p:nth-child(1) {
     width: 172%;
+  }
+}
+
+@media (min-width: 621px) and (max-width: 698px) {
+  .w3-right {
+    padding-top: 9px;
+  }
+
+  a.w3-right:nth-child(3) {
+   margin-top: 71px;
+  }
+
+  a.w3-right:nth-child(2) {
+   margin-top: 61px;
   }
 }
 
