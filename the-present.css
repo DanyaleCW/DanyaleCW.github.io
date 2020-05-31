@@ -572,17 +572,20 @@ footer a:hover {
     height: 155px;
   }
 
-  .w3-bar {
+  /* .w3-bar {
     height: 112px;
-  }
-
-  /* a.w3-right:nth-child(3) {
-    margin-top: 62px;
-  }
-
-  a.w3-right:nth-child(2) {
-    margin-top: 62px;
   } */
+
+  .logo {
+    color: var(--main-background-color);
+    font-weight: 900;
+    font-size: 1.7em;
+    font-family: 'Homemade Apple', cursive;
+  }
+
+  header.w3-container {
+    padding: 32px 7px 24px 7px;
+  }
 
   .arrow-back {
     margin-top: -20px;
@@ -629,10 +632,10 @@ footer a:hover {
 
 @media (min-width: 541px) and (max-width: 699px) {
   .logo {
-  color: var(--main-background-color);
-  font-weight: 900;
-  font-size: 1.7em;
-  font-family: 'Homemade Apple', cursive;
+    color: var(--main-background-color);
+    font-weight: 900;
+    font-size: 1.7em;
+    font-family: 'Homemade Apple', cursive;
   }
 
   header.w3-container {
