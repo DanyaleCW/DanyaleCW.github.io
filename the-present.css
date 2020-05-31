@@ -627,54 +627,36 @@ footer a:hover {
   }
 }
 
-@media (min-width: 539px) and (max-width: 699px) {
+@media (min-width: 541px) and (max-width: 699px) {
+  .logo {
+  color: var(--main-background-color);
+  font-weight: 900;
+  font-size: 1.7em;
+  font-family: 'Homemade Apple', cursive;
+  }
+
   header.w3-container {
     padding: 24px 7px 24px 7px;
   }
-
-  .w3-right {
-    margin: 0;
-    /* position: absolute;
-    top: 24%;
-    left: 72%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) */
-    padding-top: 15px;
-  }
 }
 
-
-@media (min-width: 541px) and (max-width: 639px) {
-  .w3-right {
-    padding-top: 9px;
+/* @media (min-width: 640px) and (max-width: 700px) {
+  .logo {
+    color: var(--main-background-color);
+    font-weight: 900;
+    font-size: 1.7em;
+    font-family: 'Homemade Apple', cursive;
   }
 
-  a.w3-right:nth-child(3) {
-   margin-top: 0px;
-  }
-
-  a.w3-right:nth-child(2) {
-   margin-top: 61px;
-  }
-}
-
-/* @media (min-width: 561px) and (max-width: 639px) {
-  .w3-right {
-    padding-top: 9px;
-  }
-
-  /* a.w3-right:nth-child(3) {
-   margin-top: 61px;
-  } */
-
-  /*a.w3-right:nth-child(2) {
-   margin-top: 61px;
+  header.w3-container {
+    padding: 24px 7px 24px 7px;
   }
 } */
 
 @media (min-width: 700px) and (max-width: 720px) {
   .w3-container {
-    padding: 24px 35px 24px 35px;
+    /* padding: 24px 35px 24px 35px; */
+    padding: 40px 30px 24px 35px;
   }
 }
 
