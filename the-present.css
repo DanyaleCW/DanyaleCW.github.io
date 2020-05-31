@@ -123,9 +123,11 @@ a {
 
 .w3-right {
   font-size: 1.3em;
+  font-family: var(--header-font);
 }
 
 a.active {
+  font-family: var(--header-font);
   color: #54B2BA;
   border-bottom-style: solid;
   border-bottom-color: #54B2BA;
@@ -152,16 +154,11 @@ main {
   background-size: 300px 1000px;
 } */
 
-h1, h2, h3 {
-  color: var(--main-text-color);
-}
-
 h1.title {
   font-size: 25px;
   display: inline-block;
   align-items: center;
   margin: 65px 0 0 61px;
-  color: var(--main-text-color);
   z-index: 0;
   transform: skewY(-6deg);
 }
@@ -169,7 +166,6 @@ h1.title {
 /* ----- BACK TO WORK ----- */
 
 .arrow-back {
-  text-decoration: none;
   font-family: var(--body-font);
   background-color: #C8F2DF;
   font-size: 20px;
@@ -177,6 +173,7 @@ h1.title {
   height: 60px;
   padding-top: 1%;
   padding-right: 4.4%;
+  text-decoration: none;
 }
 
 p.back {
@@ -275,7 +272,7 @@ div.page-title2 {
   transform-origin: top right;
 }
 
-.line {
+/* .line {
   position: static;
   display: inline-block;
   width: 120px;
@@ -285,11 +282,12 @@ div.page-title2 {
   margin: 60px 0 -21px 60px;
   z-index: 0;
   transform: skewY(-6deg);
-}
+} */
 
 .text {
   margin: 20px 212px 0 212px;
-  letter-spacing: .6px;
+  font-size: 19px;
+  letter-spacing: .2px;
   color: var(--main-text-color);
   z-index: 0;
   transform: skewY(-6deg);
@@ -635,9 +633,50 @@ footer a:hover {
     transform: translate(-50%, -50%) */
     padding-top: 15px;
   }
-
-
 }
+
+
+@media (min-width: 541px) and (max-width: 560px) {
+  .w3-right {
+    padding-top: 9px;
+  }
+
+  a.w3-right:nth-child(3) {
+   margin-top: 0px;
+  }
+
+  a.w3-right:nth-child(2) {
+   margin-top: 61px;
+  }
+}
+
+@media (min-width: 561px) and (max-width: 639px) {
+  .w3-right {
+    padding-top: 9px;
+  }
+
+  a.w3-right:nth-child(3) {
+   margin-top: 61px;
+  }
+
+  a.w3-right:nth-child(2) {
+   margin-top: 61px;
+  }
+}
+
+/* @media (min-width: 621px) and (max-width: 698px) {
+  .w3-right {
+    padding-top: 9px;
+  }
+
+  a.w3-right:nth-child(3) {
+   margin-top: 71px;
+  }
+
+  a.w3-right:nth-child(2) {
+   margin-top: 61px;
+  }
+} */
 
 @media (min-width: 741px) and (max-width: 900px) {
 

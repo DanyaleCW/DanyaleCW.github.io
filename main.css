@@ -246,6 +246,10 @@ a.nav-link {
   margin-bottom: 10px;
 }
 
+img {
+  box-shadow: 5px 5px 6px grey;
+}
+
 /* div.work-container:nth-child(1) {
   grid-column: 1;
   grid-row: 1;

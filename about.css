@@ -134,13 +134,15 @@ header.w3-container {
 
 .w3-right {
   font-size: 1.3em;
+  font-family: var(--header-font);
 }
 
 a.active {
+  font-family: var(--header-font);
   color: #54B2BA;
   border-bottom-style: solid;
   border-bottom-color: #54B2BA;
-  width: 60px;
+  width: 68px;
   padding: 0 4px 0 5px;
   margin: 8px 16px 0 13px;
 }
@@ -506,6 +508,34 @@ img.skill-picture {
   }
 }
 
+@media (min-width: 523px) and (max-width: 620px) {
+  .w3-right {
+    padding-top: 9px;
+  }
+
+  a.w3-right:nth-child(3) {
+   margin-top: 11px;
+  }
+
+  a.w3-right:nth-child(2) {
+   margin-top: 61px;
+  }
+}
+
+@media (min-width: 621px) and (max-width: 698px) {
+  .w3-right {
+    padding-top: 9px;
+  }
+
+  a.w3-right:nth-child(3) {
+   margin-top: 71px;
+  }
+
+  a.w3-right:nth-child(2) {
+   margin-top: 61px;
+  }
+}
+
 @media (min-width: 415px) and (max-width: 600px) {
   .scotch-text>p:nth-child(1) {
     width: 90%;
@@ -592,7 +622,7 @@ img.skill-picture {
   .scotch-text>p:nth-child(1) {
     margin: -113px 0 55px 13px;
     width: 317px;
-  } */
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1112px) {

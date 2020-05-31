@@ -103,7 +103,6 @@ When an element has a hidden attribute, they should be hidden from view. Normali
 #5C396F
 */
 body {
-  margin: 0;
   font-family: var(--body-font);
   background-color: var(--main-background-color);
 }
@@ -137,19 +136,11 @@ main {
 
 .w3-right {
   font-size: 1.3em;
+  font-family: var(--header-font);
 }
 
-/* a.active {
-  color: #54B2BA;
-  border-bottom-style: solid;
-  border-bottom-color: #54B2BA;
-  margin-bottom: 0px;
-  text-decoration: none;
-} */
-
-
 a.active {
-  text-decoration: none;
+  font-family: var(--header-font);
   color: #54B2BA;
   border-bottom-style: solid;
   border-bottom-color: #54B2BA;
@@ -183,9 +174,9 @@ a.active {
 /* .tall-column {
   grid-column-end: span 2;
 } */
+
 .design-container > * {
-  /* background-color: #75487C; */
-  color: #40222B;
+  color: var(--main-text-color);
   border-radius: 0;
   padding: 20px;
   font-size: 150%;
@@ -211,6 +202,10 @@ div.text a:hover {
 .x-mas2 {
   padding-top: 10px;
   border-radius: 0;
+}
+
+img {
+  box-shadow: 5px 5px 6px grey;
 }
 
 /* ----------------- FOOTER ---------------- */
@@ -298,6 +293,34 @@ span.heart {
       /* needed for the flex layout*/
       margin-right: 20px;
       flex: 1 1 200px;
+    }
+  }
+
+  @media (min-width: 523px) and (max-width: 620px) {
+    .w3-right {
+      padding-top: 9px;
+    }
+
+    a.w3-right:nth-child(3) {
+     margin-top: 0px;
+    }
+
+    a.w3-right:nth-child(2) {
+     margin-top: 61px;
+    }
+  }
+
+  @media (min-width: 621px) and (max-width: 698px) {
+    .w3-right {
+      padding-top: 9px;
+    }
+
+    a.w3-right:nth-child(3) {
+     margin-top: 61px;
+    }
+
+    a.w3-right:nth-child(2) {
+     margin-top: 61px;
     }
   }
 
