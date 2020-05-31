@@ -664,19 +664,19 @@ footer a:hover {
   }
 }
 
-/* @media (min-width: 621px) and (max-width: 698px) {
+@media (min-width: 699px) and (max-width: 731px) {
   .w3-right {
     padding-top: 9px;
   }
 
   a.w3-right:nth-child(3) {
-   margin-top: 71px;
+   margin-top: 61px;
   }
 
   a.w3-right:nth-child(2) {
    margin-top: 61px;
   }
-} */
+}
 
 @media (min-width: 741px) and (max-width: 900px) {
 
