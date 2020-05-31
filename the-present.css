@@ -629,7 +629,7 @@ footer a:hover {
 
 @media (min-width: 539px) and (max-width: 699px) {
   header.w3-container {
-    padding: 24px 14px 24px 20px;
+    padding: 24px 7px 24px 7px;
   }
 
   .w3-right {
