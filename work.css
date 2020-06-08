@@ -141,9 +141,9 @@ main {
 
 a.active {
   font-family: var(--header-font);
-  color: #54B2BA;
+  color: #66c3cb;
   border-bottom-style: solid;
-  border-bottom-color: #54B2BA;
+  border-bottom-color: #66c3cb;
   width: 60px;
   padding: 0 4px 0 5px;
   margin: 8px 16px 0 13px;
@@ -184,14 +184,12 @@ a.active {
 }
 
 h3 {
-  font-size: 1em;
-  /* text-align: center; */
+  font-size: .8em;
   margin-top: 5px;
 }
 
 h4 {
-  font-size: 0.8em;
-  /* text-align: center; */
+  font-size: 0.7em;
 }
 
 div.text a:hover {
@@ -285,7 +283,7 @@ span.heart {
     header {
       height: 207px;
     }
-    
+
     .logo {
       font-size: 1.6em;
     }
