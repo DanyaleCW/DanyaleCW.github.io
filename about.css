@@ -657,5 +657,16 @@ img.skill-picture {
     margin: -86px 0 55px 13px;
     width: 317px;
   }
-
 }
+
+  @media (min-width: 1520px) {
+
+    /* body {
+        background-color: turquoise;
+      } */
+    .scotch>div:nth-child(2) {
+      margin-top: 200px;
+      margin-left: -1%;
+      font-size: 17px;
+    }
+  }
