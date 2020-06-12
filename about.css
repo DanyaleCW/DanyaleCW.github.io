@@ -240,7 +240,7 @@ img.skill-picture {
 }
 
 .scotch>div:nth-child(2) {
-  margin-top: 200px;
+  margin-top: 10%;
   margin-left: 3%;
   font-size: 17px;
 }
@@ -575,13 +575,18 @@ img.skill-picture {
     margin-top: 113px;
   }
 
+  .wireframe-picture {
+    margin-left: 0;
+  }
+
+
   .scotch-text>p:nth-child(1) {
     margin-bottom: 55px;
     margin-left: 13px;
     margin-right: 0px;
     width: 317px;
-    margin-top: -46px;
-  } */
+    margin-top: -73px;
+  }
 
   #contact>footer:nth-child(2) {
     margin-right: 29px;
@@ -615,12 +620,8 @@ img.skill-picture {
     margin-bottom: 50px;
   }
 
-  .scotch {
-    margin-left: 65px;
-  }
-
   .scotch>div:nth-child(2) {
-    margin-top: 209px;
+    margin-top: 19%;
     margin-left: 3%;
     font-size: 17px;
   }
@@ -653,20 +654,24 @@ img.skill-picture {
     margin-left: 65px;
   }
 
+  .wireframe-picture {
+    margin-bottom: 100px;
+  }
+
   .scotch-text>p:nth-child(1) {
     margin: -86px 0 55px 13px;
     width: 317px;
   }
 }
 
-  @media (min-width: 1520px) {
+  @media (min-width: 1667px) {
 
     /* body {
         background-color: turquoise;
       } */
     .scotch>div:nth-child(2) {
-      margin-top: 200px;
-      margin-left: -1%;
+      margin-top: 12%;
+      margin-left: 2%;
       font-size: 17px;
     }
   }
