@@ -149,12 +149,16 @@ a.active {
 
 /* ----- HEADER END ----- */
 
-h1 {
+h1, h2 {
   letter-spacing: .7px;
   line-height: normal;
   margin-bottom: 25px;
   font-style: oblique;
   color: #75487C;
+}
+
+.title {
+  font-size: 30px;
 }
 
 .me p {
@@ -272,14 +276,14 @@ ul {
 
  @media (min-width: 900px) and (max-width: 1024px) {
 
-  body {
+  /* body {
     background-color: purple;
-  }
+  } */
 }
 
 @media (min-width: 1920) {
 
-  body {
+  /* body {
       background-color: turquoise;
-    }
+    } */
 }
