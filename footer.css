@@ -93,10 +93,7 @@ hr {
 footer {
   color: #5C396F;
   margin: 5% 0 1.5% 5%;
-}
-
-footer a {
-  font-size: 25px;
+  font-size: 17px;
 }
 
 footer.w3-cell-row {
@@ -116,19 +113,10 @@ footer a:hover {
   letter-spacing: 2px;
   font-size: 62px;
   margin-bottom: 10px;
-  font-style: normal;
 }
 
 .CTA {
  margin-right: 97px;
-}
-
-div.w3-cell-row:nth-child(1) > div:nth-child(2) {
- margin-top: 17px;
-}
-
-div.w3-cell-row:nth-child(1) > div:nth-child(3) {
- margin-top: 17px;
 }
 
 span.heart {
@@ -137,10 +125,4 @@ span.heart {
 
 .heart {
   color: #54B2BA;
-  font-size: 11px;
-}
-
-.copyright {
-  font-size: 11px;
-  margin-top: 30px;
 }
