@@ -157,10 +157,6 @@ h1 {
   color: #75487C;
 }
 
-.me {
-  margin-bottom: 10%;
-}
-
 .me p {
   font-size: 26px;
   line-height: 37px;
@@ -210,9 +206,9 @@ ul {
 /* ----- MEDIA QUERIES ----- */
 @media (max-width: 320px) {
 
-  body {
+  /* body {
     background-color: lavender;
-  }
+  } */
 
   .logo {
     font-size: 1.6em;
@@ -222,9 +218,9 @@ ul {
 
 @media (min-width: 321px) and (max-width: 375px) {
 
-  body {
+  /* body {
     background-color: brown;
-  }
+  } */
 
   header {
     height: 207px;
@@ -242,10 +238,17 @@ ul {
 
 @media (min-width: 376px) and (max-width: 414px) {
 
-  body {
+  /* body {
     background-color: pink;
+  } */
+  .design, .development {
+    margin-top: 0;
+    font-size: 17px;
   }
 
+  .design, .development, .skill-picture {
+    margin-top: 10%;
+  }
 
   footer {
     margin: 5% 0 1.5% 11%;
@@ -253,16 +256,16 @@ ul {
 
 @media (min-width: 415px) and (max-width: 740px) {
 
-  body {
+  /* body {
     background-color: orange;
-  }
+  } */
 }
 /*  */
 @media (min-width: 740px) and (max-width: 900px) {
-
+/*
   body {
     background-color: blue;
-  }
+  } */
 }
 
 
