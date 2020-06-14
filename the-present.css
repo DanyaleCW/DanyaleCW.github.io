@@ -309,6 +309,7 @@ button.project-button {
   margin-top: 100px;
   display: block;
   font-size: 15px;
+  font-weight: 900;
   cursor: pointer;
   color: #0D85A2;
   box-shadow: 3px 3px 4px gray;
@@ -326,7 +327,6 @@ button a:hover {
   color: #0D85A2;
   text-decoration: none;
 }
-
 
 button:hover {
   color: #0D85A2;
