@@ -170,6 +170,7 @@ h2 {
   text-align: center;
   cursor: pointer;
   margin-top: 30px;
+  font-weight: 900;
   text-decoration: none;
 }
 
@@ -279,6 +280,7 @@ img {
   margin: 70px auto;
   display: block;
   cursor: pointer;
+  font-weight: 900;
   box-shadow: 5px 5px 6px grey;
   text-decoration: none;
 }
