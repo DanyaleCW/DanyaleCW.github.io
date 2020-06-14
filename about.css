@@ -157,10 +157,6 @@ h1, h2 {
   color: #75487C;
 }
 
-.title {
-  font-size: 30px;
-}
-
 .me p {
   font-size: 26px;
   line-height: 37px;
@@ -180,6 +176,10 @@ h1, h2 {
 
 h3 {
   font-style: italic;
+}
+
+.me {
+  margin-bottom: 10%;
 }
 
 .design, .development {
