@@ -40,24 +40,26 @@ class FooterTemplate extends HTMLElement {
         </div>
 
         <div class="w3-container w3-justify w3-third w3-cell-top">
-          <!-- <p class="contact">CONTACT</p> -->
           <p>Contact me if you would like to create a website that converts clicks to leads and increases your bottom line.</p>
           <br>
           <p>Let's make something beautiful & profitable!</p>
         </div>
+        
+        <!-- <div class="w3-container w3-third w3-cell-top">
+          <div class="work"><a href="index.html">Home</a>
+          </div>
+          <div class="work"><a href="work.html">Work</a>
+          </div>
+          <div class="about"><a href="about.html">About</a>
+          </div>
+        </div> -->
 
-      <!-- <div class="w3-container w3-third w3-cell-top">
-        <div class="work"><a href="index.html">Home</a>
-        </div>
-        <div class="work"><a href="work.html">Work</a>
-        </div>
-        <div class="about"><a href="about.html">About</a>
-        </div>
-    </div> -->
     </div>
-    </footer>`;
+    </footer>
+    `;
   }
 }
+
 
 customElements.define('footer-template', FooterTemplate);
 

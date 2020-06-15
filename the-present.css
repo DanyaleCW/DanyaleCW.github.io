@@ -270,18 +270,6 @@ div.page-title2 {
   transform-origin: top right;
 }
 
-/* .line {
-  position: static;
-  display: inline-block;
-  width: 120px;
-  height: 3px;
-  transform-origin: 0 50%;
-  background-color: var(--main-text-color);
-  margin: 60px 0 -21px 60px;
-  z-index: 0;
-  transform: skewY(-6deg);
-} */
-
 .text {
   margin: 20px 212px 0 212px;
   font-size: 19px;
@@ -338,12 +326,7 @@ hr {
   background-color: #0D85A2;
 }
 
-footer a {
-  color: #0D85A2;
-  font-size: 25px;
-}
-
-footer p {
+footer a, p {
   color: #0D85A2;
 }
 
@@ -412,9 +395,6 @@ footer a:hover {
     margin-top: 25px;
   }
 
-  #contact>footer:nth-child(2) {
-    margin-left: -3%;
-  }
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
@@ -482,10 +462,6 @@ footer a:hover {
     margin-right: 26px;
     margin-top: 25px;
   }
-
-  #contact>footer:nth-child(2) {
-    margin-left: 3%;
-  }
 }
 
 @media (min-width: 376px) and (max-width: 414px) {
@@ -548,10 +524,6 @@ footer a:hover {
     margin-right: 26px;
     margin-top: 25px;
   }
-
-  #contact>footer:nth-child(2) {
-    margin-left: 7%;
-  }
 }
 
 @media (min-width: 415px) and (max-width: 740px) {
@@ -606,18 +578,6 @@ footer a:hover {
 
   div.w3-cell-row:nth-child(1)>div:nth-child(1) {
     margin-top: 18px;
-  }
-
-  footer {
-    margin: 5% 0 1.5% 0%;
-  }
-
-  #contact>footer:nth-child(2) {
-    margin-right: 24px;
-  }
-
-  .contact {
-    font-size: 40px;
   }
 }
 
@@ -770,6 +730,7 @@ footer a:hover {
     height: 162px;
   }
 }
+
 @media (min-width: 1634px) {
   .skewed {
     position: static;
