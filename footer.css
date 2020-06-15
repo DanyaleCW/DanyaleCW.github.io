@@ -92,8 +92,8 @@ hr {
 
 footer {
   color: #5C396F;
-  margin: 5% 0 1.5% 5%;
   font-size: 17px;
+  margin-bottom: 4%;
 }
 
 footer.w3-cell-row {
@@ -107,16 +107,6 @@ footer a:link {
 footer a:hover {
   color: #9181A7;
   text-decoration: underline #9181A7 3px;
-}
-
-.contact {
-  letter-spacing: 2px;
-  font-size: 62px;
-  margin-bottom: 10px;
-}
-
-.CTA {
- margin-right: 97px;
 }
 
 span.heart {

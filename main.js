@@ -1,19 +1,40 @@
+class HeaderTemplate extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+    <header class="w3-container w3-padding-24">
+    <a href="index.html" class="w3-left w3-button logo">Danyale  C. Walker</a>
+    <a href="#contact" class="w3-right w3-button">Contact</a>
+    <a href="about.html" class="w3-right w3-button">About</a>
+    <a href="work.html" class="w3-right w3-button active">Work</a>
+  </header>
+    `;
+  }
+}
+
+customElements.define('header-template', HeaderTemplate);
 
 class FooterTemplate extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <hr>
-    <footer>
+    <footer class="w3-content w3-center" style="max-width:1300px" id="contact">
       <div class="w3-cell-row">
-        <div class="w3-container w3-col m5 w3-cell-top">
-          <p class="contact">CONTACT</p>
-          <p class="CTA">Contact me if you would like to create a website that converts clicks to leads and increases your bottom line.</p>
+        <div class="w3-container w3-justify w3-third w3-cell-top">
+          <p class="copyright">© Danyale C. Walker 2020<br>
+            All rights reserved.<br>
+            Made with <span class="heart">  &#10084; </span>in Brooklyn</p>
+        </div>
+
+        <div class="w3-container w3-justify w3-third w3-cell-top">
+          <!-- <p class="contact">CONTACT</p> -->
+          <p>Contact me if you would like to create a website that converts clicks to leads and increases your bottom line.</p>
+          <br>
           <p>Let's make something beautiful & profitable!</p>
         </div>
 
-        <div class="w3-container w3-col m5  w3-cell-top">
+        <div class="w3-container w3-third  w3-cell-top">
           <div class="email"><a href="mailto:danyalecw@gmail.com">
-            danyalecw@gmail.com</a></div>
+            Email</a></div>
             <div class="github"><a target="_blank" href="https://github.com/DanyaleCW">GitHub</a>
             </div>
               <div class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/danyalecwalker">Linkedin</a>
@@ -24,26 +45,14 @@ class FooterTemplate extends HTMLElement {
               </div>
         </div>
 
-      <div class="w3-container w3-col m2 w3-cell-top">
-        <div class="links-sm">
-
-
-          <div class="work"><a target="_blank" href="work.html">Work</a>
-          </div>
-          <div class="about"><a target="_blank" href="about.html">About</a>
-      </div>
-    </div>
-    </div>
-    <div class="w3-cell-row">
-      <div class="w3-container w3-col m5 w3-cell-top">
-        <p class="copyright">© 2020 Design. Code. Surf. Studios, L.L.C. Brooklyn, N.Y. <br> All rights reserved.
-      </div>
-      <div class="w3-container w3-col  m5 w3-cell-top">
-        <p class="copyright">Designed and Coded by Danyale C. Walker
-      </div>
-      <div class="w3-container w3-col m2 w3-cell-top">
-        <p class="copyright">Made with <span class="heart">  &#10084; </span>in Brooklyn
-          </div>
+      <!-- <div class="w3-container w3-third w3-cell-top">
+        <div class="work"><a href="index.html">Home</a>
+        </div>
+        <div class="work"><a href="work.html">Work</a>
+        </div>
+        <div class="about"><a href="about.html">About</a>
+        </div>
+    </div> -->
     </div>
     </footer>`;
   }
