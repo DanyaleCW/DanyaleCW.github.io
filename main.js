@@ -21,18 +21,12 @@ class FooterTemplate extends HTMLElement {
       <div class="w3-cell-row">
         <div class="w3-container w3-justify w3-third w3-cell-top">
           <p class="copyright">© Danyale C. Walker 2020<br>
-            All rights reserved.<br>
+            All rights reserved. <br><br>
             Made with <span class="heart">  &#10084; </span>in Brooklyn</p>
         </div>
 
-        <div class="w3-container w3-justify w3-third w3-cell-top">
-          <!-- <p class="contact">CONTACT</p> -->
-          <p>Contact me if you would like to create a website that converts clicks to leads and increases your bottom line.</p>
-          <br>
-          <p>Let's make something beautiful & profitable!</p>
-        </div>
-
-        <div class="w3-container w3-third  w3-cell-top">
+        <div class="w3-container w3-justify w3-third  w3-cell-top">
+          <p>Become A Friend:</p>
           <div class="email"><a href="mailto:danyalecw@gmail.com">
             Email</a></div>
             <div class="github"><a target="_blank" href="https://github.com/DanyaleCW">GitHub</a>
@@ -43,6 +37,13 @@ class FooterTemplate extends HTMLElement {
                 </div>
               <div class="twitter"><a target="_blank" href="https://twitter.com/DanyaleCWalker">Twitter</a>
               </div>
+        </div>
+
+        <div class="w3-container w3-justify w3-third w3-cell-top">
+          <!-- <p class="contact">CONTACT</p> -->
+          <p>Contact me if you would like to create a website that converts clicks to leads and increases your bottom line.</p>
+          <br>
+          <p>Let's make something beautiful & profitable!</p>
         </div>
 
       <!-- <div class="w3-container w3-third w3-cell-top">
