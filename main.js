@@ -1,13 +1,31 @@
 class HeaderTemplate extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-    <header class="w3-container w3-padding-24">
-    <a href="index.html" class="w3-left w3-button logo">Danyale  C. Walker</a>
-    <a href="#contact" class="w3-right w3-button">Contact</a>
-    <a href="about.html" class="w3-right w3-button">About</a>
-    <a href="work.html" class="w3-right w3-button active">Work</a>
+    <header>
+    <div class="w3-bar w3-padding-24 w3-content" style="max-width:1330px">
+    <a href="index.html" class="w3-bar-item logo w3-left w3-button">Danyale C. Walker</a>
+    <a href="#contact" class="w3-bar-item contact w3-right w3-button w3-hide-small">Contact</a>
+    <a href="about.html" class="w3-bar-item about w3-right w3-button w3-hide-small">About</a>
+    <a href="work.html" class="w3-bar-item work w3-right w3-button w3-hide-small">Work</a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+  </div>
+
+  <div id="demo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+    <a href="work.html" class="w3-bar-item work w3-button">Work</a>
+    <a href="about.html" class="w3-bar-item  about w3-button">About</a>
+    <a href="#contact" class="w3-bar-item contact w3-button">Contact</a>
+  </div>
   </header>
     `;
+  }
+}
+
+function myFunction() {
+  var x = document.getElementById("demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
   }
 }
 
@@ -44,7 +62,7 @@ class FooterTemplate extends HTMLElement {
           <br>
           <p>Let's make something beautiful & profitable!</p>
         </div>
-        
+
         <!-- <div class="w3-container w3-third w3-cell-top">
           <div class="work"><a href="index.html">Home</a>
           </div>
