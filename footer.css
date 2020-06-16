@@ -101,22 +101,6 @@ div.w3-bar.w3-padding-24 {
   }
 }
 
-@media (min-width: 332px) and (max-width: 415px) {
-
-  /* body {
-  background-color: purple;
-} */
-
-  div.w3-bar.w3-padding-24 {
-      padding: 0 2% 0 2%;
-  }
-
-  .logo {
-    font-size: 1.5em;
-  }
-}
-
-
 
 /* ----------------- FOOTER ---------------- */
 hr {
@@ -154,6 +138,21 @@ footer a:hover {
 
 .heart {
   color: #54B2BA;
+}
+
+@media (min-width: 332px) and (max-width: 415px) {
+
+  /* body {
+  background-color: purple;
+} */
+
+  div.w3-bar.w3-padding-24 {
+      padding: 0 2% 0 2%;
+  }
+
+  .logo {
+    font-size: 1.5em;
+  }
 }
 
 @media (max-width: 600px) {
