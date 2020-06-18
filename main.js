@@ -35,7 +35,7 @@ class FooterTemplate extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <hr>
-    <footer class="w3-content w3-center" style="max-width:1300px" id="contact">
+    <footer class="w3-content w3-center" style="max-width:1330px" id="contact">
       <div class="w3-cell-row">
         <div class="w3-container w3-justify w3-third w3-cell-top">
           <p class="copyright">© Danyale C. Walker 2020<br>

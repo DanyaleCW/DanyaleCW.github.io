@@ -112,11 +112,6 @@ header {
   color: var(--main-background-color);
 }
 
-header.w3-container {
- padding-left: 39px;
- padding-right: 29px;
-}
-
 main {
   margin-bottom: 50px;
 }
@@ -132,6 +127,11 @@ main {
   font-weight: 900;
   font-size: 2em;
   font-family: 'Homemade Apple', cursive;
+  padding-left: 9px;
+}
+
+a.contact:nth-child(2) {
+ padding-right: 0px;
 }
 
 .w3-right {
@@ -209,3 +209,10 @@ img {
 
   /* ----- MAIN CSS END ------ */
   /* ------ MEDIA QUERIES ------ */
+  @media (min-width: 601px) and (max-width: 1344px) {
+
+    .w3-bar {
+   padding-right: 10px;
+  }
+
+  }

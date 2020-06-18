@@ -114,9 +114,9 @@ header {
   color: var(--main-background-color);
 }
 
-header.w3-container {
- padding-left: 39px;
- padding-right: 29px;
+header div.w3-bar-item {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .w3-button:hover {
@@ -130,21 +130,22 @@ header.w3-container {
   font-weight: 900;
   font-size: 2em;
   font-family: 'Homemade Apple', cursive;
+  padding-left: 9px;
 }
+
+a.contact:nth-child(2) {
+ padding-right: 0px;
+}
+
 
 .w3-right {
   font-size: 1.3em;
   font-family: var(--header-font);
 }
 
-a.active {
+a.about {
   font-family: var(--header-font);
   color: #66c3cb;
-  border-bottom-style: solid;
-  border-bottom-color: #66c3cb;
-  width: 68px;
-  padding: 0 4px 0 5px;
-  margin: 8px 16px 0 13px;
 }
 
 /* ----- HEADER END ----- */
@@ -159,10 +160,7 @@ h1, h2 {
 
 .me p {
   font-size: 26px;
-  line-height: 37px;
-}
-
- .me p {
+  /* line-height: 37px; */
   margin-left: auto;
   margin-right: auto;
   /* width: 850px; */
@@ -217,7 +215,6 @@ ul {
   .logo {
     font-size: 1.6em;
   }
-
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
@@ -226,18 +223,12 @@ ul {
     background-color: brown;
   } */
 
-  header {
-    height: 207px;
-  }
-
   .logo {
     font-size: 1.6em;
   }
-
-
-  footer {
-    margin: 5% 0 1.5% 9%;
-  }
+  .me p {
+  font-size: 18px;
+}
 }
 
 @media (min-width: 376px) and (max-width: 414px) {
@@ -245,6 +236,12 @@ ul {
   /* body {
     background-color: pink;
   } */
+
+  .me p {
+  font-size: 17px;
+  /* line-height: 37px; */
+}
+
   .design, .development {
     margin-top: 0;
     font-size: 17px;
@@ -253,37 +250,52 @@ ul {
   .design, .development, .skill-picture {
     margin-top: 10%;
   }
+}
 
-  footer {
-    margin: 5% 0 1.5% 11%;
-  }
 
-@media (min-width: 415px) and (max-width: 740px) {
+@media (min-width: 415px) and (max-width: 900px) {
 
   /* body {
     background-color: orange;
   } */
+
+  .me p {
+  font-size: 17px;
 }
-/*  */
-@media (min-width: 740px) and (max-width: 900px) {
-/*
-  body {
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+
+  /* body {
     background-color: blue;
   } */
+
+  img.skill-picture {
+    padding-top: 98px;
+  }
+
 }
 
 
-
- @media (min-width: 900px) and (max-width: 1024px) {
+@media (max-width: 331px) {
 
   /* body {
-    background-color: purple;
-  } */
+  background-color: purple;
+} */
+
+  div.w3-bar.w3-padding-24 {
+      padding: 0 2% 0 2%;
+  }
+
+  .logo {
+    font-size: 1.4em;
+  }
 }
 
-@media (min-width: 1920) {
+@media (min-width: 601px) and (max-width: 1344px) {
 
-  /* body {
-      background-color: turquoise;
-    } */
+  .w3-bar {
+ padding-right: 10px;
+}
+
 }
