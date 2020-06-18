@@ -209,7 +209,7 @@ img {
 
   /* ----- MAIN CSS END ------ */
   /* ------ MEDIA QUERIES ------ */
-  @media (max-width: 375px){
+  @media (max-width: 414px){
     .logo {
       font-size: 1.3em;
     }
