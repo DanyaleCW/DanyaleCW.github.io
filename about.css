@@ -213,7 +213,7 @@ ul {
   } */
 
   .logo {
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
 }
 
@@ -224,10 +224,10 @@ ul {
   } */
 
   .logo {
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
   .me p {
-  font-size: 18px;
+  font-size: 17px;
 }
 }
 
@@ -236,7 +236,9 @@ ul {
   /* body {
     background-color: pink;
   } */
-
+  .logo {
+    font-size: 1.3em;
+  }
   .me p {
   font-size: 17px;
   /* line-height: 37px; */
