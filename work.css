@@ -209,6 +209,11 @@ img {
 
   /* ----- MAIN CSS END ------ */
   /* ------ MEDIA QUERIES ------ */
+  @media (max-width: 320px){
+    .logo {
+      font-size: 107px;
+    }
+  }
   @media (min-width: 601px) and (max-width: 1344px) {
 
     .w3-bar {
