@@ -130,9 +130,3 @@ footer a:hover {
 footer div.w3-bar.w3-padding-24 {
     padding: 0 3% 0 3%;
 }
-
-@media (max-width: 400px){
-  .logo {
-    font-size: 1.7em;
-  }
-}
