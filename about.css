@@ -202,7 +202,14 @@ ul {
   color: #BB4628;
 }
 
+/* FIGURE CAPTION */
+figcaption {
+  font-size: .7em;
+}
 
+figcaption a {
+  text-decoration: underline;
+}
 
 /* ------ END MAIN CSS ------- */
 /* ----- MEDIA QUERIES ----- */
