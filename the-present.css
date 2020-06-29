@@ -164,23 +164,27 @@ a:hover {
   color: #0D85A2;
 }
 
-.mountain-lake {
-  background-image: url("./Images/mountain-lake.jpg");
-  height: 350px;
+.mountain-field {
+  background-image: url("./Images/mountain-and-field.jpg");
+  height: 500px;
+  background-position: 50% 50%;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 div.page-title {
   font-size: 40px;
   font-weight: 900;
   text-align: center;
-  margin: 80px 0 80px 0;
+  margin: 80px 0 0px 0;
   color: var(--main-text-color);
 }
 
 div.page-title2 {
   font-size: 20px;
   text-align: center;
-  margin: 80px 0 70px 0;
+  margin: 40px 0 70px 0;
   color: var(--main-text-color);
 }
 
@@ -325,7 +329,8 @@ footer a:hover {
   }
 
   .mountain-lake {
-    background-image: url("./Images/mountain-lake.jpg");
+    background-image: url(".Images/mountain-and-field.jpg");
+    background-position: 43% 60%;
     height: 260px;
     margin: 0;
     width: 100%;
