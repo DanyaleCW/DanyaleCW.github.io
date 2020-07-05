@@ -82,10 +82,6 @@ When an element has a hidden attribute, they should be hidden from view. Normali
 /* CSS Reset End-----------------------------
 ---*//* ----------------- HEADER ---------------- */
 
-
-
-
-
 /* ----------------- FOOTER ---------------- */
 hr {
   border: 0;
@@ -129,4 +125,11 @@ footer a:hover {
 
 footer div.w3-bar.w3-padding-24 {
     padding: 0 3% 0 3%;
+}
+
+footer.w3-content {
+  max-width:1330px;
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
