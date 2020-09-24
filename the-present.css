@@ -169,13 +169,13 @@ a:hover {
 }
 
 .ocean-sky {
-  background-image: url("Images/the-present-website-image.jpg");
+  background-image: linear-gradient(rgba(76, 175, 80, 0.4), rgba(76, 175, 80, 0.6)), url("Images/the-present-website-image.jpg");
   height: 500px;
   background-position: 50% 50%;
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.45;
+  /* opacity: 0.45; */
 }
 
 div.page-title h1 {
