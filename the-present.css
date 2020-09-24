@@ -168,13 +168,14 @@ a:hover {
   color: #0D85A2;
 }
 
-.mountain-field {
-  background-image: url("./Images/mountain-and-field.jpg");
+.ocean-sky {
+  background-image: url("Images/the-present-website-image.jpg");
   height: 500px;
   background-position: 50% 50%;
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.45;
 }
 
 div.page-title h1 {

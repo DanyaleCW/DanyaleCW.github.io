@@ -85,7 +85,7 @@ customElements.define('footer-template', FooterTemplate);
 
 let present = document.getElementById("present");
 present.addEventListener("click", function() {
-  window.open("https://xd.adobe.com/view/346ccc60-7eed-4378-617a-fc2c6239bc93-425d/?fullscreen", "_blank")
+  window.open("https://xd.adobe.com/view/17d26517-6d10-4afb-a2d3-3f39f4bd95f6-4281/", "_blank")
 });
 
 let icecream = document.getElementById("icecream");
