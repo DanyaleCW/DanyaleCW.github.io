@@ -120,6 +120,11 @@ a.contact:nth-child(2) {
   font-family: var(--header-font);
 }
 
+.w3-right:hover {
+  text-underline-position: under;
+}
+
+
 a.active {
   font-family: var(--header-font);
   color: #00004D;
@@ -127,6 +132,11 @@ a.active {
   border-bottom-color: #00004D;
   margin-bottom: 0px;
   text-decoration: none;
+}
+
+header a.w3-right:hover {
+  color: var(--main-background-color);
+  text-decoration: underline var(--main-background-color) 3px;
 }
 
 .w3-container {
@@ -158,7 +168,7 @@ main {
 
 p.back {
   float: right;
-  color: var(--main-background-color)
+  color: var(--main-background-color);
 }
 
 .back {
@@ -268,7 +278,6 @@ button.project-button {
   background-color: transparent;
   border-style: solid;
   border-color: #00004D;
-  border-color: #4A4A8D;
   border-width: 5px;
   /* margin: 0 auto; */
   margin-top: 30px;
@@ -292,8 +301,9 @@ button.project-button {
   color: #00004D;
   text-decoration: none;
 } */
-button:hover {
-  color: #00004D;
+
+button.project-button:hover {
+  color: var(--main-background-color);
   background-color: #4A4A8D;
 }
 

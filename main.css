@@ -117,6 +117,11 @@ h4 {
   font-weight: 600;
 }
 
+.w3-right {
+  font-size: 1.3em;
+  font-weight: 900;
+}
+
 .logo {
   display: none !important;
 }
@@ -195,7 +200,7 @@ a.nav-link {
 }
 
 .hero-text button:hover {
-  background-color: #9181A7;
+  background-color: #E3DFE7;
   color: #5C396F;
 }
 
@@ -306,7 +311,7 @@ body > main:nth-child(1) > a:nth-child(3) {
 }
 
 .work-button:hover {
-  background-color: #9181A7;
+  background-color: #E3DFE7;
   color: #5C396F;
   text-decoration: none;
 }

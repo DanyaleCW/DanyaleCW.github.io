@@ -103,6 +103,10 @@ a {
   text-decoration: none;
 }
 
+.w3-right:hover {
+  text-underline-position: under;
+}
+
 .logo {
   color: var(--main-background-color);
   font-weight: 900;
@@ -118,6 +122,11 @@ a.contact:nth-child(2) {
 .w3-right {
   font-size: 1.3em;
   font-family: var(--header-font);
+}
+
+header a.w3-right:hover {
+  color: var(--main-background-color);
+  text-decoration: underline var(--main-background-color) 3px;
 }
 
 a.active {
@@ -169,7 +178,7 @@ a:hover {
 }
 
 .ocean-sky {
-  background-image: linear-gradient(rgba(76, 175, 80, 0.4), rgba(76, 175, 80, 0.6)), url("Images/the-present-website-image.jpg");
+  background-image: linear-gradient(rgba(76, 175, 80, 0.4), rgba(76, 175, 80, 0.6)),url("Images/the-present-website-image.jpg");
   height: 500px;
   background-position: 50% 50%;
   /* background-position: center; */

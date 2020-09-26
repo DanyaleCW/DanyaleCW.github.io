@@ -119,7 +119,7 @@ main {
 .w3-button:hover {
   color: #95849E !important;
   background-color: #5C396F !important;
-  text-decoration: none;
+  text-underline-position: under;
 }
 
 .logo {
@@ -137,6 +137,11 @@ a.contact:nth-child(2) {
 .w3-right {
   font-size: 1.3em;
   font-family: var(--header-font);
+}
+
+header a:hover {
+  color: var(--main-background-color);
+  text-decoration: underline var(--main-background-color) 3px;
 }
 
 a.work {
