@@ -191,17 +191,13 @@ header {
   margin-top: 30px;
 }
 
-a.nav-link {
-  color: #5C396F;
-}
-
 .hero-text > button:nth-child(3) {
  margin-top: 50px;
 }
 
 .hero-text button:hover {
-  background-color: #E3DFE7;
-  color: #5C396F;
+  background-color: #9181A7;
+  color: var(--main-background-color);
 }
 
 /* ----------------------------------------------- */
@@ -311,8 +307,9 @@ body > main:nth-child(1) > a:nth-child(3) {
 }
 
 .work-button:hover {
-  background-color: #E3DFE7;
-  color: #5C396F;
+  background-color: #9181A7;
+  color: var(--main-background-color);
+  /* color: #5C396F; */
   text-decoration: none;
 }
 

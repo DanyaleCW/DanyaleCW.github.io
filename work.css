@@ -117,7 +117,7 @@ main {
 }
 
 .w3-button:hover {
-  color: #95849E !important;
+  color: var(--main-background-color) !important;
   background-color: #5C396F !important;
   text-underline-position: under;
 }
@@ -128,6 +128,10 @@ main {
   font-size: 2em;
   font-family: 'Homemade Apple', cursive;
   padding-left: 9px;
+}
+
+.logo:hover {
+  font-size: 2.3em;
 }
 
 a.contact:nth-child(2) {

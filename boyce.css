@@ -111,6 +111,10 @@ a {
   padding-left: 9px;
 }
 
+.logo:hover {
+  font-size: 2.3em;
+}
+
 a.contact:nth-child(2) {
   padding-right: 0px;
 }
@@ -123,7 +127,6 @@ a.contact:nth-child(2) {
 .w3-right:hover {
   text-underline-position: under;
 }
-
 
 a.active {
   font-family: var(--header-font);
@@ -139,18 +142,19 @@ header a.w3-right:hover {
   text-decoration: underline var(--main-background-color) 3px;
 }
 
-.w3-container {
-  /*! padding:0.01em 16px */
-  /* padding: 24px 44px 24px 50px; */
-}
-
 /* ----- header end ------ */
 main {
   margin-bottom: 100px;
 }
 
-.w3-button:hover {
-  color: #4A4A8D !important;
+header a .logo:hover {
+  color: var(--main-background-color) !important;
+  background-color: #00004D !important;
+  text-decoration: none;
+}
+
+ header .w3-button:hover {
+  color: var(--main-background-color) !important;
   background-color: #00004D !important;
   text-decoration: none;
 }
@@ -175,9 +179,9 @@ p.back {
   margin-top: 5px;
 }
 
-a:hover {
+ /* header a:hover {
   color: #00004D;
-}
+} */
 
 .w3-container,
 .w3-panel {
@@ -272,14 +276,13 @@ section:nth-child(6)>div:nth-child(2)>p:nth-child(2) {
 }
 
 /* ----- VIEW DESIGN ----- */
-button.project-button {
+.project-button button {
   font-family: var(--body-font);
   padding: 0.75em;
   background-color: transparent;
   border-style: solid;
   border-color: #00004D;
   border-width: 5px;
-  /* margin: 0 auto; */
   margin-top: 30px;
   display: block;
   font-size: 15px;
@@ -290,21 +293,18 @@ button.project-button {
   text-decoration: none;
 }
 
-.design {
+.project-button {
   margin-left: 30px;
+  margin-top: 15px;
+  border-width: 5px;
+
 }
 
-/* button.project-button.design {
-  margin-top: 0;
-} */
-/* button a:hover {
-  color: #00004D;
-  text-decoration: none;
-} */
+}
 
-button.project-button:hover {
-  color: var(--main-background-color);
+button:hover {
   background-color: #4A4A8D;
+  color: var(--main-background-color);
 }
 
 /* ----------------- FOOTER ---------------- */
