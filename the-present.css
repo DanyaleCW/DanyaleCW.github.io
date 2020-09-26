@@ -76,7 +76,7 @@ When an element has a hidden attribute, they should be hidden from view. Normali
   display: none;
 }
 
-/* CSS Reset End--------------------------------*/
+/* CSS RESET End--------------------------------*/
 /* ----------START OF SITE SPECIFIC CSS-------- */
 :root {
   --main-text-color: #121643;
@@ -95,7 +95,7 @@ body {
 }
 
 header, .w3-bar-block {
-  background-color: #0D85A2;
+  background-color: #042F68;
   color: var(--main-background-color);
 }
 
@@ -133,17 +133,15 @@ header a.w3-right:hover {
   text-decoration: underline var(--main-background-color) 3px;
 }
 
-
-/* ----- header end ------ */
-main {
-  padding-bottom: 100px;
-}
-
 .w3-button:hover {
   color: white !important;
-  background-color: #0D85A2 !important;
+  background-color: #042F68!important; MUST BE SAME COLOR AS HEADER BACKGROUND
   text-decoration: none;
 }
+
+/* ----- HEADER ENDS ------ */
+
+/* ----- BACK BUTTON HEADER  ------ */
 
 .arrow-back {
   font-family: var(--body-font);
@@ -164,13 +162,28 @@ p.back {
  margin-top: 5px;
 }
 
-a:hover {
-  color: #0D85A2;
+p.back:hover {
+  text-underline-position: under;
 }
+
+p.back:hover {
+  color: #042F68;
+  text-decoration: underline #042F68 3px;
+}
+
+/* ----- BACK BUTTON HEADER END  ------ */
+
+main {
+  padding-bottom: 100px;
+}
+
+/* a:hover {
+  color: #0D85A2;
+} */
 
 .ocean-sky {
   background-image: linear-gradient(rgba(76, 175, 80, 0.4), rgba(76, 175, 80, 0.6)),url("Images/the-present-website-image.jpg");
-  height: 500px;
+  height: 600px;
   background-position: 50% 50%;
   /* background-position: center; */
   background-repeat: no-repeat;
@@ -235,14 +248,15 @@ h3 {
   /* margin: 65px 0 0 61px; */
   z-index: 0;
   transform: skewY(-6deg);
+  color: #042F68;
 }
 
 .text {
   /* margin: 20px 212px 0 212px; */
   font-size: 19px;
+  font-weight: 500;
   letter-spacing: .2px;
-  /* color: var(--main-text-color); */
-  color: #042F68;
+  color: #067975;
   z-index: 0;
   transform: skewY(-6deg);
 }
@@ -257,7 +271,7 @@ button.project-button {
   padding: 0.75em;
   background-color: transparent;
   border-style: solid;
-  border-color: #0D85A2;
+  border-color: #042F68;
   border-width: 5px;
   margin: 0 auto;
   margin-top: 100px;
@@ -265,7 +279,7 @@ button.project-button {
   font-size: 15px;
   font-weight: 900;
   cursor: pointer;
-  color: #0D85A2;
+  color: #042F68;
   box-shadow: 3px 3px 4px gray;
   text-decoration: none;
 }
@@ -285,7 +299,7 @@ button a:hover {
 
 button:hover {
   color: var(--main-background-color);
-  background-color: #0D85A2;
+  background-color: #042F68;
 }
 
 button.project-button:nth-child(3) {
@@ -295,11 +309,11 @@ button.project-button:nth-child(3) {
 
 /* ----------------- FOOTER ---------------- */
 hr {
-  background-color: #0D85A2;
+  background-color: #042F68;
 }
 
 footer a, p {
-  color: #0D85A2;
+  color: #042F68;
 }
 
 footer a:hover {

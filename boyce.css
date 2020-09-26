@@ -76,7 +76,7 @@ When an element has a hidden attribute, they should be hidden from view. Normali
   display: none;
 }
 
-/* CSS Reset End--------------------------------*/
+/* CSS RESET End--------------------------------*/
 /* ----------START OF SITE SPECIFIC CSS-------- */
 :root {
   --main-text-color: #121643;
@@ -112,7 +112,7 @@ a {
 }
 
 .logo:hover {
-  font-size: 2.3em;
+  font-size: 2.2em;
 }
 
 a.contact:nth-child(2) {
@@ -142,22 +142,16 @@ header a.w3-right:hover {
   text-decoration: underline var(--main-background-color) 3px;
 }
 
-/* ----- header end ------ */
-main {
-  margin-bottom: 100px;
-}
 
-header a .logo:hover {
+header a .logo:hover, .w3-button:hover {
   color: var(--main-background-color) !important;
   background-color: #00004D !important;
   text-decoration: none;
 }
 
- header .w3-button:hover {
-  color: var(--main-background-color) !important;
-  background-color: #00004D !important;
-  text-decoration: none;
-}
+/* ----- HEADER END ------ */
+
+/* ----- BACK BUTTON HEADER  ------ */
 
 .arrow-back {
   font-family: var(--body-font);
@@ -179,9 +173,21 @@ p.back {
   margin-top: 5px;
 }
 
- /* header a:hover {
-  color: #00004D;
-} */
+p.back:hover {
+  text-underline-position: under;
+}
+
+p.back:hover {
+  color: var(--main-background-color);
+  text-decoration: underline var(--main-background-color) 3px;
+}
+
+/* ----- BACK BUTTON HEADER END  ------ */
+
+
+main {
+  margin-bottom: 100px;
+}
 
 .w3-container,
 .w3-panel {
@@ -190,8 +196,8 @@ p.back {
 
 .library {
   background-image: url("./Images/library.jpg");
-  height: 500px;
-  background-position: 59% 88%;
+  height: 600px;
+  background-position: 59% 86%;
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -269,7 +275,7 @@ section:nth-child(6)>div:nth-child(2)>p:nth-child(2) {
 .cb-responsive {
   margin: 100px;
   width: 54%;
-  height: 500px;
+  height: 650px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -300,10 +306,9 @@ section:nth-child(6)>div:nth-child(2)>p:nth-child(2) {
 
 }
 
-}
 
-button:hover {
-  background-color: #4A4A8D;
+.project-button:hover  {
+  background-color: #00004D;
   color: var(--main-background-color);
 }
 
