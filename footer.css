@@ -1,5 +1,5 @@
 /* CSS Reset */
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -37,47 +37,47 @@ ul, ol {
 }
 
 /* Browsers don’t inherit typography for forms and buttons. They set font to 400 11px system-ui. I find this mind-boggling and weird. I always have to make them inherit from ancestor elements manually. */
-input,
+/* input,
 textarea,
 select,
 button {
   color: inherit;
   font: inherit;
   letter-spacing: inherit;
-}
+} */
 
 /* Different browsers have style the borders for forms elements and buttons differently. I dislike these default styles, and would prefer to set them to 1px solid gray. */
-input,
+/* input,
 textarea,
 button {
   border: 2px solid #121643;
-}
+} */
 
 /* I made a few more adjustments to buttons:
 Set button padding to 0.75em and 1em because they seem like sensible defaults from my experience.
 Removed the default border-radius that’s applied to buttons.
 Forced background color to be transparent */
-button {
+/* button {
   border-radius: 0;
   padding: 0.75em 1em;
   background-color: transparent;
-}
+} */
 
 /* I also set these elements to display: block because inline-block creates an unwanted whitespace at the bottom of the element. */
-embed,
+/* embed,
 iframe,
 img,
 object,
 video {
   display: grid;
   max-width: 100%;
-}
+} */
 
 /* The hidden attribute
 When an element has a hidden attribute, they should be hidden from view. Normalize.css does this for us already. */
-[hidden] {
+/*[hidden] {
   display: none;
-}
+} */
 
 /* CSS Reset End-----------------------------
 ---*//* ----------------- HEADER ---------------- */

@@ -178,7 +178,7 @@ header {
   font-weight: bold;
 }
 
-.hero-text button {
+button {
   font-weight: 900;
   letter-spacing: 0.116em;
   border-color: #5C396F;
@@ -196,7 +196,7 @@ header {
  margin-top: 50px;
 }
 
-.hero-text button:hover {
+button:hover {
   background-color: #5C396F;
   color: var(--main-background-color);
 }
@@ -263,36 +263,13 @@ img {
 
 /* ----- SEE ALL PROJECTS BUTTON ----- */
 .work-button {
-  font-family: var(--body-font);
-  letter-spacing: 0.116em;
   padding: 0.75em;
-  background-color: transparent;
-  border-style: solid;
-  border-color: #5C396F;
-  color: #5C396F;
-  border-width: 2px;
   margin: 70px auto;
   display: block;
-  cursor: pointer;
-  font-weight: 900;
-  box-shadow: 5px 5px 6px grey;
-  text-decoration: none;
 }
 
 body > main:nth-child(1) > a:nth-child(3) {
  text-decoration: none;
-}
-
-
-.work-button a:hover {
-  color: #5C396F;
-  text-decoration: none;
-}
-
-.work-button:hover {
-  background-color: #5C396F;
-  color: var(--main-background-color);
-  text-decoration: none;
 }
 
 /* FIGURE CAPTION */
