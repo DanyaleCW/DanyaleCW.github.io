@@ -87,20 +87,17 @@ When an element has a hidden attribute, they should be hidden from view. Normali
   --main-padding: 20px;
 }
 
-/* ----------------- HEADER ---------------- */
+
 body {
   margin: 0;
   font-family: var(--body-font);
   /* background-color: var(--main-background-color); */
 }
+/* ----- HEADER ----- */
 
 header, .w3-bar-block {
   background-color: #00004D;
   color: var(--main-background-color);
-}
-
-a {
-  text-decoration: none;
 }
 
 .logo {
@@ -124,8 +121,11 @@ a.contact:nth-child(2) {
   font-family: var(--header-font);
 }
 
-.w3-right:hover {
-  text-underline-position: under;
+header .w3-right a:hover {
+  color: var(--main-background-color);
+  text-decoration: underline;
+  text-decoration: underline var(--main-background-color) 3px;
+  text-decoration: underline;
 }
 
 a.active {
@@ -137,8 +137,9 @@ a.active {
   text-decoration: none;
 }
 
-header a.w3-right:hover {
+header .w3-right:hover {
   color: var(--main-background-color);
+  text-decoration: underline;
   text-decoration: underline var(--main-background-color) 3px;
 }
 
@@ -146,7 +147,7 @@ header a.w3-right:hover {
 header a .logo:hover, .w3-button:hover {
   color: var(--main-background-color) !important;
   background-color: #00004D !important;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 /* ----- HEADER END ------ */
@@ -274,7 +275,7 @@ section:nth-child(6)>div:nth-child(2)>p:nth-child(2) {
 
 .cb-responsive {
   margin: 100px;
-  width: 54%;
+  width: 60%;
   height: 650px;
   display: block;
   margin-left: auto;
@@ -296,6 +297,10 @@ section:nth-child(6)>div:nth-child(2)>p:nth-child(2) {
   cursor: pointer;
   color: #00004D;
   box-shadow: 3px 3px 4px gray;
+  text-decoration: none;
+}
+
+button a {
   text-decoration: none;
 }
 

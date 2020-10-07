@@ -111,9 +111,9 @@ main {
   margin-bottom: 50px;
 }
 
-/* ----- HEADER END ------ */
+/* ----- HEADER ------ */
 
-header {
+header, .w3-bar-block {
   background-color: #5C396F;
   color: var(--main-background-color);
 }
@@ -145,9 +145,11 @@ a.contact:nth-child(2) {
   font-family: var(--header-font);
 }
 
-header a:hover {
+header .w3-right:hover {
   color: var(--main-background-color);
+  text-decoration: underline;
   text-decoration: underline var(--main-background-color) 3px;
+  text-decoration: underline;
 }
 
 a.work {
@@ -155,6 +157,11 @@ a.work {
   color: #66c3cb;
 }
 
+header .w3-right:hover {
+  color: var(--main-background-color);
+  text-decoration: underline;
+  text-decoration: underline var(--main-background-color) 3px;
+}
 /* ----- HEADER END ------ */
 
 /* ----- DESIGNS ------ */
@@ -213,8 +220,8 @@ div.text a {
 
 div.text a:hover {
   color: #54B2BA;
-  text-underline-position: under;
   text-decoration: underline #54B2BA 2px;
+  text-decoration: underline;
 }
 
 img {
