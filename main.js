@@ -45,16 +45,18 @@ class FooterTemplate extends HTMLElement {
 
         <div class="w3-container w3-justify w3-third  w3-cell-top">
           <p>Become A Friend:</p>
-          <div class="email"><a href="mailto:danyalecw@gmail.com">
-            Email</a></div>
             <div class="github"><a target="_blank" href="https://github.com/DanyaleCW">GitHub</a>
             </div>
-              <div class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/danyalecwalker">Linkedin</a>
-                </div>
-              <div class="codepen"><a target="_blank" href="https://codepen.io/danyalecw">CodePen</a>
-                </div>
-              <div class="twitter"><a target="_blank" href="https://twitter.com/DanyaleCWalker">Twitter</a>
-              </div>
+            <div class="behance"><a target="_blank" href="https://www.behance.net/danyalecw">Behance</a>
+            </div>
+            <div class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/danyalecwalker">Linkedin</a>
+            </div>
+            <div class="codepen"><a target="_blank" href="https://codepen.io/danyalecw">CodePen</a>
+            </div>
+            <div class="twitter"><a target="_blank" href="https://    twitter.com/DanyaleCWalker">Twitter</a>
+            </div>
+            <div class="email"><a href="mailto:danyalecw@gmail.com">
+              Email</a></div>
         </div>
 
         <div class="w3-container w3-justify w3-third w3-cell-top">
