@@ -233,6 +233,32 @@ div.text a:hover {
   text-decoration: underline;
 }
 
+/* ----- VIEW MORE PROJECTS BUTTON ----- */
+.work-button {
+  padding: 0.75em;
+  margin: 70px auto;
+  display: block;
+}
+
+button {
+  font-weight: 900;
+  letter-spacing: 0.116em;
+  border-color: #5C396F;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 15px;
+  color: #5C396F;
+  background-color: var(--main-background-color);
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: #5C396F;
+  color: var(--main-background-color);
+}
+
 /* img {
   box-shadow: 5px 5px 6px grey;
 } */
