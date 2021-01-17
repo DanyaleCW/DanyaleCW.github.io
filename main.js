@@ -6,12 +6,12 @@ class HeaderTemplate extends HTMLElement {
     <a href="index.html" class="w3-bar-item logo w3-left w3-button">Danyale C. Walker</a>
     <a href="#contact" class="w3-bar-item contact w3-right w3-button w3-hide-small">Contact</a>
     <a href="about.html" class="w3-bar-item about w3-right w3-button w3-hide-small">About</a>
-    <a href="work.html" class="w3-bar-item work w3-right w3-button w3-hide-small">Work</a>
+    <a href="https://www.behance.net/danyalecw" class="w3-bar-item work w3-right w3-button w3-hide-small">Work</a>
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
   </div>
 
   <div id="demo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
-    <a href="work.html" class="w3-bar-item work w3-button">Work</a>
+    <a href="https://www.behance.net/danyalecw" class="w3-bar-item work w3-button">Work</a>
     <a href="about.html" class="w3-bar-item  about w3-button">About</a>
     <a href="#contact" class="w3-bar-item contact w3-button">Contact</a>
   </div>
@@ -64,7 +64,7 @@ class FooterTemplate extends HTMLElement {
         </div>
 
         <div class="w3-container w3-justify w3-third w3-cell-top">
-          <p>Contact me if you would like to create a website that converts clicks to leads and increases your bottom line.</p>
+          <p>Contact me if you would like to create beautiful and functional designs.</p>
           <br>
           <p>Let's make something beautiful & profitable!</p>
         </div>
